@@ -1,0 +1,15 @@
+schema_version: 1
+record_type: family
+product_line: thinkpad
+name: T Series
+slug: t-series
+status: partial
+models:
+  - ThinkPad T480
+predecessor: null
+successor: null
+sources:
+  - lenovo-psref-thinkpad-t480
+notes:
+  - Family coverage is intentionally partial; this bootstrap record currently indexes only verified model records present in the repository.
+last_verified: 2026-08-23
