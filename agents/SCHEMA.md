@@ -71,7 +71,7 @@ storage:
   bays: []
   slots: []
 
- display:
+display:
   options: []
 
 networking:
