@@ -16,11 +16,14 @@ identity:
   regions: []
   source_ids:
     - lenovo-user-guide-thinkpad-t470p
+    - lenovo-psref-thinkpad-t470p-identity
 
 release:
   release_year: 2017
   source_ids:
-    - lenovo-psref-thinkpad-t470p-identity
+    - lenovo-psref-topseller-thinkpad-t470p-20j6
+  notes:
+    - Lenovo TopSeller PSREF documents 20J6 configurations announced beginning in February 2017.
 
 form_factor:
   class: laptop
@@ -148,6 +151,7 @@ serviceability:
 sources:
   - lenovo-psref-thinkpad-t470p
   - lenovo-psref-thinkpad-t470p-identity
+  - lenovo-psref-topseller-thinkpad-t470p-20j6
   - lenovo-user-guide-thinkpad-t470p
 conflicts: []
 notes:
