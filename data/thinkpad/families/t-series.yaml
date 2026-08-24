@@ -5,16 +5,22 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T470
+  - ThinkPad T470p
+  - ThinkPad T470s
   - ThinkPad T480
   - ThinkPad T480s
   - ThinkPad T490
 predecessor: null
 successor: null
 sources:
+  - lenovo-psref-thinkpad-t470
+  - lenovo-psref-thinkpad-t470p
+  - lenovo-psref-thinkpad-t470s
   - lenovo-psref-thinkpad-t480
   - lenovo-psref-thinkpad-t480s
   - lenovo-psref-thinkpad-t490
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
-  - T480s is a distinct slim T-Series model rather than an alias of T480.
-last_verified: 2026-08-23
+  - Standard, slim/s, and performance/p variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
+last_verified: 2026-08-24
