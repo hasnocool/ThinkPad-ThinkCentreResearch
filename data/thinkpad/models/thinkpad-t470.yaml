@@ -1,0 +1,180 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T470
+slug: thinkpad-t470
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20HD
+    - 20HE
+    - 20JM
+    - 20JN
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-psref-thinkpad-t470-identity
+
+release:
+  release_year: 2017
+  source_ids:
+    - lenovo-psref-thinkpad-t470-identity
+  notes:
+    - Lenovo TopSeller entries in the PSREF corpus show documented T470 configurations announced in January and March 2017.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 336.6
+    depth: 232.5
+    height: 19.95
+  starting_weight_kg: 1.58
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-6200U
+    - Intel Core i5-6300U
+    - Intel Core i7-6500U
+    - Intel Core i7-6600U
+    - Intel Core i3-7100U
+    - Intel Core i5-7200U
+    - Intel Core i5-7300U
+    - Intel Core i7-7500U
+    - Intel Core i7-7600U
+  gpu_options:
+    - Intel HD Graphics 520
+    - Intel HD Graphics 620
+    - NVIDIA GeForce 940MX 2GB GDDR5
+  notes:
+    - Lenovo states discrete NVIDIA graphics were not available in EMEA in the platform specification.
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+memory:
+  technology: DDR4-2400
+  slots: 2
+  soldered: false
+  official_max_gb: 32
+  notes:
+    - Memory clocks down for processors with lower memory-controller speeds.
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - 1x 2.5-inch 7mm storage bay
+  slots:
+    - one primary 2.5-inch or M.2 2280 storage position, mutually exclusive
+    - WWAN slot may host a supported 128GB M.2 SATA SSD as second storage, mutually exclusive with WWAN and WiGig
+  notes:
+    - Lenovo documents primary M.2 NVMe operation at PCIe 3.0 x2.
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 220
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare LED
+      brightness_nits: 220
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 250
+      touch_optional: true
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Realtek RTL8822BE 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8260 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8265 2x2 802.11ac
+    - Intel Tri-Band Wireless-AC 18265 with WiGig 802.11ad
+  wwan:
+    - Sierra Wireless EM7455 4G LTE-A
+    - Fibocom L831-EAU 4G LTE, EMEA only
+  bluetooth:
+    - Bluetooth 4.1 in documented Windows configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+ports:
+  - 3x USB 3.1 Gen 1, one Always On
+  - USB-C 3.1 Gen 2 / Thunderbolt 3 with Power Delivery and DisplayPort
+  - HDMI 1.4b
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector
+  - micro-SIM slot on supported WWAN configurations
+  - optional smart-card reader
+
+expansion:
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+  - optional WiGig
+
+power:
+  adapters:
+    - 45W slim-tip AC adapter
+    - 65W slim-tip AC adapter
+    - 45W USB-C AC adapter
+    - 65W USB-C AC adapter
+  batteries:
+    - optional integrated 3-cell 24Wh Li-Polymer battery
+    - external 3-cell 24Wh Li-Polymer battery
+    - external 6-cell 48Wh Li-ion battery
+    - external 6-cell 72Wh Li-ion battery
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 10 Pro downgrade rights
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - external battery
+  upgrade_notes:
+    - Two SO-DIMM sockets support dual-channel memory.
+    - The removable Power Bridge-style external battery can be selected in 24Wh, 48Wh, or 72Wh documented capacities.
+  limitations:
+    - Primary 2.5-inch and M.2 2280 storage configurations are mutually exclusive.
+    - Using the WWAN slot for supported second storage prevents simultaneous WWAN and WiGig use.
+  source_ids:
+    - lenovo-psref-thinkpad-t470
+
+sources:
+  - lenovo-psref-thinkpad-t470
+  - lenovo-psref-thinkpad-t470-identity
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-24
