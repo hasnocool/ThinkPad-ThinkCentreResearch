@@ -5,7 +5,8 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 ## ThinkPad
 
 - [ ] Expand T Series backward from T480: T470, T470s, T470p, T460/T460s/T460p and earlier documented generations.
-- [ ] Expand T Series forward from T480: T480s, T490/T490s, T14/T14s generations and related AMD/Intel variants.
+- [ ] Continue T Series forward from the researched T480s/T490 anchor: T490s, T14/T14s generations and related AMD/Intel variants.
+- [ ] Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a distinct canonical model record.
 - [ ] Build X Series and X1 lineage, including X1 Carbon generations and X-series convertibles/tablets.
 - [ ] Catalog P Series and predecessor W Series mobile workstations.
 - [ ] Catalog L and E Series generations.
