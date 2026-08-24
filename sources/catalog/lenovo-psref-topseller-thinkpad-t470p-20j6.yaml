@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-topseller-thinkpad-t470p-20j6
+title: ThinkPad T470p TopSeller 20J6
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/i_pdf/psref525.pdf
+archive_url: null
+document_id: null
+publication_date: 2018
+revision_date: null
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T470p
+notes:
+  - Lenovo TopSeller PSREF documents machine type 20J6 configurations with announcement dates beginning in February 2017.
