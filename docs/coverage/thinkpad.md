@@ -7,7 +7,7 @@ Last updated: 2026-08-24
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
 | T Series | ThinkPad T470 | researched | 2 | Complete MTM-to-region mapping; exact discontinuation date |
-| T Series | ThinkPad T470p | researched | 3 | Complete MTM-to-region mapping; exact announcement/discontinuation dates |
+| T Series | ThinkPad T470p | researched | 4 | Complete MTM-to-region mapping; exact discontinuation date |
 | T Series | ThinkPad T470s | researched | 3 | Complete MTM-to-region mapping; exact discontinuation date |
 | T Series | ThinkPad T480 | researched | 2 | Exact launch/discontinuation dates; complete MTM-to-region mapping |
 | T Series | ThinkPad T480s | researched | 3 | Complete MTM-to-region mapping; discontinuation date; validate later special-bid variants |
