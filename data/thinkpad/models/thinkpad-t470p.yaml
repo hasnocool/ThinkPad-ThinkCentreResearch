@@ -1,0 +1,155 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T470p
+slug: thinkpad-t470p
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20J6
+    - 20J7
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-user-guide-thinkpad-t470p
+
+release:
+  release_year: 2017
+  source_ids:
+    - lenovo-psref-thinkpad-t470p-identity
+
+form_factor:
+  class: laptop
+  chassis: performance 14-inch clamshell
+  dimensions_mm:
+    width: 339
+    depth: 235
+    height_fhd: 24
+    height_wqhd: 24.4
+  starting_weight_kg: 1.74
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+platform:
+  chipset: Mobile Intel QM175
+  cpu_options:
+    - Intel Core i5-7300HQ
+    - Intel Core i5-7440HQ
+    - Intel Core i7-7700HQ
+    - Intel Core i7-7820HQ
+  gpu_options:
+    - Intel HD Graphics 630
+    - NVIDIA GeForce 940MX 2GB GDDR5
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+memory:
+  technology: DDR4-2400
+  slots: 2
+  soldered: false
+  official_max_gb: 32
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - one 2.5-inch storage position supporting documented 7mm or 9.5mm HDD configurations
+  slots:
+    - one primary 2.5-inch or M.2 2280 storage position, mutually exclusive
+    - WWAN slot may host a supported 128GB M.2 SATA SSD as second storage, mutually exclusive with WWAN
+  notes:
+    - Lenovo documents primary M.2 NVMe operation at PCIe 3.0 x2.
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 250
+      touch_optional: true
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare IPS LED
+      brightness_nits: 300
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Realtek RTL8822BE 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8265 2x2 802.11ac
+  wwan:
+    - Sierra Wireless EM7455 4G LTE-A
+  bluetooth:
+    - Bluetooth 4.1 in documented Windows configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+ports:
+  - 3x USB 3.1 Gen 1, one Always On
+  - HDMI 1.4b
+  - Mini DisplayPort 1.2a
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector
+  - micro-SIM slot on supported WWAN configurations
+  - optional smart-card reader
+
+expansion:
+  - fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 90W slim-tip AC adapter
+    - 135W slim-tip AC adapter
+  batteries:
+    - removable 3-cell 24Wh Li-ion battery
+    - removable 6-cell 48Wh Li-ion battery
+    - removable 6-cell 72Wh Li-ion battery
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+software:
+  operating_systems:
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - removable battery
+  upgrade_notes:
+    - Two SO-DIMM sockets support dual-channel memory.
+    - The 90W/135W adapter range and quad-core HQ processors distinguish this performance-oriented model from the standard T470/T470s platforms.
+  limitations:
+    - Primary 2.5-inch and M.2 2280 storage configurations are mutually exclusive.
+    - Using the WWAN slot for supported second storage prevents simultaneous WWAN use.
+  source_ids:
+    - lenovo-psref-thinkpad-t470p
+
+sources:
+  - lenovo-psref-thinkpad-t470p
+  - lenovo-psref-thinkpad-t470p-identity
+  - lenovo-user-guide-thinkpad-t470p
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-24
