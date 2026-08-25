@@ -5,6 +5,8 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T450
+  - ThinkPad T450s
   - ThinkPad T460
   - ThinkPad T460p
   - ThinkPad T460s
@@ -17,6 +19,8 @@ models:
 predecessor: null
 successor: null
 sources:
+  - lenovo-psref-thinkpad-t450
+  - lenovo-psref-thinkpad-t450s
   - lenovo-psref-thinkpad-t460
   - lenovo-psref-thinkpad-t460p
   - lenovo-psref-thinkpad-t460s
@@ -29,4 +33,5 @@ sources:
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
   - Standard, slim/s, and performance/p variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
-last_verified: 2026-08-24
+  - No T450p canonical record is created without authoritative Lenovo evidence establishing that product identity.
+last_verified: 2026-08-25
