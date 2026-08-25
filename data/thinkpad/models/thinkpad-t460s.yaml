@@ -1,0 +1,162 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T460s
+slug: thinkpad-t460s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20F9
+    - 20FA
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-thinkpad-machine-type-map-2016
+
+release:
+  release_year: 2016
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+  notes:
+    - Lenovo PSREF documentation establishes the platform in 2016; exact announcement and discontinuation dates remain open research items.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch slim clamshell
+  dimensions_mm:
+    width: 331
+    depth: 226.8
+    height_min: 16.9
+    height_max: 18.8
+  starting_weight_kg: 1.36
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-6200U
+    - Intel Core i5-6300U
+    - Intel Core i7-6600U
+  gpu_options:
+    - Intel HD Graphics 520
+    - NVIDIA GeForce 930M 2GB
+  notes:
+    - Lenovo documents the discrete GeForce 930M option as US-only.
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+memory:
+  technology: DDR4-2133
+  slots: 1
+  soldered: true
+  official_max_gb: 24
+  notes:
+    - 4GB or 8GB is soldered to the system board with one DDR4 SO-DIMM socket; Lenovo lists 20GB or 24GB maximum depending on soldered configuration.
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+storage:
+  interfaces:
+    - M.2 SATA 6Gb/s
+    - PCIe NVMe
+  bays: []
+  slots:
+    - 1x M.2 primary storage slot
+  notes:
+    - Lenovo documents PCIe NVMe at PCIe 3.0 x4 on supported configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 250
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare IPS LED
+      brightness_nits: 300
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: in-cell touch IPS LED
+      brightness_nits: 250
+      touch_optional: true
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Broadcom BCM4356 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8260 2x2 802.11ac
+    - Intel Tri-Band Wireless-AC 18260 with WiGig
+  wwan:
+    - Sierra Wireless EM7455 4G LTE-A
+    - Huawei ME906S 4G LTE
+  bluetooth:
+    - Bluetooth 4.1
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+ports:
+  - 3x USB 3.0, one Always On
+  - Mini DisplayPort
+  - HDMI
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector
+  - micro-SIM slot on supported WWAN configurations
+  - optional smart-card reader
+
+expansion:
+  - optional WWAN
+  - optional WiGig dock support
+  - optional fingerprint reader
+  - optional smart-card reader
+
+power:
+  adapters:
+    - 45W AC adapter
+    - 65W AC adapter
+  batteries:
+    - integrated front 3-cell 23Wh Li-Polymer battery
+    - integrated rear 3-cell 26Wh Li-ion battery
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 10 Pro downgrade rights
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+serviceability:
+  replaceable_components:
+    - one SO-DIMM memory module
+    - M.2 storage device
+  upgrade_notes:
+    - One DDR4 SO-DIMM can be upgraded while the base memory remains soldered.
+  limitations:
+    - Maximum memory depends on whether the system has 4GB or 8GB soldered memory.
+    - WiGig and WWAN are mutually exclusive in Lenovo's documented configurations.
+    - Both batteries are internal rather than Power Bridge-style removable packs.
+  source_ids:
+    - lenovo-psref-thinkpad-t460s
+
+sources:
+  - lenovo-psref-thinkpad-t460s
+  - lenovo-thinkpad-machine-type-map-2016
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-24
