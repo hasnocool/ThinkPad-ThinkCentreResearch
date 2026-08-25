@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-user-guide-thinkpad-t450
+title: ThinkPad T450 User Guide
+publisher: Lenovo
+document_type: user_guide
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t450_ug_es.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T450
+notes:
+  - Lenovo user guide certification table identifies machine types 20DJ, 20BU, and 20BV for ThinkPad T450.
+  - Spanish-language official edition used because it exposes the certification/machine-type table directly in the indexed source.
