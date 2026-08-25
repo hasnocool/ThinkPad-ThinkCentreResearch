@@ -6,6 +6,9 @@ Last updated: 2026-08-24
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T460 | researched | 2 | Complete MTM-to-region mapping; exact announcement/discontinuation dates |
+| T Series | ThinkPad T460p | researched | 2 | Complete MTM-to-region mapping; exact announcement/discontinuation dates |
+| T Series | ThinkPad T460s | researched | 2 | Complete MTM-to-region mapping; exact announcement/discontinuation dates |
 | T Series | ThinkPad T470 | researched | 2 | Complete MTM-to-region mapping; exact discontinuation date |
 | T Series | ThinkPad T470p | researched | 4 | Complete MTM-to-region mapping; exact discontinuation date |
 | T Series | ThinkPad T470s | researched | 3 | Complete MTM-to-region mapping; exact discontinuation date |
@@ -15,7 +18,7 @@ Last updated: 2026-08-24
 
 ## Priority research backlog
 
-1. Continue T Series backward from the newly researched T470/T470s/T470p generation into T460/T460s/T460p and earlier documented generations.
+1. Continue T Series backward from the newly researched T460/T460s/T460p generation into T450/T450s/T450p-era predecessors and earlier documented generations.
 2. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
 3. Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a separate canonical identity.
 4. Add X Series and X1 families, starting with generations that have complete Lenovo PSREF/HMM coverage.
