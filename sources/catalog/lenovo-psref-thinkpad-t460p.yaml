@@ -7,7 +7,7 @@ document_type: psref
 url: https://psref.lenovo.com/syspool/Sys/i_pdf/psref500.pdf
 archive_url: null
 document_id: null
-publication_date: 2016-01
+publication_date: null
 revision_date: null
 accessed: 2026-08-24
 official: true
@@ -17,4 +17,4 @@ scope:
   models:
     - ThinkPad T460p
 notes:
-  - Lenovo PSREF corpus containing the ThinkPad T460p platform specification and TopSeller material.
+  - Lenovo PSREF corpus containing the ThinkPad T460p platform specification and TopSeller material; no publication date is inferred from the aggregate PDF container.
