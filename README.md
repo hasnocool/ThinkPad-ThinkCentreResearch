@@ -8,11 +8,13 @@ The long-term goal is to catalog as many verified ThinkPad and ThinkCentre model
 
 | Product line | Canonical models | Researched | Partial/stub |
 | --- | ---: | ---: | ---: |
-| ThinkPad | 9 | 9 | 0 |
+| ThinkPad | 11 | 11 | 0 |
 | ThinkCentre | 1 | 1 | 0 |
 
 Current canonical records:
 
+- ThinkPad T450
+- ThinkPad T450s
 - ThinkPad T460
 - ThinkPad T460p
 - ThinkPad T460s
@@ -87,9 +89,9 @@ The validator checks YAML parsing, required fields, path/slug consistency, sourc
 
 ## Research roadmap
 
-The immediate priority is to expand outward from the current T460-T490 anchor into coherent family lineages:
+The immediate priority is to expand outward from the current T450-T490 anchor into coherent family lineages:
 
-- ThinkPad T Series backward into T450/T450s-era and earlier generations and forward through T490s/T14/T14s, then X/X1, L, E, P/W, A/R/Z, Yoga/Tablet, Edge, and historical IBM families.
+- ThinkPad T Series backward into T440/T440s/T440p and earlier generations and forward through T490s/T14/T14s, then X/X1, L, E, P/W, A/R/Z, Yoga/Tablet, Edge, and historical IBM families.
 - ThinkCentre M-series Tiny/SFF/Tower lineages, then Neo, Edge, AIO, Nano, and historical IBM/Lenovo systems.
 - Machine-type/MTM mapping and release chronology from authoritative documentation.
 - Family and generation indexes that make the full historical catalog easy to browse.
