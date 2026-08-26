@@ -4,12 +4,14 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkPad
 
+- [x] Research the T430 generation anchor: T430, T430s, and T430u with authoritative Lenovo PSREF/service identity sources.
 - [x] Research the T440 generation anchor: T440, T440s, and T440p with authoritative Lenovo PSREF/service identity sources.
 - [x] Research the T450 generation anchor: T450 and T450s with authoritative Lenovo PSREF/service identity sources.
 - [x] Research the T460 generation anchor: T460, T460s, and T460p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
-- [ ] Expand T Series backward from T440 into T430/T430s/T430u and earlier documented generations.
+- [ ] Expand T Series backward from T430 into T420/T420s and earlier documented generations.
 - [ ] Continue T Series forward from the researched T480s/T490 anchor: T490s, T14/T14s generations and related AMD/Intel variants.
+- [ ] Resolve whether T430i/T430si should remain aliases/configuration tiers or become distinct canonical records if primary sources establish separate hardware identities.
 - [ ] Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a distinct canonical model record.
 - [ ] Build X Series and X1 lineage, including X1 Carbon generations and X-series convertibles/tablets.
 - [ ] Catalog P Series and predecessor W Series mobile workstations.
@@ -23,7 +25,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 - [ ] Expand M75q Tiny lineage across generations.
 - [ ] Catalog contemporary Intel M-series Tiny systems alongside AMD equivalents.
-- [ ] Catalog M-series SFF and Tower variants as separate chassis identities where appropriate.
+ [ ] Catalog M-series SFF and Tower variants as separate chassis identities where appropriate.
 - [ ] Catalog ThinkCentre Neo systems.
 - [ ] Catalog ThinkCentre Edge systems.
 - [ ] Catalog ThinkCentre AIO systems.
