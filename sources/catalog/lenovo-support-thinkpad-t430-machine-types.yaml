@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-support-thinkpad-t430-machine-types
+title: Removal and Replacement Videos - ThinkPad T430
+publisher: Lenovo
+document_type: support
+url: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t430/2342/solutions/ht510676
+archive_url: null
+document_id: HT510676
+publication_date: 2020-06-24
+revision_date: 2026-05-08
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T430
+notes:
+  - Lenovo support article explicitly identifies T430 machine types 2342, 2344, 2345, 2347, 2349, 2350, and 2351.
