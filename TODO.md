@@ -25,7 +25,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 - [ ] Expand M75q Tiny lineage across generations.
 - [ ] Catalog contemporary Intel M-series Tiny systems alongside AMD equivalents.
- [ ] Catalog M-series SFF and Tower variants as separate chassis identities where appropriate.
+- [ ] Catalog M-series SFF and Tower variants as separate chassis identities where appropriate.
 - [ ] Catalog ThinkCentre Neo systems.
 - [ ] Catalog ThinkCentre Edge systems.
 - [ ] Catalog ThinkCentre AIO systems.
