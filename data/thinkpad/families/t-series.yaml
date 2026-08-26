@@ -5,6 +5,9 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T440
+  - ThinkPad T440p
+  - ThinkPad T440s
   - ThinkPad T450
   - ThinkPad T450s
   - ThinkPad T460
@@ -19,6 +22,9 @@ models:
 predecessor: null
 successor: null
 sources:
+  - lenovo-psref-thinkpad-t440
+  - lenovo-psref-thinkpad-t440p
+  - lenovo-psref-thinkpad-t440s
   - lenovo-psref-thinkpad-t450
   - lenovo-psref-thinkpad-t450s
   - lenovo-psref-thinkpad-t460
