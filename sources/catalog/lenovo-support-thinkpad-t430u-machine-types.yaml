@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-support-thinkpad-t430u-machine-types
+title: Removal and Replacement Videos - ThinkPad T430u
+publisher: Lenovo
+document_type: support
+url: https://support.lenovo.com/nz/en/solutions/ht510681
+archive_url: null
+document_id: HT510681
+publication_date: 2020-06-24
+revision_date: 2026-04-24
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T430u
+notes:
+  - Lenovo support article explicitly identifies T430u machine types 3351, 3352, 3353, 6273, and 8614.
