@@ -1,11 +1,13 @@
 # ThinkPad Coverage
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 
 ## Coverage summary
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T410 | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T410i identity granularity |
+| T Series | ThinkPad T410s | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T410si identity granularity; fill exact dimensions/weight from primary PSREF sheets |
 | T Series | ThinkPad T420 | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T420i identity granularity |
 | T Series | ThinkPad T420s | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T420si identity granularity |
 | T Series | ThinkPad T430 | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T430i identity granularity |
@@ -28,10 +30,10 @@ Last updated: 2026-08-26
 
 ## Priority research backlog
 
-1. Continue T Series backward from the researched T420/T420s generation into T410/T410s and earlier documented generations.
+1. Continue T Series backward from the researched T410/T410s generation into T400/T400s and earlier documented generations.
 2. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
 3. Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a separate canonical identity.
-4. Resolve T420i/T420si and T430i/T430si alias-versus-canonical granularity if Lenovo documentation establishes separate hardware identities rather than processor/configuration tiers.
+4. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity if Lenovo documentation establishes separate hardware identities rather than processor/configuration tiers.
 5. Add X Series and X1 families, starting with generations that have complete Lenovo PSREF/HMM coverage.
 6. Add L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
 7. Build explicit machine-type and MTM mappings from official service/PSREF documentation.
@@ -39,6 +41,9 @@ Last updated: 2026-08-26
 
 ## Identity notes
 
+- Lenovo's October 2009 T410s/T410/T510/W510 service guide maps ThinkPad T410 to machine types 2516, 2518, 2519, 2522, 2537, 2538, and 2539.
+- The same Lenovo service guide maps ThinkPad T410s to machine types 2901, 2904, 2907, 2912, 2924, 2926, and 2928.
+- T410i and T410si are currently represented as aliases/configuration tiers because Lenovo PSREF/service documentation places those brands inside the same T410/T410s machine-type families; finer-grained identity remains open.
 - Lenovo support explicitly maps ThinkPad T420/T420i to machine types 4177, 4178, 4179, 4180, 4236, 4237, and 4238.
 - Lenovo support explicitly maps ThinkPad T420s/T420si to machine types 4170, 4171, 4172, 4173, 4174, 4175, and 4176.
 - T420i and T420si are currently represented as aliases/configuration tiers because the authoritative machine-type mappings overlap the T420/T420s families; this remains open for finer-grained identity research.
