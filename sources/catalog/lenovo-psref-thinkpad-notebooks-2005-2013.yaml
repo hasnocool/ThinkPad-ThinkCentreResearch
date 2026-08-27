@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-notebooks-2005-2013
+title: ThinkPad Notebooks; 2005 to 2013 - US (withdrawn models)
+publisher: Lenovo
+document_type: psref
+url: https://psrefstuff.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_2013.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T410
+    - ThinkPad T410s
+notes:
+  - Lenovo's withdrawn-products PSREF index explicitly identifies this as the US ThinkPad notebook book covering 2005 through 2013.
+  - The compiled book is large and contains many generations; model records should cite only facts verified against the relevant T410/T410s sheets.
+  - Publication and revision dates are intentionally unset because the compiled book contains model sheets from multiple dates.
