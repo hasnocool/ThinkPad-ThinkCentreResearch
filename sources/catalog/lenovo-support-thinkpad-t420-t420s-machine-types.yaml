@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: lenovo-support-thinkpad-t420-t420s-machine-types
+title: Synaptics Pointing Device Driver Vulnerability - affected ThinkPad machine types
+publisher: Lenovo
+document_type: support
+url: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-p-series-laptops/thinkpad-p70/20er/product_security/ps500211-synaptics-pointing-device-driver-vulnerability
+archive_url: null
+document_id: PS500211
+publication_date: null
+revision_date: 2019-04-24
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T420
+    - ThinkPad T420s
+notes:
+  - Lenovo's affected-product table explicitly maps ThinkPad T420/T420i to machine types 4177, 4178, 4179, 4180, 4236, 4237, and 4238.
+  - The same table maps ThinkPad T420s/T420si to machine types 4170, 4171, 4172, 4173, 4174, 4175, and 4176.
+  - T420i/T420si are retained as aliases/configuration tiers pending primary-source evidence of separate physical product identities.
