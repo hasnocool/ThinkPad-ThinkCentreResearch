@@ -5,6 +5,8 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T420
+  - ThinkPad T420s
   - ThinkPad T430
   - ThinkPad T430s
   - ThinkPad T430u
@@ -25,6 +27,8 @@ models:
 predecessor: null
 successor: null
 sources:
+  - lenovo-psref-thinkpad-t420
+  - lenovo-psref-thinkpad-t420s
   - lenovo-psref-thinkpad-t430
   - lenovo-psref-thinkpad-t430s
   - lenovo-psref-thinkpad-t430u
@@ -45,6 +49,6 @@ sources:
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
   - Standard, slim/s, performance/p, and ultrabook/u variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
-  - T430i and T430si are retained as aliases/configuration tiers within the T430/T430s machine-type families until authoritative evidence establishes a separate physical product identity.
+  - T420i/T420si and T430i/T430si are retained as aliases/configuration tiers within their overlapping machine-type families until authoritative evidence establishes a separate physical product identity.
   - No T450p canonical record is created without authoritative Lenovo evidence establishing that product identity.
 last_verified: 2026-08-26
