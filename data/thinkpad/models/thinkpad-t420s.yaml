@@ -1,0 +1,155 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T420s
+slug: thinkpad-t420s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T420si
+  machine_types:
+    - 4170
+    - 4171
+    - 4172
+    - 4173
+    - 4174
+    - 4175
+    - 4176
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t420-t420s-machine-types
+
+release:
+  release_year: 2011
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+  notes:
+    - Lenovo Western Europe PSREF pages show T420s configurations announced beginning February 22, 2011; represented WE models were withdrawn effective December 2012.
+
+form_factor:
+  class: laptop
+  chassis: slim 14-inch clamshell
+  dimensions_mm:
+    width: 343
+    depth: 230.1
+    height_min: 21.2
+    height_max: 26.0
+  starting_weight_kg: 1.67
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+platform:
+  chipset: Mobile Intel QM67 Express Chipset
+  cpu_options:
+    - Intel Core i5-2520M
+    - Intel Core i5-2540M
+  gpu_options:
+    - Intel HD Graphics 3000
+    - NVIDIA NVS 4200M 1GB with Optimus on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+memory:
+  technology: DDR3-1333
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+storage:
+  interfaces:
+    - SATA 3Gb/s SSD
+    - SATA 3Gb/s HDD
+  bays:
+    - 1x 2.5-inch 7mm primary storage bay
+    - 1x 9.5mm Ultrabay Slim supporting removable optical or compatible bay devices
+  notes:
+    - The represented PSREF sheets list removable 7mm SSD and HDD options.
+    - The consulted Western Europe T420s sheets list no mSATA SSD for the represented configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+networking:
+  ethernet:
+    - Intel 82579LM Gigabit Ethernet
+  wlan:
+    - Intel Centrino Advanced-N 6205 2x2
+  wwan:
+    - WWAN-upgradable configurations
+    - Ericsson F5521gw on selected configurations
+  bluetooth:
+    - Bluetooth 3.0 on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+ports:
+  - 2x USB 2.0, one powered
+  - 1x USB 3.0
+  - VGA
+  - DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - ExpressCard/34
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+
+expansion:
+  - two PCI Express Mini Card slots
+  - optional WWAN
+  - optional fingerprint reader
+  - optional Smart Card reader on selected configurations
+  - 9.5mm Ultrabay Slim
+
+power:
+  adapters:
+    - 65W AC adapter on selected integrated-graphics configurations
+    - 90W AC adapter on Optimus configurations
+  batteries:
+    - removable 6-cell 43.2Wh lithium-ion battery
+    - optional Ultrabay Slim second battery
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - Ultrabay device
+    - removable main battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 8GB maximum for the represented PSREF configurations.
+    - Ultrabay Slim can accept compatible removable devices and a dedicated second battery.
+  limitations:
+    - CPU, GPU, wireless, storage, battery, and adapter choices vary by machine type and regional configuration.
+    - T420si branding is represented inside the same Lenovo machine-type family and is treated here as an alias/configuration tier pending evidence of a separate physical product identity.
+  source_ids:
+    - lenovo-psref-thinkpad-t420s
+    - lenovo-support-thinkpad-t420-t420s-machine-types
+
+sources:
+  - lenovo-psref-thinkpad-t420s
+  - lenovo-support-thinkpad-t420-t420s-machine-types
+conflicts: []
+notes:
+  - Lenovo support explicitly maps machine types 4170, 4171, 4172, 4173, 4174, 4175, and 4176 to ThinkPad T420s/T420si.
+last_verified: 2026-08-26
