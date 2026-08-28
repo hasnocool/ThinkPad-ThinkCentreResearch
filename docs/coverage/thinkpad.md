@@ -6,6 +6,8 @@ Last updated: 2026-08-27
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T400 | researched | 3 | Complete MTM-to-region mapping; exact first product announcement/discontinuation dates; enumerate configuration-specific CPU/battery/adapter combinations |
+| T Series | ThinkPad T400s | researched | 3 | Complete MTM-to-region mapping; discontinuation date; enumerate touch/non-touch and low-voltage CPU variants by MTM |
 | T Series | ThinkPad T410 | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T410i identity granularity |
 | T Series | ThinkPad T410s | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T410si identity granularity; fill exact dimensions/weight from primary PSREF sheets |
 | T Series | ThinkPad T420 | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T420i identity granularity |
@@ -30,7 +32,7 @@ Last updated: 2026-08-27
 
 ## Priority research backlog
 
-1. Continue T Series backward from the researched T410/T410s generation into T400/T400s and earlier documented generations.
+1. Continue T Series backward across the naming transition into T61/T61p, T60/T60p, and earlier IBM-era T-series systems using IBM/Lenovo withdrawn PSREF books and HMMs.
 2. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
 3. Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a separate canonical identity.
 4. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity if Lenovo documentation establishes separate hardware identities rather than processor/configuration tiers.
@@ -41,6 +43,9 @@ Last updated: 2026-08-27
 
 ## Identity notes
 
+- Lenovo's September 2009 T400/R400 HMM maps ThinkPad T400 to machine types 2764, 2765, 2766, 2767, 2768, 2769, 2773, 6473, 6474, 6475, 7417, 7420, 7425, and 7434.
+- Lenovo's October 2009 T400s HMM maps ThinkPad T400s to machine types 2801, 2808, 2809, 2815, 2823, 2824, and 2825.
+- T400s is represented separately from T400 because Lenovo documents a distinct slim chassis, distinct service architecture, a separate June 23, 2009 announcement, and a non-overlapping machine-type range.
 - Lenovo's October 2009 T410s/T410/T510/W510 service guide maps ThinkPad T410 to machine types 2516, 2518, 2519, 2522, 2537, 2538, and 2539.
 - The same Lenovo service guide maps ThinkPad T410s to machine types 2901, 2904, 2907, 2912, 2924, 2926, and 2928.
 - T410i and T410si are currently represented as aliases/configuration tiers because Lenovo PSREF/service documentation places those brands inside the same T410/T410s machine-type families; finer-grained identity remains open.
