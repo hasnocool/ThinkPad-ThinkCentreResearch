@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t400s-2009
+title: ThinkPad T400s Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/45m2271_01.pdf
+archive_url: null
+document_id: 45M2271
+publication_date: 2009-10
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T400s
+notes:
+  - Second Edition, October 2009; copyright Lenovo 2009.
+  - The manual explicitly maps ThinkPad T400s to machine types 2801, 2808, 2809, 2815, 2823, 2824, and 2825.
+  - Parts and service sections document 6-cell batteries, MicroSATA SSDs, DDR3 SO-DIMMs, Serial Ultrabay Slim, wireless cards, and system-board processor variants.
