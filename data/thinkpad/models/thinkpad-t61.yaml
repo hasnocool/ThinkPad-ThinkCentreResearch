@@ -1,0 +1,163 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T61
+slug: thinkpad-t61
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - Lenovo service manuals group T61 and T61p machine types together by chassis size; per-model machine-type assignment remains intentionally unresolved pending corroborating primary evidence.
+
+release:
+  release_year: 2007
+  announcement_date: 2007-05-09
+  source_ids:
+    - lenovo-storyhub-t61-launch-2007
+  notes:
+    - Lenovo announced the first T61 as a 14.1-inch widescreen model on May 9, 2007; later T61 configurations also used 14.1-inch standard-aspect and 15.4-inch widescreen chassis documented in service material.
+
+form_factor:
+  class: laptop
+  chassis: 14.1-inch standard-aspect, 14.1-inch widescreen, and 15.4-inch widescreen clamshell variants
+  dimensions_mm: null
+  starting_weight_kg: null
+  notes:
+    - Exact dimensions and weight vary materially by chassis, display, battery, graphics, and optical-drive configuration and remain to be normalized from primary product sheets.
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+platform:
+  chipset: Intel 965 mobile-platform family; exact GM965/PM965 variant depends on graphics/configuration
+  cpu_options:
+    - Intel Core 2 Duo mobile processors on the 800 MHz processor-side bus, configuration-dependent
+  gpu_options:
+    - Intel integrated graphics on selected configurations
+    - NVIDIA discrete graphics on selected configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+memory:
+  technology: DDR2-667 PC2-5300 SO-DIMM
+  slots: 2
+  soldered: false
+  official_max_gb: 4
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - The Lenovo HMM specification tables document a 4 GB supported maximum; later community-reported capacities are intentionally not substituted for the official value.
+
+storage:
+  interfaces:
+    - 2.5-inch SATA hard disk drive
+    - SATA solid-state drive on supported configurations/revisions
+  bays:
+    - 1x primary 2.5-inch SATA storage bay
+    - 1x Ultrabay Slim removable-device bay
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768 or 1400x1050
+      panel: standard-aspect TFT variants documented by the 14.1-inch service family
+    - size_in: 14.1
+      resolution: 1280x800 or 1440x900
+      panel: widescreen TFT variants
+    - size_in: 15.4
+      resolution: 1280x800, 1680x1050, or 1920x1200
+      panel: widescreen TFT variants in the combined T61/T61p service family
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - Not every panel option applies to every T61 MTM; model/MTM-level display mapping remains a research gap.
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - 802.11a/b/g and draft-802.11n options, configuration-dependent
+  wwan:
+    - WWAN-ready and WWAN-equipped configurations
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-storyhub-t61-launch-2007
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+ports:
+  - USB 2.0
+  - VGA
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - audio jacks
+  - docking connector
+  - PC Card and/or ExpressCard expansion depending chassis/configuration
+  - IEEE 1394 on selected widescreen configurations
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - docking/port-replicator support
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - Lenovo barrel-jack AC adapters; wattage varies by graphics and configuration
+  batteries:
+    - removable lithium-ion battery options
+    - optional Ultrabay battery support on compatible configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+software:
+  operating_systems:
+    - Windows Vista editions on original configurations
+    - Windows XP Professional on supported/original configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - removable CPU
+    - primary SATA storage device
+    - Ultrabay Slim device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - Lenovo service documentation treats the CPU, DIMMs, primary storage, Ultrabay device, radios, and battery as separately serviceable assemblies.
+  limitations:
+    - Chassis, graphics, panel, wireless, battery, and adapter combinations vary substantially across the T61 generation.
+    - Primary service manuals combine T61 and T61p identities for machine-type coverage, so machine types are not guessed into this record.
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+sources:
+  - lenovo-storyhub-t61-launch-2007
+  - lenovo-hmm-thinkpad-t61-t61p-14-2011
+  - lenovo-hmm-thinkpad-t61-t61p-15-2011
+conflicts: []
+notes:
+  - Lenovo's May 9, 2007 launch announcement establishes T61 as a canonical product distinct from the later separately announced T61p mobile workstation.
+last_verified: 2026-08-28
