@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t61-launch-2007
+title: Lenovo Powers Up Its Strongest, Coolest and Quietest ThinkPad Lineup Yet
+publisher: Lenovo
+publisher_unit: Lenovo StoryHub
+ document_type: announcement
+url: https://news.lenovo.com/pressroom/press-releases/lenovo-powers-up-its-strongest-coolest-and-quietest-thinkpad-lineup-yet/
+archive_url: null
+document_id: null
+publication_date: 2007-05-09
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T61
+notes:
+  - Lenovo announced the first ThinkPad T61 14.1-inch widescreen notebook on May 9, 2007.
+  - The announcement documents Intel Centrino Pro/Duo platform positioning, WWAN/WLAN options, Gigabit Ethernet, Bluetooth, and the new Top Cover Roll Cage/cooling design.
