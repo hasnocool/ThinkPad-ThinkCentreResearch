@@ -5,6 +5,8 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T400
+  - ThinkPad T400s
   - ThinkPad T410
   - ThinkPad T410s
   - ThinkPad T420
@@ -30,6 +32,10 @@ predecessor: null
 successor: null
 sources:
   - lenovo-psref-thinkpad-notebooks-2005-2013
+  - lenovo-hmm-thinkpad-t400-r400-2009
+  - lenovo-hmm-thinkpad-t400s-2009
+  - lenovo-storyhub-t400-wimax-2008
+  - lenovo-storyhub-t400s-launch-2009
   - lenovo-psref-thinkpad-t420
   - lenovo-psref-thinkpad-t420s
   - lenovo-psref-thinkpad-t430
@@ -52,6 +58,7 @@ sources:
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
   - Standard, slim/s, performance/p, and ultrabook/u variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
+  - T400s is a separate canonical identity from T400 because Lenovo documents a distinct slim chassis, service architecture, announcement, and non-overlapping machine-type family.
   - T410i/T410si, T420i/T420si, and T430i/T430si are retained as aliases/configuration tiers within their overlapping machine-type families until authoritative evidence establishes a separate physical product identity.
   - No T450p canonical record is created without authoritative Lenovo evidence establishing that product identity.
 last_verified: 2026-08-27
