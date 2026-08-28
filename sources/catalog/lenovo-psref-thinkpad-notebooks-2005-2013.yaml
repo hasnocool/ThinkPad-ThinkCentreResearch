@@ -15,9 +15,11 @@ scope:
   product_lines:
     - thinkpad
   models:
+    - ThinkPad T400
+    - ThinkPad T400s
     - ThinkPad T410
     - ThinkPad T410s
 notes:
   - Lenovo's withdrawn-products PSREF index explicitly identifies this as the US ThinkPad notebook book covering 2005 through 2013.
-  - The compiled book is large and contains many generations; model records should cite only facts verified against the relevant T410/T410s sheets.
+  - The compiled book is large and contains many generations; model records should cite only facts verified against the relevant model sheets.
   - Publication and revision dates are intentionally unset because the compiled book contains model sheets from multiple dates.
