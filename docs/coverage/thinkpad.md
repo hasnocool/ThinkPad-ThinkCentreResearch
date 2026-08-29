@@ -6,6 +6,8 @@ Last updated: 2026-08-28
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T60 | researched | 2 | Resolve T60/T60p per-model machine-type split; complete MTM-to-region mapping; normalize chassis dimensions/weights and later widescreen variants from primary product sheets |
+| T Series | ThinkPad T60p | researched | 2 | Resolve T60/T60p per-model machine-type split; complete MTM-to-region mapping; normalize workstation GPU/display/adapter combinations and exact launch chronology |
 | T Series | ThinkPad T61 | researched | 3 | Resolve T61/T61p per-model machine-type split; complete MTM-to-region mapping; normalize chassis dimensions/weights and full panel/GPU combinations from primary product sheets |
 | T Series | ThinkPad T61p | researched | 3 | Resolve T61/T61p per-model machine-type split; complete MTM-to-region mapping; normalize exact workstation display/GPU/adapter combinations and discontinuation chronology |
 | T Series | ThinkPad T400 | researched | 3 | Complete MTM-to-region mapping; exact first product announcement/discontinuation dates; enumerate configuration-specific CPU/battery/adapter combinations |
@@ -34,17 +36,22 @@ Last updated: 2026-08-28
 
 ## Priority research backlog
 
-1. Continue T Series backward into T60/T60p and earlier IBM-era systems using IBM/Lenovo withdrawn PSREF books, HMMs, and archived official product literature.
-2. Resolve the T61/T61p machine-type split from primary product/PSREF sources; current Lenovo HMMs expose combined service-family pools and are not sufficient to assign every MT safely.
-3. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
-4. Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a separate canonical identity.
-5. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity if Lenovo documentation establishes separate hardware identities rather than processor/configuration tiers.
-6. Add X Series and X1 families, starting with generations that have complete Lenovo PSREF/HMM coverage.
-7. Add L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
-8. Build explicit machine-type and MTM mappings from official service/PSREF documentation.
+1. Continue T Series backward into T43/T43p and earlier IBM-era systems using IBM/Lenovo withdrawn PSREF books, HMMs, and archived official product literature.
+2. Resolve the T60/T60p machine-type split from primary product/PSREF sources; the current Lenovo HMM exposes a combined service-family pool and is not sufficient to assign every MT safely.
+3. Resolve the T61/T61p machine-type split from primary product/PSREF sources; current Lenovo HMMs expose combined service-family pools and are not sufficient to assign every MT safely.
+4. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
+5. Resolve whether T490 Secure Access / Healthcare Edition machine types should remain configuration variants or become a separate canonical identity.
+6. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity if Lenovo documentation establishes separate hardware identities rather than processor/configuration tiers.
+7. Add X Series and X1 families, starting with generations that have complete Lenovo PSREF/HMM coverage.
+8. Add L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
+9. Build explicit machine-type and MTM mappings from official service/PSREF documentation.
 
 ## Identity notes
 
+- Lenovo's January 5, 2006 T60 Series announcement establishes the T60 generation and documents Intel Centrino Duo and WWAN-capable configurations.
+- Lenovo's January 2007 T60/T60p HMM covers machine types 1951, 1952, 1953, 1954, 1955, 1956, 2007, 2008, 2009, 2613, 2623, and 2637 as a combined service family.
+- That combined HMM pool is intentionally not split between T60 and T60p canonical records until primary PSREF/product evidence establishes the per-model mapping.
+- Lenovo explicitly identifies T60p as a mobile workstation in its August 15, 2006 Linux-workstation announcement, supporting a separate canonical identity despite shared service documentation.
 - Lenovo announced the first ThinkPad T61 14.1-inch widescreen notebook on May 9, 2007.
 - Lenovo separately unveiled the ThinkPad T61p 15.4-inch widescreen mobile workstation on July 10, 2007, explicitly positioning it as a workstation and documenting NVIDIA Quadro FX 570M graphics.
 - Lenovo's 14.1-inch T61/T61p HMM covers machine types 8889, 8890, 8891, 8892, 8893, 8894, 8895, 8896, 8897, 8898, 8899, 8900, 8938, and 8939 as a combined service family.
