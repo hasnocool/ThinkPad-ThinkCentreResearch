@@ -36,6 +36,7 @@ predecessor: null
 successor: null
 sources:
   - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  - lenovo-hmm-thinkpad-t60-t60p-15w-2007
   - lenovo-storyhub-t60-series-2006
   - lenovo-storyhub-t60p-linux-workstation-2006
   - lenovo-storyhub-t61-launch-2007
@@ -69,7 +70,7 @@ sources:
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
   - Standard, slim/s, performance/p, and ultrabook/u variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
-  - T60 and T60p are separate canonical identities because Lenovo explicitly positions T60p as a mobile workstation; machine-type assignment remains unresolved where Lenovo HMMs group both names into a shared service family.
+  - T60 and T60p are separate canonical identities because Lenovo explicitly positions T60p as a mobile workstation; machine-type assignment remains unresolved where Lenovo HMMs group both names into shared service families.
   - T61 and T61p are separate canonical identities because Lenovo announced them separately and explicitly positioned T61p as a mobile workstation; machine-type assignment remains unresolved where Lenovo HMMs group both names into a shared service family.
   - T400s is a separate canonical identity from T400 because Lenovo documents a distinct slim chassis, service architecture, announcement, and non-overlapping machine-type family.
   - T410i/T410si, T420i/T420si, and T430i/T430si are retained as aliases/configuration tiers within their overlapping machine-type families until authoritative evidence establishes a separate physical product identity.
