@@ -8,39 +8,10 @@ The long-term goal is to catalog as many verified ThinkPad and ThinkCentre model
 
 | Product line | Canonical models | Researched | Partial/stub |
 | --- | ---: | ---: | ---: |
-| ThinkPad | 27 | 27 | 0 |
+| ThinkPad | 29 | 29 | 0 |
 | ThinkCentre | 1 | 1 | 0 |
 
-Current canonical records:
-
-- ThinkPad T60
-- ThinkPad T60p
-- ThinkPad T61
-- ThinkPad T61p
-- ThinkPad T400
-- ThinkPad T400s
-- ThinkPad T410
-- ThinkPad T410s
-- ThinkPad T420
-- ThinkPad T420s
-- ThinkPad T430
-- ThinkPad T430s
-- ThinkPad T430u
-- ThinkPad T440
-- ThinkPad T440p
-- ThinkPad T440s
-- ThinkPad T450
-- ThinkPad T450s
-- ThinkPad T460
-- ThinkPad T460p
-- ThinkPad T460s
-- ThinkPad T470
-- ThinkPad T470p
-- ThinkPad T470s
-- ThinkPad T480
-- ThinkPad T480s
-- ThinkPad T490
-- ThinkCentre M75q Gen 2
+Current canonical records include the T-Series lineage from ThinkPad T43/T43p through T490, plus ThinkCentre M75q Gen 2.
 
 See `docs/coverage/thinkpad.md` and `docs/coverage/thinkcentre.md` for the live coverage indexes and research gaps.
 
@@ -105,9 +76,10 @@ The validator checks YAML parsing, required fields, path/slug consistency, sourc
 
 ## Research roadmap
 
-The immediate priority is to expand outward from the current T60/T60p-to-T490 anchor into coherent family lineages:
+The immediate priority is to expand outward from the current T43/T43p-to-T490 anchor into coherent family lineages:
 
-- ThinkPad T Series backward into T43/T43p and earlier IBM-era generations and forward through T490s/T14/T14s, then X/X1, L, E, P/W, A/R/Z, Yoga/Tablet, Edge, and historical IBM families.
+- Continue backward into T42/T42p, T41/T41p, T40/T40p, T30 and earlier IBM-era generations.
+- Continue forward through T490s/T14/T14s, then X/X1, L, E, P/W, A/R/Z, Yoga/Tablet, Edge, and historical IBM families.
 - ThinkCentre M-series Tiny/SFF/Tower lineages, then Neo, Edge, AIO, Nano, and historical IBM/Lenovo systems.
 - Machine-type/MTM mapping and release chronology from authoritative documentation.
 - Family and generation indexes that make the full historical catalog easy to browse.
