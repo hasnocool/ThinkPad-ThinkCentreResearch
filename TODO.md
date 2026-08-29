@@ -4,6 +4,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkPad
 
+- [x] Research the T60 generation anchor: T60 and T60p with authoritative Lenovo HMM and announcement sources; preserve unresolved per-model machine-type mapping instead of guessing.
 - [x] Research the T61 generation anchor: T61 and T61p with authoritative Lenovo HMM and announcement sources; preserve unresolved per-model machine-type mapping instead of guessing.
 - [x] Research the T400 generation anchor: T400 and T400s with authoritative Lenovo PSREF/HMM and announcement sources.
 - [x] Research the T410 generation anchor: T410 and T410s with authoritative Lenovo PSREF/service identity sources.
@@ -13,7 +14,8 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Research the T450 generation anchor: T450 and T450s with authoritative Lenovo PSREF/service identity sources.
 - [x] Research the T460 generation anchor: T460, T460s, and T460p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
-- [ ] Continue T Series backward from T61/T61p into T60/T60p and earlier IBM-era generations while preserving historical naming and ownership transitions.
+- [ ] Continue T Series backward from T60/T60p into T43/T43p and earlier IBM-era generations while preserving historical naming and ownership transitions.
+- [ ] Resolve T60/T60p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMM currently provides a combined service-family pool only.
 - [ ] Resolve T61/T61p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMMs currently provide combined service-family pools only.
 - [ ] Continue T Series forward from the researched T480s/T490 anchor: T490s, T14/T14s generations and related AMD/Intel variants.
 - [ ] Resolve whether T410i/T410si, T420i/T420si, and T430i/T430si should remain aliases/configuration tiers or become distinct canonical records if primary sources establish separate hardware identities.
