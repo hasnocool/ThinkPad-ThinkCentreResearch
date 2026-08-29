@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t60-series-2006
+title: Lenovo's Newest ThinkPads Unplug the Need for Power Cords from Dawn to Dusk
+publisher: Lenovo
+document_type: press_release
+url: https://news.lenovo.com/pressroom/press-releases/lenovos-newest-thinkpads-unplug-the-need-for-power-cords-from-dawn-to-dusk/
+archive_url: null
+document_id: null
+publication_date: 2006-01-05
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T60
+notes:
+  - Lenovo's article text identifies January 5, 2006 as the introduction date for the ThinkPad T60 Series alongside X60 Series.
+  - The announcement documents Intel Centrino Duo, embedded WWAN antennas on supported models, improved battery life, and dual-core positioning.
