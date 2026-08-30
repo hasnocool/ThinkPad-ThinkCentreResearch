@@ -6,6 +6,8 @@ Last updated: 2026-08-30
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T41 | researched | 2 | Complete global MTM mapping; exact dimensions/weights; full T41/T41p split |
+| T Series | ThinkPad T41p | partial | 1 | Dedicated T41p PSREF/product sheet; exact MTMs, CPU/GPU combinations, dimensions/weights |
 | T Series | ThinkPad T42 | researched | 2 | Exact product-wide announcement/discontinuation dates; complete MTM-to-region mapping; exact dimensions/weights; T42/T42p split |
 | T Series | ThinkPad T42p | researched | 2 | Exact product-wide announcement/discontinuation dates; complete MTM-to-region mapping; exact dimensions/weights; T42/T42p split |
 | T Series | ThinkPad T43 | researched | 2 | Exact product-wide announcement/discontinuation dates; complete MTM-to-region mapping; dimensions/weights and per-MTM T43/T43p split |
@@ -40,19 +42,21 @@ Last updated: 2026-08-30
 
 ## Priority research backlog
 
-1. Continue T Series backward from T42/T42p into T41/T41p, T40/T40p, T30, and earlier IBM-era generations.
-2. Resolve T42/T42p per-model machine-type mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
-3. Resolve T43/T43p per-model machine-type mapping from primary PSREF/product sheets; current HMM/support material exposes combined pools.
-4. Resolve the T60/T60p machine-type split from primary product/PSREF sources.
-5. Resolve the T61/T61p machine-type split from primary product/PSREF sources.
-6. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
-7. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity.
-8. Add X Series and X1 families, then L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
+1. Continue T Series backward from T41/T41p into T40/T40p, T30, and earlier IBM-era generations.
+2. Locate a dedicated primary T41p PSREF/product sheet and resolve the T41/T41p machine-type split.
+3. Resolve T42/T42p per-model machine-type mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
+4. Resolve T43/T43p per-model machine-type mapping from primary PSREF/product sheets; current HMM/support material exposes combined pools.
+5. Resolve the T60/T60p machine-type split from primary product/PSREF sources.
+6. Resolve the T61/T61p machine-type split from primary product/PSREF sources.
+7. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
+8. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity.
+9. Add X Series and X1 families, then L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
 
 ## Identity notes
 
-- T42/T42p are separate canonical identities because IBM documentation distinguishes the workstation-oriented p variant, but the available combined HMM evidence does not support a complete MTM split.
-- T42 source evidence includes machine type 2373 and the combined T40/T41/T42 service-family groups 2373/2374/2375/2376/2378/2379.
+- T41/T41p are separate canonical identities because IBM documentation and later reference material distinguish the workstation-oriented p variant, but the currently consulted combined HMM does not provide a complete MTM split.
+- T41 source evidence includes machine type 2373 in an education PSREF subset and the combined T40/T41/T42 service-family groups.
+- T41p remains partial until a dedicated primary product sheet resolves its exact workstation configuration boundaries.
 - Exact dimensions/weights and product-wide chronology remain unknown where authoritative primary evidence was not available.
 
 ## Coverage rules
