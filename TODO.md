@@ -4,6 +4,8 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkPad
 
+- [x] Research the T41 generation anchor: T41 with IBM specification/HMM sources; preserve unresolved per-model machine-type mapping instead of guessing.
+- [ ] Research the T41p workstation sibling to primary-source completeness; current record is partial pending dedicated PSREF/product sheet.
 - [x] Research the T42 generation anchor: T42 and T42p with IBM specification/HMM sources; preserve unresolved per-model machine-type mapping instead of guessing.
 - [x] Research the T43 generation anchor: T43 and T43p with IBM/Lenovo support and HMM sources; preserve unresolved per-model machine-type mapping instead of guessing.
 - [x] Research the T60 generation anchor: T60 and T60p with authoritative Lenovo HMM and announcement sources; preserve unresolved per-model machine-type mapping instead of guessing.
@@ -17,7 +19,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Research the T460 generation anchor: T460, T460s, and T460p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
 - [ ] Resolve T42/T42p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
-- [ ] Continue T Series backward from T42/T42p into T41/T41p, T40/T40p, T30, and earlier IBM-era generations while preserving historical naming and ownership transitions.
+- [ ] Continue T Series backward from T41/T41p into T40/T40p, T30, and earlier IBM-era generations while preserving historical naming and ownership transitions.
 - [ ] Resolve T43/T43p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/support material provides combined pools.
 - [ ] Resolve T60/T60p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMM currently provides a combined service-family pool only.
 - [ ] Resolve T61/T61p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMMs currently provide combined service-family pools only.
