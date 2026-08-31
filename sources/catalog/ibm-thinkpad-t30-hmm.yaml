@@ -1,0 +1,19 @@
+schema_version: 1
+record_type: source
+id: ibm-thinkpad-t30-hmm
+title: ThinkPad T30 Hardware Maintenance Manual
+publisher: IBM
+document_type: hardware_maintenance_manual
+url: https://archive.org/details/ibm-service-manual-thinkpad-t30.pdf
+archive_url: https://archive.org/details/ibm-service-manual-thinkpad-t30.pdf
+document_id: 46P4783
+publication_date: 2002-10-01
+revision_date: null
+accessed: 2026-08-31
+official: true
+scope:
+  product_lines: [thinkpad]
+  models: [ThinkPad T30]
+notes:
+  - Archived copy of IBM service and reference information for ThinkPad T30 machine types 2366 and 2367.
+  - Used for identity, service architecture, component replaceability, and platform details.
