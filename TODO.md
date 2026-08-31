@@ -4,6 +4,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkPad
 
+- [x] Research the T30 generation anchor: ThinkPad T30 with IBM Hardware Maintenance Manual evidence; preserve unresolved chronology and regional MTM gaps instead of guessing.
 - [x] Research the T40 generation anchor: T40 and T40p with Lenovo/IBM specification and service sources; preserve unresolved global MTM mapping instead of guessing.
 - [ ] Research the T41p workstation sibling to primary-source completeness; current record is partial pending dedicated PSREF/product sheet.
 - [x] Research the T42 generation anchor: T42 and T42p with IBM specification/HMM sources; preserve unresolved per-model machine-type mapping instead of guessing.
@@ -19,7 +20,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Research the T460 generation anchor: T460, T460s, and T460p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
 - [ ] Resolve T42/T42p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
-- [ ] Continue T Series backward from T40/T40p into T30 and earlier IBM-era generations while preserving historical naming and ownership transitions.
+- [ ] Continue T Series backward from T30 into T23 and earlier IBM-era generations while preserving historical naming and ownership transitions.
 - [ ] Resolve T43/T43p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/support material provides combined pools.
 - [ ] Resolve T60/T60p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMM currently provides a combined service-family pool only.
 - [ ] Resolve T61/T61p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMMs currently provide combined service-family pools only.
@@ -45,7 +46,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [ ] Catalog Nano and other compact ThinkCentre form factors.
 - [ ] Catalog historical IBM/Lenovo ThinkCentre generations.
 - [ ] Add machine-type and MTM mappings for every canonical ThinkCentre record where authoritative sources expose them.
-- [ ] Track optional I/O modules, PSU/adapter choices, storage layouts, expansion slots, and form-factor differences.
+- [ ] Track optional I/O modules, PSU/adapter wattage, storage layouts, expansion slots, and form-factor differences.
 
 ## Dataset and tooling
 
