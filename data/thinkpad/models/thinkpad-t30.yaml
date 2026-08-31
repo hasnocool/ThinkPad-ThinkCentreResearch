@@ -1,0 +1,139 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T30
+slug: thinkpad-t30
+family: t-series
+generation: Pentium 4-M / Mobile Intel 845MP T Series
+status: researched
+identity:
+  manufacturer: IBM
+  predecessor: ThinkPad T23
+  successor: ThinkPad T40
+  aliases:
+    - ThinkPad T30p (workstation-oriented configurations are not established as a separate official canonical model by the consulted source set)
+  machine_types:
+    - 2366
+    - 2367
+  mtms: []
+  regions:
+    - North America
+    - International configurations documented by IBM support material
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+release:
+  release_year: 2002
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+  notes:
+    - Exact announcement and discontinuation dates were not established from the consulted primary source.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch clamshell
+  dimensions_mm: 304 x 250 x 35 (approximate service-family dimensions; verify against a dedicated PSREF)
+  starting_weight_kg: 2.48
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+platform:
+  chipset: Intel 845MP / ICH3-M family platform
+  cpu_options:
+    - Intel Mobile Pentium 4-M 1.6 GHz
+    - Intel Mobile Pentium 4-M 1.8 GHz
+    - Intel Mobile Pentium 4-M 2.0 GHz
+    - Intel Mobile Pentium 4-M 2.2 GHz
+  gpu_options:
+    - ATI Mobility Radeon 7500
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+memory:
+  technology: PC2100 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 1
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+storage:
+  interfaces:
+    - 2.5-inch PATA / Ultra ATA-100
+  bays:
+    - 1x primary internal 2.5-inch bay
+    - 1x Ultrabay 2000 removable bay
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+networking:
+  ethernet:
+    - 10/100 Ethernet
+  wlan:
+    - Mini PCI 802.11b options on selected configurations
+  bluetooth:
+    - Bluetooth options on selected configurations
+  modem:
+    - V.90/V.92 modem on selected configurations
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+ports:
+  - 2x USB 1.1
+  - VGA
+  - S-Video out
+  - RJ-45 Ethernet
+  - RJ-11 modem
+  - headphone/speaker
+  - microphone
+  - infrared
+  - docking/port-replicator connector
+expansion:
+  - Ultrabay 2000
+  - Type II PC Card slot
+  - Mini PCI slot
+  - docking station support
+power:
+  adapters:
+    - IBM 72 W-class AC adapter
+  batteries:
+    - removable lithium-ion main battery; exact capacity varies by pack
+    - optional Ultrabay battery/accessory configurations
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+    - keyboard
+    - display assembly
+  upgrade_notes:
+    - 1 GB DDR maximum and PATA storage materially limit modern upgrades.
+    - Ultrabay 2000 supports optical and battery/accessory modules.
+  limitations:
+    - Complete global MTM mapping beyond machine types 2366 and 2367 was not established.
+    - Some wireless, modem, display, and battery options are configuration-dependent.
+    - Dimensions and weight should be rechecked against a dedicated IBM PSREF/specification sheet.
+  source_ids:
+    - ibm-thinkpad-t30-hmm
+sources:
+  - ibm-thinkpad-t30-hmm
+conflicts: []
+notes:
+  - This is the next historical anchor after T23 and before the T40 generation.
+  - The consulted IBM service manual is authoritative for service identity and architecture but is not a complete regional PSREF; fields with remaining uncertainty are explicitly marked.
+last_verified: 2026-08-31
