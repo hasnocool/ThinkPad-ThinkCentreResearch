@@ -6,6 +6,8 @@ Last updated: 2026-08-30
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T40 | researched | 2 | Complete global MTM mapping; exact first announcement/discontinuation dates; all regional CPU/GPU combinations |
+| T Series | ThinkPad T40p | researched | 3 | Complete global MTM mapping; full regional workstation CPU/GPU combinations; product-wide chronology |
 | T Series | ThinkPad T41 | researched | 2 | Complete global MTM mapping; exact dimensions/weights; full T41/T41p split |
 | T Series | ThinkPad T41p | partial | 1 | Dedicated T41p PSREF/product sheet; exact MTMs, CPU/GPU combinations, dimensions/weights |
 | T Series | ThinkPad T42 | researched | 2 | Exact product-wide announcement/discontinuation dates; complete MTM-to-region mapping; exact dimensions/weights; T42/T42p split |
@@ -24,7 +26,7 @@ Last updated: 2026-08-30
 | T Series | ThinkPad T420s | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T420si identity granularity |
 | T Series | ThinkPad T430 | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T430i identity granularity |
 | T Series | ThinkPad T430s | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; resolve T430si identity granularity |
-| T Series | ThinkPad T430u | researched | 2 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates; enumerate regional CPU/GPU variants |
+| T Series | ThinkPad T430u | researched | 2 | Complete MTM-to-region mapping; enumerate regional CPU/GPU variants |
 | T Series | ThinkPad T440 | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates |
 | T Series | ThinkPad T440p | researched | 3 | Complete MTM-to-region mapping; exact first product-wide announcement/discontinuation dates |
 | T Series | ThinkPad T440s | researched | 3 | Complete MTM-to-region mapping; exact product-wide announcement/discontinuation dates |
@@ -42,21 +44,20 @@ Last updated: 2026-08-30
 
 ## Priority research backlog
 
-1. Continue T Series backward from T41/T41p into T40/T40p, T30, and earlier IBM-era generations.
+1. Continue T Series backward from T40/T40p into T30 and earlier IBM-era generations.
 2. Locate a dedicated primary T41p PSREF/product sheet and resolve the T41/T41p machine-type split.
 3. Resolve T42/T42p per-model machine-type mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
 4. Resolve T43/T43p per-model machine-type mapping from primary PSREF/product sheets; current HMM/support material exposes combined pools.
 5. Resolve the T60/T60p machine-type split from primary product/PSREF sources.
 6. Resolve the T61/T61p machine-type split from primary product/PSREF sources.
 7. Continue forward from T490 with T490s and T14/T14s generations, preserving Intel/AMD and slim-model identity boundaries.
-8. Resolve T410i/T410si, T420i/T420si, and T430i/T430si alias-versus-canonical granularity.
+8. Resolve whether T410i/T410si, T420i/T420si, and T430i/T430si should remain aliases/configuration tiers or become distinct canonical records if primary sources establish separate hardware identities.
 9. Add X Series and X1 families, then L, E, P, W, A, R, Z, Edge, Yoga, Tablet, and historical IBM-era families.
 
 ## Identity notes
 
-- T41/T41p are separate canonical identities because IBM documentation and later reference material distinguish the workstation-oriented p variant, but the currently consulted combined HMM does not provide a complete MTM split.
-- T41 source evidence includes machine type 2373 in an education PSREF subset and the combined T40/T41/T42 service-family groups.
-- T41p remains partial until a dedicated primary product sheet resolves its exact workstation configuration boundaries.
+- T40 and T40p are separate canonical identities because IBM/Lenovo support material distinguishes a workstation-oriented sibling with FireGL/SXGA+ configurations.
+- T41/T41p, T42/T42p, T43/T43p, T60/T60p, and T61/T61p retain separate identities while combined HMMs leave some MTM splits unresolved.
 - Exact dimensions/weights and product-wide chronology remain unknown where authoritative primary evidence was not available.
 
 ## Coverage rules
