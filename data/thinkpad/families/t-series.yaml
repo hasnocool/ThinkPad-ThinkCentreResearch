@@ -5,6 +5,14 @@ name: T Series
 slug: t-series
 status: partial
 models:
+  - ThinkPad T40
+  - ThinkPad T40p
+  - ThinkPad T41
+  - ThinkPad T41p
+  - ThinkPad T42
+  - ThinkPad T42p
+  - ThinkPad T43
+  - ThinkPad T43p
   - ThinkPad T60
   - ThinkPad T60p
   - ThinkPad T61
@@ -35,6 +43,9 @@ models:
 predecessor: null
 successor: null
 sources:
+  - lenovo-support-thinkpad-t40-t40p-specs
+  - ibm-thinkpad-t40-t42-hmm
+  - ibm-thinkpad-t40p-japan-2003
   - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
   - lenovo-hmm-thinkpad-t60-t60p-15w-2007
   - lenovo-storyhub-t60-series-2006
@@ -69,10 +80,8 @@ sources:
   - lenovo-psref-thinkpad-t490
 notes:
   - Family coverage remains partial; this index lists only canonical model records currently present in the repository.
-  - Standard, slim/s, performance/p, and ultrabook/u variants remain separate canonical models when Lenovo documents distinct product identities and machine types.
-  - T60 and T60p are separate canonical identities because Lenovo explicitly positions T60p as a mobile workstation; machine-type assignment remains unresolved where Lenovo HMMs group both names into shared service families.
-  - T61 and T61p are separate canonical identities because Lenovo announced them separately and explicitly positioned T61p as a mobile workstation; machine-type assignment remains unresolved where Lenovo HMMs group both names into a shared service family.
-  - T400s is a separate canonical identity from T400 because Lenovo documents a distinct slim chassis, service architecture, announcement, and non-overlapping machine-type family.
-  - T410i/T410si, T420i/T420si, and T430i/T430si are retained as aliases/configuration tiers within their overlapping machine-type families until authoritative evidence establishes a separate physical product identity.
-  - No T450p canonical record is created without authoritative Lenovo evidence establishing that product identity.
-last_verified: 2026-08-28
+  - Standard, slim/s, performance/p, workstation, and ultrabook/u variants remain separate canonical models when IBM/Lenovo documents distinct product identities and configurations.
+  - T40 and T40p are separate canonical identities because IBM/Lenovo support material distinguishes a workstation-oriented sibling with FireGL/SXGA+ configurations.
+  - T41/T41p, T42/T42p, T43/T43p, T60/T60p, and T61/T61p retain separate identities while combined HMMs leave some MTM splits unresolved.
+  - T410i/T410si, T420i/T420si, and T430i/T430si are retained as aliases/configuration tiers until stronger primary evidence establishes separate physical identities.
+last_verified: 2026-08-30
