@@ -1,11 +1,12 @@
 # ThinkPad Coverage
 
-Last updated: 2026-08-30
+Last updated: 2026-08-31
 
 ## Coverage summary
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T30 | researched | 1 | Dedicated PSREF for complete regional MTM mapping, exact chronology, and confirmation of dimensions/weight |
 | T Series | ThinkPad T40 | researched | 2 | Complete global MTM mapping; exact first announcement/discontinuation dates; all regional CPU/GPU combinations |
 | T Series | ThinkPad T40p | researched | 3 | Complete global MTM mapping; full regional workstation CPU/GPU combinations; product-wide chronology |
 | T Series | ThinkPad T41 | researched | 2 | Complete global MTM mapping; exact dimensions/weights; full T41/T41p split |
@@ -44,7 +45,7 @@ Last updated: 2026-08-30
 
 ## Priority research backlog
 
-1. Continue T Series backward from T40/T40p into T30 and earlier IBM-era generations.
+1. Continue T Series backward from T30 into T23 and earlier IBM-era generations.
 2. Locate a dedicated primary T41p PSREF/product sheet and resolve the T41/T41p machine-type split.
 3. Resolve T42/T42p per-model machine-type mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
 4. Resolve T43/T43p per-model machine-type mapping from primary PSREF/product sheets; current HMM/support material exposes combined pools.
@@ -56,6 +57,7 @@ Last updated: 2026-08-30
 
 ## Identity notes
 
+- T30 is the current historical anchor immediately before the T40 generation; IBM HMM evidence cleanly identifies machine types 2366 and 2367, while full regional MTM and chronology remain open.
 - T40 and T40p are separate canonical identities because IBM/Lenovo support material distinguishes a workstation-oriented sibling with FireGL/SXGA+ configurations.
 - T41/T41p, T42/T42p, T43/T43p, T60/T60p, and T61/T61p retain separate identities while combined HMMs leave some MTM splits unresolved.
 - Exact dimensions/weights and product-wide chronology remain unknown where authoritative primary evidence was not available.
