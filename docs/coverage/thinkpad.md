@@ -6,6 +6,7 @@ Last updated: 2026-09-01
 
 | Family | Model | Status | Primary sources | Key gaps |
 | --- | --- | --- | ---: | --- |
+| T Series | ThinkPad T23 | researched | 1 | Dedicated IBM PSREF for complete regional MTM mapping, exact chronology, and confirmation of dimensions/adapter wattage |
 | T Series | ThinkPad T14 Gen 4 (Intel) | researched | 1 | Expand region-specific MTM/MTM mapping and exact announcement/discontinuation chronology |
 | T Series | ThinkPad T30 | researched | 1 | Dedicated PSREF for complete regional MTM mapping, exact chronology, and confirmation of dimensions/weight |
 | T Series | ThinkPad T40 | researched | 2 | Complete global MTM mapping; exact first announcement/discontinuation dates; all regional CPU/GPU combinations |
@@ -46,7 +47,7 @@ Last updated: 2026-09-01
 
 ## Priority research backlog
 
-1. Continue T Series backward from T30 into T23 and earlier IBM-era generations.
+1. Continue T Series backward from T23 into T22/T21/T20 and earlier IBM-era generations.
 2. Continue forward from T490 with T490s and T14/T14s generations, including region-specific MTM mapping for T14 Gen 4 Intel.
 3. Locate a dedicated primary T41p PSREF/product sheet and resolve the T41/T41p machine-type split.
 4. Resolve T42/T42p per-model machine-type mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
@@ -58,7 +59,8 @@ Last updated: 2026-09-01
 
 ## Identity notes
 
-- T30 is the current historical anchor immediately before the T40 generation; IBM HMM evidence cleanly identifies machine types 2366 and 2367, while full regional MTM and chronology remain open.
+- T23 is the current historical anchor immediately before the T30 generation; IBM HMM evidence identifies machine types 2647 and 2648, while complete regional MTM and chronology remain open.
+- T30 is the historical anchor immediately before the T40 generation; IBM HMM evidence cleanly identifies machine types 2366 and 2367, while full regional MTM and chronology remain open.
 - T40 and T40p are separate canonical identities because IBM/Lenovo support material distinguishes a workstation-oriented sibling with FireGL/SXGA+ configurations.
 - T41/T41p, T42/T42p, T43/T43p, T60/T60p, and T61/T61p retain separate identities while combined HMMs leave some MTM splits unresolved.
 - ThinkPad T14 Gen 4 (Intel) is a distinct forward-generation record based on Lenovo PSREF; model availability, MTMs, and option sets vary by region.
