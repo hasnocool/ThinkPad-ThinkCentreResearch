@@ -19,6 +19,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Research the T450 generation anchor: T450 and T450s with authoritative Lenovo PSREF/service identity sources.
 - [x] Research the T460 generation anchor: T460, T460s, and T460p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
+- [x] Research the T14 Gen 4 Intel anchor using Lenovo PSREF; preserve region-specific MTM and chronology gaps rather than guessing.
 - [ ] Resolve T42/T42p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
 - [ ] Continue T Series backward from T30 into T23 and earlier IBM-era generations while preserving historical naming and ownership transitions.
 - [ ] Resolve T43/T43p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/support material provides combined pools.
