@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t430s
+title: ThinkPad T430s Product Specifications Reference
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T430s.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T430s
+notes:
+  - Lenovo withdrawn-product PSREF covering T430s configurations, platform specifications, and announcement-month tables.
+  - Publication/revision date is intentionally unset because the PDF aggregates multiple configuration-sheet revisions.

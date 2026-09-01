@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t440
+title: ThinkPad T440 Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware-maintenance-manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t440_hmm_en.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: 2020
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T440
+notes:
+  - Lenovo service manual explicitly identifies ThinkPad T440 machine types 20B6 and 20B7.

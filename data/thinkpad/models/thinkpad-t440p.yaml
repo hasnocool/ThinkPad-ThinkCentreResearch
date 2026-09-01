@@ -1,0 +1,176 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T440p
+slug: thinkpad-t440p
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20AN
+    - 20AW
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-psref-withdrawn-thinkpad-t440p
+
+release:
+  release_year: 2013
+  source_ids:
+    - lenovo-swsg-thinkpad-t440p
+    - lenovo-psref-withdrawn-thinkpad-t440p
+  notes:
+    - Lenovo documentation is copyrighted from 2013 and withdrawn PSREF records show later configuration announcement dates across 20AN/20AW; exact first product-wide announcement date remains an open research item.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch performance clamshell
+  dimensions_mm:
+    width: 335
+    depth: 229.1
+    height_min: 27.9
+    height_max: 29.95
+  starting_weight_kg: 2.14
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+platform:
+  chipset: Intel QM87
+  cpu_options:
+    - Intel Core i3-4000M
+    - Intel Core i3-4100M
+    - Intel Core i5-4200M
+    - Intel Core i5-4210M
+    - Intel Core i5-4300M
+    - Intel Core i5-4330M
+    - Intel Core i7-4600M
+    - Intel Core i7-4700MQ
+    - Intel Core i7-4710MQ
+    - Intel Core i7-4800MQ
+    - Intel Core i7-4810MQ
+    - Intel Core i7-4900MQ
+  gpu_options:
+    - Intel HD Graphics 4600
+    - NVIDIA GeForce GT 730M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+memory:
+  technology: DDR3L-1600
+  slots: 2
+  soldered: false
+  official_max_gb: 16
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - M.2 SATA
+  bays:
+    - 1x 2.5-inch SATA storage position
+    - Ultrabay optical/storage bay
+  slots:
+    - optional M.2 SSD configuration
+  notes:
+    - Lenovo platform and service documentation describe removable 2.5-inch storage and an Ultrabay device; available HDD, SSD, SSHD, optical, and M.2 configurations vary by model.
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+    - lenovo-swsg-thinkpad-t440p
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - ThinkPad 11b/g/n 2x2
+    - Intel Wireless-N 7260
+    - Intel Dual Band Wireless-N 7260
+    - Intel Dual Band Wireless-AC 7260
+  wwan:
+    - WWAN-upgradable configurations
+    - selected mobile broadband configurations
+  bluetooth:
+    - Bluetooth 4.0
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+ports:
+  - 2x USB 3.0
+  - 2x USB 2.0
+  - VGA
+  - Mini DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - media-card reader
+  - mechanical dock connector
+  - optional smart-card reader
+
+expansion:
+  - Ultrabay
+  - optional WWAN
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+
+power:
+  adapters:
+    - 65W AC adapter for dual-core integrated-graphics configurations
+    - 90W AC adapter for quad-core integrated-graphics or selected discrete-graphics configurations
+    - 135W AC adapter for selected quad-core/discrete-graphics configurations
+  batteries:
+    - removable 6-cell 56Wh battery
+    - removable 9-cell 99.9Wh battery
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 8 or Windows 8.1 Pro downgrade rights
+    - Windows 8 64-bit
+    - Windows 8 Pro 64-bit
+    - Windows 8.1 64-bit
+    - Windows 8.1 Pro 64-bit
+    - Windows 10 Pro 64-bit on later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+    - lenovo-psref-withdrawn-thinkpad-t440p
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - removable battery
+    - Ultrabay device
+    - WLAN card
+    - WWAN card
+  upgrade_notes:
+    - Lenovo documents two DDR3L SO-DIMM sockets and a 16GB maximum.
+    - The removable Ultrabay device provides substantially different serviceability from the thinner T440/T440s chassis.
+  limitations:
+    - CPU, graphics, adapter, storage, wireless, and display options vary by machine type, region, and selected model.
+  source_ids:
+    - lenovo-psref-thinkpad-t440p
+    - lenovo-swsg-thinkpad-t440p
+
+sources:
+  - lenovo-psref-thinkpad-t440p
+  - lenovo-psref-withdrawn-thinkpad-t440p
+  - lenovo-swsg-thinkpad-t440p
+conflicts: []
+notes:
+  - Lenovo PSREF distinguishes 20AN and 20AW configurations under the ThinkPad T440p product identity.
+last_verified: 2026-08-25

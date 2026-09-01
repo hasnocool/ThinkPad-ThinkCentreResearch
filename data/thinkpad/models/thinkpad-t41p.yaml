@@ -1,0 +1,111 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T41p
+slug: thinkpad-t41p
+family: t-series
+status: partial
+identity:
+  manufacturer: IBM
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+release:
+  release_year: 2003
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+  notes:
+    - IBM-era workstation sibling in the T41 generation; exact launch date and complete MTM mapping require a dedicated T41p PSREF/product sheet.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch clamshell workstation
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+platform:
+  chipset: Intel 855PM with ICH4-M southbridge
+  cpu_options:
+    - Intel Pentium M workstation configurations (exact T41p SKU mapping unresolved)
+  gpu_options:
+    - ATI Mobility FireGL T2 (reported for T41p; primary product-sheet confirmation pending)
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+memory:
+  technology: PC2700 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+storage:
+  interfaces:
+    - PATA/Ultra ATA-100 2.5-inch storage
+  bays:
+    - 1x primary 2.5-inch PATA bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+networking:
+  ethernet:
+    - integrated Gigabit Ethernet
+  wlan:
+    - Mini PCI wireless options
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+ports:
+  - VGA
+  - RJ-45 Ethernet
+  - modem
+  - audio
+  - USB 2.0
+  - PC Card
+  - infrared
+expansion:
+  - Ultrabay Slim
+  - PC Card slot
+  - Mini PCI wireless slot
+power:
+  adapters:
+    - IBM AC adapter, exact wattage configuration-dependent
+  batteries:
+    - removable main battery, configuration-dependent capacity
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - Platform is limited to 2 GB DDR memory and PATA storage.
+  limitations:
+    - This is a partial workstation record until a primary T41p PSREF/product sheet is located.
+    - Combined HMM evidence does not provide a clean T41/T41p machine-type split.
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+sources:
+  - ibm-thinkpad-t40-t42-hmm
+conflicts: []
+notes:
+  - Kept partial rather than researched because the current primary source corpus does not cleanly isolate all T41p-specific CPU/GPU/MTM variants.
+last_verified: 2026-08-30

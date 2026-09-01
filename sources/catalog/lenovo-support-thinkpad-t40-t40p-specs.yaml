@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-support-thinkpad-t40-t40p-specs
+title: Detailed specifications - ThinkPad T40, T40p
+publisher: Lenovo
+document_type: support_specification
+url: https://support.lenovo.com/ca/en/solutions/pd009514-detailed-specifications-thinkpad-t40-t40p
+archive_url: null
+document_id: PD009514
+publication_date: null
+revision_date: null
+accessed: 2026-08-30
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T40
+    - ThinkPad T40p
+notes:
+  - Lenovo support page documents PC2100 DDR memory, two SO-DIMM slots, 2 GB maximum, Pentium M 1.3/1.5/1.6 GHz options, Ultrabay Slim, PC Card, USB 2.0, S-Video, VGA, Ethernet, modem, and approximate 311 x 255 x 26.6 mm / 2.22 kg system dimensions for the T40/T40p family.
+  - The page mixes family-level and configuration-dependent details; canonical records preserve that scope explicitly.

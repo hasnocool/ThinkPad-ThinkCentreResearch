@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t420s
+title: ThinkPad T420s Product Specifications Reference
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: 2013-02
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T420s
+notes:
+  - Lenovo Western Europe withdrawn-product PSREF book containing T420s platform specifications and regional TopSeller configuration tables.
+  - T420s pages show configurations announced beginning February 22, 2011 and withdrawals effective December 2012.
+  - Publication date is intentionally unset because the compiled book contains multiple sheet dates; the represented pages carry February 2013 compilation/revision markings.
