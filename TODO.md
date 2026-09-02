@@ -1,6 +1,6 @@
 # Research TODO
 
-This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/` and remove or refine items as canonical records are completed.
+This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/` and remove or refine items as canonical models are completed.
 
 ## ThinkPad
 
@@ -40,7 +40,8 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkCentre
 
-- [ ] Expand M75q Tiny lineage across generations.
+- [x] Add current M-series Tiny anchors using official Lenovo PSREF: M75q Gen 5 (AMD) and M70q Gen 5 (Intel); preserve unresolved full regional MTM matrices and configuration-dependent I/O details.
+- [ ] Expand M75q Tiny lineage across intermediate generations.
 - [ ] Catalog contemporary Intel M-series Tiny systems alongside AMD equivalents.
 - [ ] Catalog M-series SFF and Tower variants as separate chassis identities where appropriate.
 - [ ] Catalog ThinkCentre Neo systems.
