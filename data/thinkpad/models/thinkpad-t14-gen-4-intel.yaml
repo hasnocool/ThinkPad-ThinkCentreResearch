@@ -1,0 +1,151 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T14 Gen 4 (Intel)
+slug: thinkpad-t14-gen-4-intel
+family: t-series
+generation: 13th Gen Intel Core / T14 Gen 4
+status: researched
+identity:
+  manufacturer: Lenovo
+  predecessor: ThinkPad T14 Gen 3 (Intel)
+  successor: ThinkPad T14 Gen 5 (Intel)
+  aliases:
+    - ThinkPad T14 Gen 4 Intel
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+release:
+  release_year: 2023
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+  notes:
+    - PSREF page is dated 2023; exact announcement date was not established from the consulted source.
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 317.7
+    depth: 226.9
+    height: 17.9
+  starting_weight_kg: 1.37
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - 13th Gen Intel Core i5-1335U
+    - 13th Gen Intel Core i5-1345U vPro
+    - 13th Gen Intel Core i5-1340P
+    - 13th Gen Intel Core i5-1350P vPro
+    - 13th Gen Intel Core i7-1355U
+    - 13th Gen Intel Core i7-1365U vPro
+    - 13th Gen Intel Core i7-1370P vPro
+  gpu_options:
+    - Intel Iris Xe Graphics (integrated; functions as UHD Graphics with single-channel memory)
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+memory:
+  technology: DDR5-5200
+  slots: 1 SO-DIMM plus soldered memory
+  soldered: true
+  official_max_gb: 32
+  notes:
+    - PSREF documents models with soldered memory and one DDR5 SO-DIMM slot; maximum depends on the soldered-memory configuration.
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+storage:
+  interfaces:
+    - PCIe 4.0 x4 NVMe
+  bays:
+    - 1x M.2 2280 SSD slot
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1200
+      panel: IPS anti-glare
+      brightness_nits: 300
+    - size_in: 14.0
+      resolution: 1920x1200
+      panel: low-power IPS anti-glare
+      brightness_nits: 400
+      gamut: 100% sRGB
+    - size_in: 14.0
+      resolution: 1920x1200
+      panel: IPS anti-glare touch
+      brightness_nits: 300
+    - size_in: 14.0
+      resolution: 2240x1400
+      panel: IPS anti-glare
+      brightness_nits: 300
+    - size_in: 14.0
+      resolution: 2880x1800
+      panel: OLED glossy
+      brightness_nits: 400
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+networking:
+  ethernet:
+    - 100/1000M RJ-45 Ethernet
+  wlan:
+    - Intel Wi-Fi 6E AX211, 2x2 802.11ax
+  wwan:
+    - optional 4G WWAN on supported configurations
+  bluetooth:
+    - Bluetooth 5.2/5.3 capability depends on WLAN adapter and OS
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+ports:
+  - 2x USB 3.2 Gen 1
+  - 2x Thunderbolt 4 / USB4 40Gbps with Power Delivery and DisplayPort
+  - HDMI 2.1
+  - RJ-45 Ethernet
+  - 3.5mm headphone/microphone combo jack
+  - optional smart-card reader
+  - optional nano-SIM slot on WWAN configurations
+expansion:
+  - side docking connector
+  - optional smart-card reader
+  - optional WWAN
+  - optional fingerprint reader
+  - optional NFC on selected configurations
+power:
+  adapters:
+    - 65W USB-C AC adapter
+  batteries:
+    - integrated 52.5Wh Li-Polymer battery
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Linux on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+serviceability:
+  replaceable_components:
+    - one DDR5 SO-DIMM module
+    - M.2 2280 SSD
+    - WWAN card on supported configurations
+    - internal battery
+  upgrade_notes:
+    - One memory module is soldered; one SO-DIMM slot is available.
+    - WWAN capability depends on antenna and regional configuration.
+  limitations:
+    - Maximum memory is configuration-dependent and limited by the soldered-memory population.
+    - Intel integrated graphics performance depends on dual-channel memory operation.
+    - PSREF does not enumerate every global machine type in the consulted page.
+  source_ids:
+    - lenovo-psref-thinkpad-t14-gen-4-intel
+sources:
+  - lenovo-psref-thinkpad-t14-gen-4-intel
+conflicts: []
+notes:
+  - This is a forward T-Series anchor after T490 and before T14 Gen 5.
+  - Machine-type and MTM coverage remains to be expanded from region-specific PSREF model tables.
+last_verified: 2026-09-01

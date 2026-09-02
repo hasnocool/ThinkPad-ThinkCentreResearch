@@ -1,0 +1,128 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T41
+slug: thinkpad-t41
+family: t-series
+status: researched
+identity:
+  manufacturer: IBM
+  aliases:
+    - ThinkPad T41i
+  machine_types:
+    - 2373
+  mtms: []
+  regions:
+    - North America (education subset documented)
+  source_ids:
+    - ibm-thinkpad-t41-specs
+    - ibm-thinkpad-t40-t42-hmm
+release:
+  release_year: 2003
+  source_ids:
+    - ibm-thinkpad-t41-specs
+  notes:
+    - The consulted IBM PSREF-style sheet is an education subset and does not establish a complete global release chronology.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch clamshell
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+platform:
+  chipset: Intel 855PM with ICH4-M southbridge
+  cpu_options:
+    - Intel Pentium M 1.4 GHz
+    - Intel Pentium M 1.5 GHz
+    - Intel Pentium M 1.6 GHz
+    - Intel Pentium M 1.7 GHz
+  gpu_options:
+    - ATI Mobility Radeon 7500
+    - ATI Mobility Radeon 9000 (configuration-dependent)
+  source_ids:
+    - ibm-thinkpad-t41-specs
+    - ibm-thinkpad-t40-t42-hmm
+memory:
+  technology: PC2700 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+storage:
+  interfaces:
+    - PATA/Ultra ATA-100 2.5-inch storage
+  bays:
+    - 1x primary 2.5-inch PATA bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - ibm-thinkpad-t41-specs
+networking:
+  ethernet:
+    - integrated Gigabit Ethernet
+  wlan:
+    - Mini PCI 802.11b/g options
+  modem:
+    - integrated modem on selected configurations
+  source_ids:
+    - ibm-thinkpad-t41-specs
+ports:
+  - VGA
+  - RJ-45 Ethernet
+  - modem
+  - audio
+  - USB 2.0
+  - PC Card
+  - infrared
+expansion:
+  - Ultrabay Slim
+  - PC Card slot
+  - Mini PCI wireless slot
+power:
+  adapters:
+    - 72W-class IBM AC adapter
+  batteries:
+    - removable main battery, configuration-dependent capacity
+  source_ids:
+    - ibm-thinkpad-t41-specs
+    - ibm-thinkpad-t40-t42-hmm
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids:
+    - ibm-thinkpad-t41-specs
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - Platform is limited to 2 GB DDR memory and PATA storage.
+  limitations:
+    - Exact T41/T41p machine-type split is not fully resolved from the combined service-family manual.
+    - Education PSREF evidence is not a complete global MTM catalog.
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+sources:
+  - ibm-thinkpad-t41-specs
+  - ibm-thinkpad-t40-t42-hmm
+conflicts: []
+notes:
+  - T41i is retained as an alias/configuration tier pending stronger primary evidence for a distinct canonical hardware identity.
+  - T41p remains a separate planned workstation record; this pass does not infer T41p specifications from T41 evidence.
+last_verified: 2026-08-30

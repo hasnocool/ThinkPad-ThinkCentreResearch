@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t60p-linux-workstation-2006
+title: Lenovo and Novell Unveil Linux-enabled ThinkPad Mobile Workstation Based on Intel Technology
+publisher: Lenovo
+document_type: press_release
+url: https://news.lenovo.com/pressroom/press-releases/lenovo-and-novell-unveil-linux-enabled-thinkpad-mobile-workstation-based-on-intel-technology/
+archive_url: null
+document_id: null
+publication_date: 2006-08-15
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T60p
+notes:
+  - Lenovo explicitly identifies the ThinkPad T60p as a mobile workstation and documents SUSE Linux Enterprise Desktop 10 support/certification work with Novell.
+  - The announcement describes Intel Centrino Duo technology and positions T60p for engineering and CAD workloads.

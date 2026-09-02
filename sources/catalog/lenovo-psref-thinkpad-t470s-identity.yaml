@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t470s-identity
+title: Lenovo PSREF ThinkPad T470s model index and TopSeller entries
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/i_pdf/psref519EMEA.pdf
+archive_url: null
+document_id: null
+publication_date: 2018
+revision_date: null
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T470s
+notes:
+  - Lenovo PSREF corpus indexes T470s machine types 20HG, 20JS, and 20JT; Lenovo TopSeller PSREF material separately documents 20HF.
+  - TopSeller configurations document T470s announcement activity beginning in February 2017.

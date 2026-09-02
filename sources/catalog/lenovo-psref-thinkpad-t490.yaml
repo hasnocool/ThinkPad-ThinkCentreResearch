@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t490
+title: ThinkPad T490 Platform Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T490/ThinkPad_T490_Spec.PDF
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T490
+notes:
+  - Lenovo Product Specifications Reference platform specification sheet; configurations vary by machine type, region, and processor generation.

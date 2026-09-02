@@ -1,0 +1,19 @@
+schema_version: 1
+record_type: source
+id: ibm-thinkpad-t23-hmm
+title: ThinkPad T20/T21/T22/T23 Hardware Maintenance Manual
+publisher: IBM
+document_type: hardware_maintenance_manual
+url: https://archive.org/details/ibm-service-manual-thinkpad-t20-t21-t22-t23.pdf
+archive_url: https://archive.org/details/ibm-service-manual-thinkpad-t20-t21-t22-t23.pdf
+document_id: IBM Mobile Systems ThinkPad Computer Hardware Maintenance Manual
+publication_date: 2002-04-01
+revision_date: null
+accessed: 2026-09-01
+official: true
+scope:
+  product_lines: [thinkpad]
+  models: [ThinkPad T23]
+notes:
+  - Archived IBM service and reference manual covering ThinkPad T23 machine types 2647 and 2648.
+  - Used for service identity, replaceable components, platform architecture, expansion, and battery/serviceability evidence.

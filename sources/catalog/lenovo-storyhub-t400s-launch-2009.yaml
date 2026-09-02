@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t400s-launch-2009
+title: Lenovo combines thin and light with powerful performance in latest ThinkPad laptop
+publisher: Lenovo
+document_type: press_release
+url: https://news.lenovo.com/pressroom/press-releases/lenovo-combines-thin-and-light-with-powerful-performance-in-latest-thinkpad-laptop/
+archive_url: null
+document_id: null
+publication_date: 2009-06-23
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T400s
+notes:
+  - Lenovo announced the ThinkPad T400s on June 23, 2009.
+  - The announcement describes a 14.1-inch LED display, sub-four-pound starting weight, thin chassis, SSD availability, and design changes relative to earlier T-series systems.

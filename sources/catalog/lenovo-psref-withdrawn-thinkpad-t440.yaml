@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-withdrawn-thinkpad-t440
+title: ThinkPad T440 Withdrawn Model Specifications
+publisher: Lenovo
+document_type: psref-withdrawn-book
+url: https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T440.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T440
+notes:
+  - Lenovo withdrawn-product PSREF records include configuration-level announcement month/year data beginning in September 2013.

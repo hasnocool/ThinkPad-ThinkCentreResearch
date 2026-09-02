@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+title: ThinkPad T410s / ThinkPad T410/T510
+publisher: Lenovo Japan
+document_type: product_brochure
+url: https://static.lenovo.com/jp/pamphlet/2010/ThinkPad-T410sT510T410-2010-03-25.pdf
+archive_url: null
+document_id: null
+publication_date: 2010-03-25
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T410
+    - ThinkPad T410s
+    - ThinkPad T510
+notes:
+  - Official Lenovo Japan brochure describing the T410/T410s generation and compatible batteries, docks, adapters, wireless features, and platform positioning.
+  - Region-specific configurations should not be generalized to all global MTMs without additional PSREF evidence.

@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-support-thinkpad-t430s-machine-types
+title: Synaptics Touchpad Driver Leaks Kernel Memory Pointers
+publisher: Lenovo
+document_type: support
+url: https://support.lenovo.com/ie/en/product_security/len-23156
+archive_url: null
+document_id: LEN-23156
+publication_date: 2019-01-24
+revision_date: null
+accessed: 2026-08-26
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T430s
+notes:
+  - Lenovo product-security applicability table explicitly maps ThinkPad T430s to machine types 2352, 2353, 2354, 2355, 2356, 2357, and 2358.
+  - Used only as an authoritative identity/machine-type mapping source, not for platform specifications.
