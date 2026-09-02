@@ -4,6 +4,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 
 ## ThinkPad
 
+- [x] Research the T20/T21/T22 historical generation anchors using IBM PSREF/HMM evidence; preserve unresolved chronology, regional MTM, and exact dimension/adapter gaps instead of guessing.
 - [x] Research the T23 generation anchor: ThinkPad T23 with IBM Hardware Maintenance Manual evidence; preserve unresolved chronology, regional MTM, and exact dimension/adapter gaps instead of guessing.
 - [x] Research the T30 generation anchor: ThinkPad T30 with IBM Hardware Maintenance Manual evidence; preserve unresolved chronology and regional MTM gaps instead of guessing.
 - [x] Research the T40 generation anchor: T40 and T40p with Lenovo/IBM specification and service sources; preserve unresolved global MTM mapping instead of guessing.
@@ -22,7 +23,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Research the T470 generation anchor: T470, T470s, and T470p with authoritative Lenovo PSREF identity/specification sources.
 - [x] Research the T14 Gen 4 Intel anchor using Lenovo PSREF; preserve region-specific MTM and chronology gaps rather than guessing.
 - [ ] Resolve T42/T42p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/spec sources provide shared or partial pools.
-- [ ] Continue T Series backward from T23 into T22/T21/T20 and earlier IBM-era generations while preserving historical naming and ownership transitions.
+- [ ] Continue T Series backward from T20 into T2x predecessors and earlier IBM-era generations while preserving historical naming and ownership transitions.
 - [ ] Resolve T43/T43p machine-type-to-canonical-model mapping from primary PSREF/product sheets; current HMM/support material provides combined pools.
 - [ ] Resolve T60/T60p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMM currently provides a combined service-family pool only.
 - [ ] Resolve T61/T61p machine-type-to-canonical-model mapping from primary PSREF/product sheets; the HMMs currently provide combined service-family pools only.
