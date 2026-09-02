@@ -1,0 +1,126 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T23
+slug: thinkpad-t23
+family: t-series
+generation: Pentium III-M / Intel 830MP T Series
+status: researched
+identity:
+  manufacturer: IBM
+  predecessor: ThinkPad T22
+  successor: ThinkPad T30
+  aliases: []
+  machine_types: [2647, 2648]
+  mtms: []
+  regions:
+    - North America
+    - International configurations documented in IBM service material
+  source_ids: [ibm-thinkpad-t23-hmm]
+release:
+  release_year: 2001
+  source_ids: [ibm-thinkpad-t23-hmm]
+  notes:
+    - Exact announcement and discontinuation dates were not established from the consulted primary source.
+form_factor:
+  class: laptop
+  chassis: 13.3-inch or 14.1-inch standard-aspect clamshell configurations
+  dimensions_mm: 304 x 250 x 33 (service-family approximation; verify against dedicated IBM PSREF)
+  starting_weight_kg: 2.3
+  source_ids: [ibm-thinkpad-t23-hmm]
+platform:
+  chipset: Intel 830MP / ICH3-M
+  cpu_options:
+    - Intel Mobile Pentium III-M 866 MHz
+    - Intel Mobile Pentium III-M 1.0 GHz
+    - Intel Mobile Pentium III-M 1.13 GHz
+    - Intel Mobile Pentium III-M 1.2 GHz
+  gpu_options:
+    - S3 SuperSavage/IXC16 AGP graphics
+  source_ids: [ibm-thinkpad-t23-hmm]
+memory:
+  technology: PC133 SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 1
+  source_ids: [ibm-thinkpad-t23-hmm]
+storage:
+  interfaces:
+    - 2.5-inch PATA / Ultra ATA-100
+  bays:
+    - 1x primary internal 2.5-inch bay
+    - 1x Ultrabay 2000 removable bay
+  source_ids: [ibm-thinkpad-t23-hmm]
+display:
+  options:
+    - size_in: 13.3
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids: [ibm-thinkpad-t23-hmm]
+networking:
+  ethernet:
+    - 10/100 Ethernet
+  wlan:
+    - Mini PCI 802.11b options on selected configurations
+  modem:
+    - V.90/V.92 modem on selected configurations
+  source_ids: [ibm-thinkpad-t23-hmm]
+ports:
+  - serial
+  - parallel
+  - VGA
+  - USB
+  - PS/2
+  - RJ-45 Ethernet
+  - RJ-11 modem
+  - S-Video out
+  - audio line-in/line-out/microphone
+  - infrared
+  - docking/port-replicator connector
+expansion:
+  - Ultrabay 2000
+  - Type II PC Card/CardBus slot
+  - Mini PCI slot
+  - docking station support
+power:
+  adapters:
+    - IBM 72 W-class AC adapter
+  batteries:
+    - removable lithium-ion main battery; exact capacity varies by pack
+    - optional Ultrabay battery/accessory configurations
+  source_ids: [ibm-thinkpad-t23-hmm]
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids: [ibm-thinkpad-t23-hmm]
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+    - keyboard
+    - display assembly
+  upgrade_notes:
+    - 1 GB PC133 maximum and PATA storage materially limit modern upgrades.
+    - Ultrabay 2000 supports optical and battery/accessory modules.
+  limitations:
+    - Complete regional MTM mapping beyond 2647 and 2648 was not established.
+    - Display size, wireless, modem, and battery options are configuration-dependent.
+    - Dimensions and adapter wattage should be rechecked against a dedicated IBM PSREF/specification sheet.
+  source_ids: [ibm-thinkpad-t23-hmm]
+sources: [ibm-thinkpad-t23-hmm]
+conflicts: []
+notes:
+  - Historical T-Series anchor between T22 and T30.
+  - Primary HMM evidence is supplemented only by reputable secondary summaries for chronology and variant context; uncertain fields remain explicitly marked.
+last_verified: 2026-09-01

@@ -1,0 +1,163 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T430
+slug: thinkpad-t430
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T430i
+  machine_types:
+    - 2342
+    - 2344
+    - 2345
+    - 2347
+    - 2349
+    - 2350
+    - 2351
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t430-machine-types
+
+release:
+  release_year: 2012
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+  notes:
+    - Lenovo PSREF TopSeller records show T430 configurations announced beginning in June 2012; exact product-wide announcement and discontinuation dates remain open.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 340.5
+    depth: 232
+    height_min: 29.8
+    height_max: 29.9
+  starting_weight_kg: 2.17
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+platform:
+  chipset: Mobile Intel QM77 Express Chipset
+  cpu_options:
+    - Intel Core i5-2520M
+    - Intel Core i5-3210M
+    - Intel Core i5-3230M
+    - Intel Core i5-3320M
+    - Intel Core i7-3520M
+  gpu_options:
+    - Intel HD Graphics 3000
+    - Intel HD Graphics 4000
+    - NVIDIA NVS 5400M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+memory:
+  technology: DDR3-1600
+  slots: 2
+  soldered: false
+  official_max_gb: 16
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+storage:
+  interfaces:
+    - SATA 6Gb/s SSD
+    - SATA 3Gb/s HDD
+  bays:
+    - 1x 2.5-inch primary storage bay
+    - 1x 12.7mm Ultrabay Enhanced supporting removable optical or second-storage devices
+  notes:
+    - The withdrawn PSREF sheets consulted list no mSATA SSD for the represented configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 200
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+networking:
+  ethernet:
+    - Intel 82579LM Gigabit Ethernet
+  wlan:
+    - Intel Centrino Wireless-N 2200 2x2
+    - Intel Centrino Advanced-N 6205 2x2
+  wwan:
+    - WWAN-upgradable configurations
+  bluetooth:
+    - Bluetooth 4.0 on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+ports:
+  - 2x USB 3.0
+  - 2x USB 2.0, one powered
+  - VGA
+  - Mini DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - ExpressCard/34
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+
+expansion:
+  - two PCI Express Mini Card slots
+  - optional WWAN
+  - optional fingerprint reader
+  - 12.7mm Ultrabay Enhanced
+
+power:
+  adapters:
+    - 65W AC adapter on selected integrated-graphics configurations
+    - 90W AC adapter on selected configurations
+  batteries:
+    - removable 6-cell 57Wh lithium-ion battery
+    - removable 9-cell 94Wh lithium-ion battery
+    - optional 9-cell 94Wh slice battery
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit
+    - Windows 8 Pro 64-bit on later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - Ultrabay device
+    - removable battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 16GB maximum.
+    - The Ultrabay can accept compatible second-storage devices in place of the optical drive.
+  limitations:
+    - CPU, GPU, display, wireless, storage, and adapter choices vary by machine type and regional configuration.
+    - T430i branding appears within the same machine-type family and is treated here as an alias/configuration tier pending evidence of a separate physical product identity.
+  source_ids:
+    - lenovo-psref-thinkpad-t430
+    - lenovo-support-thinkpad-t430-machine-types
+
+sources:
+  - lenovo-psref-thinkpad-t430
+  - lenovo-support-thinkpad-t430-machine-types
+conflicts: []
+notes:
+  - Lenovo support explicitly maps machine types 2342, 2344, 2345, 2347, 2349, 2350, and 2351 to ThinkPad T430/T430i.
+last_verified: 2026-08-26

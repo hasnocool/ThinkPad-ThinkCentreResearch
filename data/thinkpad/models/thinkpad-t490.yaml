@@ -1,0 +1,193 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T490
+slug: thinkpad-t490
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20N2
+    - 20N3
+    - 20RX
+    - 20RY
+    - 20Q9
+    - 20QH
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-user-guide-thinkpad-t490
+
+release:
+  announcement_date: 2019-03
+  release_year: 2019
+  source_ids:
+    - lenovo-psref-topseller-thinkpad-t490-20n2
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 329
+    depth: 227
+    height: 17.9
+  starting_weight_kg: 1.46
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-8265U
+    - Intel Core i5-8365U
+    - Intel Core i5-10210U
+    - Intel Core i7-8565U
+    - Intel Core i7-8665U
+    - Intel Core i7-10510U
+    - Intel Core i7-10710U
+  gpu_options:
+    - Intel UHD Graphics
+    - NVIDIA GeForce MX250 2GB GDDR5
+  notes:
+    - Lenovo documents both 8th- and 10th-generation Intel Core configurations; 10th-generation processors were not available in EMEA in the referenced PSREF.
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+memory:
+  technology: DDR4-2400
+  slots: 1
+  soldered: true
+  official_max_gb: 48
+  notes:
+    - 8GB or 16GB is soldered to the systemboard with one DDR4 SO-DIMM slot.
+    - Lenovo documents up to 40GB with 8GB soldered or 48GB with 16GB soldered.
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe 3.0 x4
+    - PCIe NVMe 3.0 x2
+  bays: []
+  slots:
+    - M.2 2280 SSD position
+    - M.2 2242 SSD position on supported configurations
+  notes:
+    - Intel Optane Memory H10 configurations were offered on supported models.
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare TN
+      brightness_nits: 220
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS
+      brightness_nits: 250
+      touch_optional: true
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: low-power anti-glare IPS
+      brightness_nits: 400
+      gamut: 72%
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: ThinkPad Privacy Guard anti-glare IPS
+      brightness_nits: 400
+      gamut: 72%
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: HDR Dolby Vision glossy IPS
+      brightness_nits: 500
+      gamut: 100% Adobe
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Intel Wireless-AC 9560, 2x2 802.11ac
+    - Intel Wi-Fi 6 AX201, 2x2 802.11ax on supported 10th-generation configurations
+  wwan:
+    - WWAN upgradable configuration
+    - Fibocom L830-EB 4G LTE, EMEA only
+    - Fibocom L850-GL 4G LTE-A
+    - Fibocom L860-GL 4G LTE-A MIMO 4x4
+  bluetooth:
+    - Bluetooth 5.x capability dependent on WLAN adapter and operating-system support
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+ports:
+  - 2x USB 3.1 Gen 1, one Always On
+  - USB-C 3.1 Gen 1 with Power Delivery and DisplayPort
+  - USB-C 3.1 Gen 2 / Thunderbolt 3 with Power Delivery and DisplayPort
+  - HDMI 1.4b
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - microSD card reader
+  - side docking connector
+  - nano-SIM slot on WWAN models
+  - optional smart-card reader
+
+expansion:
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 45W USB-C AC adapter
+    - 65W USB-C AC adapter
+    - 65W slim USB-C AC adapter
+  batteries:
+    - integrated Li-Polymer 50Wh battery
+  notes:
+    - Lenovo documents Rapid Charge to 80% in approximately one hour with a 65W adapter.
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+software:
+  operating_systems:
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+    - Windows 10 Pro in S mode
+    - Linux
+    - Ubuntu Linux
+    - no preloaded operating system on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+serviceability:
+  replaceable_components:
+    - one SO-DIMM memory module
+    - M.2 storage device
+    - WWAN card on supported configurations
+  upgrade_notes:
+    - One memory portion is soldered and one SO-DIMM socket remains available for expansion.
+    - WWAN support and antenna configuration vary by selected model.
+  limitations:
+    - Maximum memory depends on the soldered-memory configuration.
+    - 10th-generation Intel processor availability was region-limited in Lenovo's PSREF.
+  source_ids:
+    - lenovo-psref-thinkpad-t490
+
+sources:
+  - lenovo-psref-thinkpad-t490
+  - lenovo-user-guide-thinkpad-t490
+  - lenovo-psref-topseller-thinkpad-t490-20n2
+conflicts: []
+notes:
+  - PSREF configurations vary by region, machine type, and selected model.
+  - Machine types 20Q9 and 20QH include Secure Access / Healthcare Edition configurations; those variants may warrant a separate identity record if future research establishes materially distinct product-level scope rather than configuration-only differences.
+last_verified: 2026-08-23

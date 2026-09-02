@@ -1,0 +1,138 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T42
+slug: thinkpad-t42
+family: t-series
+status: researched
+identity:
+  manufacturer: IBM
+  aliases:
+    - ThinkPad T42i
+  machine_types:
+    - 2373
+    - 2374
+    - 2375
+    - 2376
+    - 2378
+    - 2379
+  mtms: []
+  regions: []
+  source_ids:
+    - ibm-thinkpad-t42-specs
+    - ibm-thinkpad-t40-t42-hmm
+release:
+  release_year: 2004
+  source_ids:
+    - ibm-thinkpad-t42-specs
+  notes:
+    - IBM-era T42 generation; exact product-wide announcement and discontinuation dates remain unresolved.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch or 15.0-inch clamshell
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+platform:
+  chipset: Intel 855PM with ICH4-M southbridge
+  cpu_options:
+    - Intel Pentium M 1.5 GHz
+    - Intel Pentium M 725
+    - Intel Pentium M 735
+    - Intel Pentium M 745
+    - Intel Pentium M 755
+    - Intel Pentium M 765
+  gpu_options:
+    - ATI Mobility Radeon 7500
+    - ATI Mobility Radeon 9600 with dedicated memory
+  source_ids:
+    - ibm-thinkpad-t42-specs
+    - ibm-thinkpad-t40-t42-hmm
+memory:
+  technology: PC2700 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - ibm-thinkpad-t42-specs
+storage:
+  interfaces:
+    - PATA/Ultra ATA-100 2.5-inch storage
+  bays:
+    - 1x primary 2.5-inch PATA bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - ibm-thinkpad-t42-specs
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+    - size_in: 15.0
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 15.0
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - ibm-thinkpad-t42-specs
+networking:
+  ethernet:
+    - integrated Gigabit Ethernet
+  wlan:
+    - Intel PRO/Wireless 2200BG options
+    - IEEE 802.11b/g Mini PCI options
+  source_ids:
+    - ibm-thinkpad-t42-specs
+ports:
+  - VGA
+  - RJ-45 Ethernet
+  - modem
+  - audio
+  - USB 2.0
+  - PC Card
+  - infrared
+expansion:
+  - Ultrabay Slim
+  - PC Card slot
+  - Mini PCI wireless slot
+power:
+  adapters:
+    - 65W-class IBM AC adapters, configuration-dependent
+  batteries:
+    - removable main battery, configuration-dependent capacity
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+software:
+  operating_systems:
+    - Windows 98 Second Edition
+    - Windows 2000
+    - Windows XP
+    - Linux distributions with hardware support
+  source_ids:
+    - ibm-thinkpad-t42-specs
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - Platform is limited to 2 GB DDR memory and PATA storage.
+  limitations:
+    - Exact T42/T42p machine-type split is not fully resolved from the combined service-family sources.
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+sources:
+  - ibm-thinkpad-t42-specs
+  - ibm-thinkpad-t40-t42-hmm
+conflicts: []
+notes:
+  - T42i is retained as an alias/configuration tier pending stronger primary evidence for a distinct canonical hardware identity.
+last_verified: 2026-08-30

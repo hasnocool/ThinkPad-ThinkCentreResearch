@@ -1,0 +1,157 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M75q Gen 2
+slug: thinkcentre-m75q-gen-2
+family: m-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+
+form_factor:
+  class: desktop
+  chassis: Tiny 1L
+  dimensions_mm:
+    width: 179
+    depth: 183
+    height: 34.5
+  starting_weight_kg: 1.25
+  notes:
+    - Lenovo lists chassis height as 34.5/37 mm with rubber feet depending on configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+platform:
+  chipset: AMD PRO 500
+  cpu_options:
+    - AMD Athlon Silver 3050GE
+    - AMD Athlon Silver PRO 3125GE
+    - AMD Athlon Gold PRO 3150GE
+    - AMD Ryzen 3 3200GE
+    - AMD Ryzen 3 4300GE
+    - AMD Ryzen 3 5300GE
+    - AMD Ryzen 3 PRO 4350GE
+    - AMD Ryzen 3 PRO 5350GE
+    - AMD Ryzen 5 4600GE
+    - AMD Ryzen 5 5600GE
+    - AMD Ryzen 5 PRO 3350GE
+    - AMD Ryzen 5 PRO 4650GE
+    - AMD Ryzen 5 PRO 5650GE
+    - AMD Ryzen 7 4700GE
+    - AMD Ryzen 7 5700GE
+    - AMD Ryzen 7 PRO 4750GE
+    - AMD Ryzen 7 PRO 5750GE
+  gpu_options:
+    - AMD Radeon Graphics
+    - AMD Radeon Vega 8 Graphics
+    - AMD Radeon Vega 11 Graphics
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+memory:
+  technology: DDR4-3200
+  slots: 2
+  soldered: false
+  official_max_gb: 64
+  notes:
+    - Installed DDR4-3200 memory may operate at 2666, 2933, or 3200 MT/s depending on processor support.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - 1x 2.5-inch disk bay
+  slots:
+    - 1x M.2 slot for SSD
+    - 1x M.2 slot for WLAN
+  supported_configuration:
+    - up to one 2.5-inch HDD plus one M.2 SSD
+  device_options:
+    - 2.5-inch SATA HDD up to 1TB in Lenovo documented offerings
+    - M.2 2242 PCIe 3.0 x2 NVMe SSD
+    - M.2 2280 PCIe 3.0 x4 NVMe Opal SSD up to 1TB in Lenovo documented offerings
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+networking:
+  ethernet:
+    - Realtek RTL8111HN Gigabit Ethernet with Wake-on-LAN
+    - Realtek RTL8111FP Gigabit Ethernet with DASH and Wake-on-LAN
+  wlan:
+    - Realtek RTL8822BE 802.11ac 1x1
+    - Realtek RTL8822CE 802.11ac 2x2
+    - Intel Wireless-AC 9260 802.11ac 2x2
+    - Realtek RTL8852AE Wi-Fi 6 802.11ax 2x2
+    - Intel Wi-Fi 6 AX200 802.11ax 2x2
+  bluetooth:
+    - Bluetooth 4.2
+    - Bluetooth 5.0
+    - Bluetooth 5.1
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+ports:
+  - front USB 3.2 Gen 2, Always On and fast charge
+  - front USB-C 3.2 Gen 1
+  - front 3.5mm headphone/microphone combo jack
+  - rear HDMI
+  - rear DisplayPort
+  - 2x rear USB 2.0
+  - 2x rear USB 3.2 Gen 1
+  - rear RJ-45 Ethernet
+  - optional rear VGA, DisplayPort, HDMI, serial, USB-C, dual DisplayPort, parallel, or additional USB configurations
+
+expansion:
+  - optional VESA mounting bracket, 75 mm and 100 mm
+  - optional vertical stand
+  - optional toolless chassis and drive/memory service configuration
+
+power:
+  adapters:
+    - 65W adapter, 89% efficiency, autosensing
+    - 90W adapter, 89% efficiency, autosensing
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Windows 11 Home Single Language
+    - Windows 11 downgrade to Windows 10 Pro 64-bit
+    - Windows 10 Pro 64-bit
+    - Windows 10 Home 64-bit
+    - Windows 10 Home 64-bit Single Language
+    - Windows 10 IoT Enterprise
+    - IGEL Linux
+    - Ubuntu Linux
+    - No operating system
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - M.2 SSD
+    - 2.5-inch storage drive
+    - WLAN card
+  upgrade_notes:
+    - Lenovo documents an optional toolless configuration for chassis opening and M.2 SSD, HDD, and memory assembly/removal.
+  limitations: []
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-2
+
+sources:
+  - lenovo-psref-thinkcentre-m75q-gen-2
+conflicts: []
+notes:
+  - Processor, wireless, port, operating-system, and accessory options vary by selected model and region.
+last_verified: 2026-08-23

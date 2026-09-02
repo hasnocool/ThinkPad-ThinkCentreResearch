@@ -1,0 +1,155 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T60
+slug: thinkpad-t60
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+    - lenovo-storyhub-t60-series-2006
+  notes:
+    - Lenovo's principal HMM groups T60 and T60p machine types together; per-model machine-type assignment remains unresolved pending corroborating primary product/PSREF evidence.
+
+release:
+  release_year: 2006
+  announcement_date: 2006-01-05
+  source_ids:
+    - lenovo-storyhub-t60-series-2006
+
+form_factor:
+  class: laptop
+  chassis: 14.1-inch and 15.0-inch standard-aspect clamshell; later 15.4-inch widescreen variants also existed in the T60 generation
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - Chassis-specific dimensions and weights remain to be normalized from primary product sheets.
+
+platform:
+  chipset: Intel 945 mobile-platform family, configuration-dependent
+  cpu_options:
+    - Intel Core Solo T1300/T1400
+    - Intel Core Duo T2300/T2300E/T2400/T2500/T2600/T2700
+    - Intel Core 2 Duo T5500/T5600/T7200/T7400/T7600
+  gpu_options:
+    - Intel Graphics Media Accelerator 950
+    - ATI Mobility Radeon X1300
+    - ATI Mobility Radeon X1400
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - The shared HMM also lists ATI FireGL graphics used by workstation configurations; those are represented on T60p rather than asserted for ordinary T60 configurations.
+
+memory:
+  technology: DDR2-667 PC2-5300 SO-DIMM; selected DDR2-533 modules supported
+  slots: 2
+  soldered: false
+  official_max_gb: 4
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - Lenovo states 4 GB is physically installable but only about 3 GB is usable under the documented 32-bit PC architecture.
+
+storage:
+  interfaces:
+    - 2.5-inch SATA hard disk drive
+  bays:
+    - 1x primary 2.5-inch SATA storage bay
+    - 1x Ultrabay Slim removable-device bay
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: XGA TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: SXGA+ TFT
+    - size_in: 15.0
+      resolution: 1024x768
+      panel: XGA TFT
+    - size_in: 15.0
+      resolution: 1400x1050
+      panel: SXGA+ IPS TFT on supported configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - The shared service family also includes 1600x1200 IPS panels associated with high-end configurations; exact T60/T60p MTM mapping remains open.
+
+networking:
+  ethernet:
+    - wired Ethernet, configuration-dependent controller
+  wlan:
+    - PCI Express Mini Card wireless LAN options
+  wwan:
+    - integrated WWAN on selected regional/configuration variants
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+    - lenovo-storyhub-t60-series-2006
+
+ports:
+  - USB 2.0
+  - VGA
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - audio jacks
+  - docking connector
+  - PC Card/ExpressCard expansion depending configuration
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - docking/port-replicator support
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - 20 V Lenovo barrel-jack AC adapters, configuration-dependent
+  batteries:
+    - removable lithium-ion battery pack
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+software:
+  operating_systems:
+    - Windows XP editions on original configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - removable CPU
+    - primary SATA storage device
+    - Ultrabay Slim device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - Lenovo service documentation exposes CPU, DIMMs, storage, Ultrabay device, wireless cards, battery, keyboard, palm rest, and display as separately replaceable assemblies.
+  limitations:
+    - Per-model machine-type mapping remains unresolved because the principal Lenovo HMM combines T60 and T60p identities.
+    - Display, graphics, wireless, battery, and adapter combinations vary substantially by MTM and region.
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+sources:
+  - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  - lenovo-storyhub-t60-series-2006
+conflicts: []
+notes:
+  - Lenovo's January 2006 announcement establishes T60 Series as the T-Series generation preceding T61.
+last_verified: 2026-08-28

@@ -1,0 +1,148 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T430u
+slug: thinkpad-t430u
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 3351
+    - 3352
+    - 3353
+    - 6273
+    - 8614
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t430u-machine-types
+
+release:
+  release_year: 2012
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+  notes:
+    - Lenovo PSREF TopSeller records show T430u configurations announced beginning in August 2012; exact product-wide announcement and discontinuation dates remain open.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch ultrabook clamshell
+  dimensions_mm:
+    width: 340
+    depth: 236
+    height: 21
+  starting_weight_kg: 1.85
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+platform:
+  chipset: Mobile Intel UM77 Express Chipset
+  cpu_options:
+    - Intel Core i5-3317U
+    - Intel Core i5-3337U
+    - Intel Core i5-3427U
+    - Intel Core i7-3517U
+    - Intel Core i7-3537U
+  gpu_options:
+    - Intel HD Graphics 4000
+    - NVIDIA GeForce GT 620M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+memory:
+  technology: DDR3-1600
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  observed_max_gb: 16
+  notes:
+    - Lenovo documents an 8GB standard maximum and up to 16GB for certain special-configuration models.
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+storage:
+  interfaces:
+    - SATA 6Gb/s SSD
+    - SATA 3Gb/s HDD
+    - mSATA via PCI Express Mini Card slot
+  bays:
+    - 1x 2.5-inch primary storage bay
+  slots:
+    - mSATA SSD supported on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 200
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+networking:
+  ethernet:
+    - Realtek RTL8111F Gigabit Ethernet
+  wlan:
+    - ThinkPad 11a/b/g/n 2x2
+  wwan:
+    - WWAN or mSATA options vary by machine type/configuration
+  bluetooth:
+    - Bluetooth 4.0
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+ports:
+  - 2x USB 3.0
+  - Mini DisplayPort
+  - HDMI
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+
+expansion:
+  - two PCI Express Mini Card slots
+  - optional mSATA SSD
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - 65W AC adapter
+  batteries:
+    - integrated 3-cell 47Wh lithium-polymer battery
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit
+    - Windows 8 Pro 64-bit on later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - WLAN/WWAN or mSATA Mini Card devices
+  upgrade_notes:
+    - Lenovo documents up to 16GB memory only for certain special configurations; 8GB is the normal documented maximum.
+    - Selected configurations support mSATA storage through a PCIe Mini Card slot.
+  limitations:
+    - Integrated battery is not externally removable in normal use.
+    - Discrete GT 620M, WWAN, mSATA, fingerprint, storage, and processor options vary by machine type and region.
+  source_ids:
+    - lenovo-psref-thinkpad-t430u
+    - lenovo-support-thinkpad-t430u-machine-types
+
+sources:
+  - lenovo-psref-thinkpad-t430u
+  - lenovo-support-thinkpad-t430u-machine-types
+conflicts: []
+notes:
+  - Lenovo support explicitly maps machine types 3351, 3352, 3353, 6273, and 8614 to ThinkPad T430u.
+last_verified: 2026-08-26

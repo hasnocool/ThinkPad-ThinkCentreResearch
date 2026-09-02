@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-user-guide-thinkpad-t480s
+title: T480s User Guide
+publisher: Lenovo
+document_type: user-guide
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t480s_ug_en.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T480s
+notes:
+  - Official Lenovo user guide identifies ThinkPad T480s machine types 20L7 and 20L8.

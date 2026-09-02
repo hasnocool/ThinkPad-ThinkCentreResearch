@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t480
+title: ThinkPad T480 Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware-maintenance-manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t480_hmm_en.pdf
+archive_url: null
+document_id: null
+publication_date: 2018
+revision_date: null
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T480
+notes:
+  - Identifies ThinkPad T480 machine types 20L5 and 20L6.

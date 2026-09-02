@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-user-guide-thinkpad-t490
+title: T490, T590, P43s, and P53s User Guide
+publisher: Lenovo
+document_type: user-guide
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t490_t590_p43s_p53s_ug_v2_en.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T490
+notes:
+  - Official Lenovo guide identifies T490 machine types 20N2, 20N3, 20RX, 20RY, 20Q9, and 20QH in model-specific diagrams.
