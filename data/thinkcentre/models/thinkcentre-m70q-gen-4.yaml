@@ -1,0 +1,138 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M70q Gen 4
+slug: thinkcentre-m70q-gen-4
+family: m-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkCentre M70q Gen 4 Tiny
+  machine_types:
+    - 12E3
+    - 12E4
+    - 12E5
+    - 12E6
+  mtms: []
+  regions:
+    - Multiple regional MTM configurations documented by Lenovo PSREF and Support
+
+form_factor:
+  class: desktop
+  chassis: Tiny 1L
+  dimensions_mm:
+    width: 179
+    depth: 183
+    height: 36.5
+  starting_weight_kg: null
+  notes:
+    - Exact weight is configuration-dependent and is not asserted here.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+platform:
+  chipset: Intel Q670 chipset
+  cpu_options:
+    - Intel Core i3-13100T
+    - Intel Core i5-13400T
+    - Intel Core i5-13500T
+    - Intel Core i5-13600T
+    - Intel Core i7-13700T
+  gpu_options:
+    - Integrated Intel UHD Graphics 730
+    - Integrated Intel UHD Graphics 770
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+memory:
+  technology: DDR4-3200
+  slots: 2
+  soldered: false
+  official_max_gb: 64
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+storage:
+  interfaces:
+    - PCIe 4.0 NVMe
+    - SATA 6Gb/s
+  bays:
+    - 1x 2.5-inch 7mm drive bay, configuration-dependent
+  slots:
+    - 1x M.2 2280 PCIe Gen4 SSD slot
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - One M.2 SSD with optional 2.5-inch SATA drive in supported configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+networking:
+  ethernet:
+    - Intel I219-LM Gigabit Ethernet
+    - Optional 2.5GbE module on selected configurations
+  wlan:
+    - Intel Wi-Fi 6 AX201
+    - Intel Wi-Fi 6E AX211
+  bluetooth:
+    - Bluetooth 5.2 or 5.3, module-dependent
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+ports:
+  - front USB-C 3.2 Gen 1
+  - front USB-A 3.2 Gen 2
+  - front USB-A 3.2 Gen 2 Always On / fast charge
+  - front 3.5mm headphone/microphone combo jack
+  - rear USB-A ports including USB 2.0 Smart Power On and USB 3.2 variants
+  - rear HDMI 2.1 TMDS
+  - rear DisplayPort 1.4a
+  - rear RJ-45 Ethernet
+  - optional configurable rear I/O modules
+
+expansion:
+  - optional VESA mounting support
+  - optional vertical stand
+  - optional serial/VGA/USB-C or additional I/O modules depending on MTM
+  - no conventional PCIe add-in slot in the Tiny chassis
+
+power:
+  adapters:
+    - External 65W adapter
+    - External 90W adapter, configuration-dependent
+    - External 135W adapter, configuration-dependent
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Ubuntu Linux
+    - No operating system
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+serviceability:
+  replaceable_components:
+    - SODIMM memory modules
+    - M.2 SSD
+    - optional 2.5-inch storage drive
+    - WLAN card
+    - configurable I/O modules
+  upgrade_notes:
+    - Lenovo documents service access for memory, storage, WLAN, cooling, and processor/system-board assemblies.
+  limitations:
+    - CPU and integrated graphics are soldered to the system board.
+    - Port modules, WLAN, storage, and adapter wattage vary by MTM and region.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-4
+
+sources:
+  - lenovo-psref-thinkcentre-m70q-gen-4
+conflicts: []
+notes:
+  - Lenovo Support lists 12E3/12E4/12E5/12E6 as M70q Gen 4 machine types; the complete MTM matrix is intentionally left for a future mapping pass.
+  - Lenovo Linux certification evidence documents DDR4-3200, M.2 PCIe Gen4, optional 2.5-inch SATA, Intel Q670, AX201/AX211, I219-LM, and the 2023 processor family.
+last_verified: 2026-09-02

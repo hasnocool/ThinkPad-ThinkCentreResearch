@@ -1,0 +1,13 @@
+schema_version: 1
+record_type: source
+source_id: ibm-thinkpad-t20-t21-t22-psref
+publisher: IBM
+title: IBM ThinkPad T20/T21/T22 Personal Systems Reference (withdrawn)
+document_type: PSREF / product specifications
+publication_date: 2002-04
+url: https://manualzilla.com/doc/7028089/ibm-a-series-user-manual
+accessed: 2026-09-02
+authority: primary-archival
+notes:
+  - Archived reproduction of IBM Personal Systems Reference tables for T20/T21/T22 configurations.
+  - Used for CPU, memory, display, storage, operating-system, and availability details.

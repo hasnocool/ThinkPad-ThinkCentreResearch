@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t60-t60p-15w-2007
+title: ThinkPad T60 and T60p (15.4-inch widescreen) Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://thinkpads.com/support/hmm/hmm_pdf/42t8137_02.pdf
+archive_url: null
+document_id: 42T8137_02
+publication_date: 2007-10
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T60
+    - ThinkPad T60p
+notes:
+  - Lenovo-issued Hardware Maintenance Manual accessed through a surviving archival mirror.
+  - Third Edition, October 2007; explicitly covers 15.4-inch widescreen T60/T60p machine types 6369, 6370, 6371, 6372, 8741, 8742, 8743, and 8744 as a combined service family.
+  - The combined service-family scope is preserved without guessing which listed machine types belong to T60 versus T60p.

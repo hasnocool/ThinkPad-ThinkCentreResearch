@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-user-guide-thinkpad-t440s
+title: ThinkPad T440s User Guide
+publisher: Lenovo
+document_type: user-guide
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t440s_ug_en.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T440s
+notes:
+  - Lenovo certification information explicitly maps machine types 20AQ and 20AR to ThinkPad T440s.

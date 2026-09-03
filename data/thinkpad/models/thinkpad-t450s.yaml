@@ -1,0 +1,168 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T450s
+slug: thinkpad-t450s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20BW
+    - 20BX
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t450s
+
+release:
+  release_year: 2015
+  source_ids:
+    - lenovo-hmm-thinkpad-t450s
+  notes:
+    - Official Lenovo documentation establishes the platform in 2015; exact announcement and discontinuation dates remain open research items.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch slim clamshell
+  dimensions_mm:
+    width: 331
+    depth: 226
+    height: 20.65
+  starting_weight_kg: 1.48
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-5200U
+    - Intel Core i5-5300U
+    - Intel Core i7-5600U
+  gpu_options:
+    - Intel HD Graphics 5500
+    - NVIDIA GeForce 940M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+  notes:
+    - Lenovo PSREF limits the GeForce 940M discrete option to Western Europe configurations.
+
+memory:
+  technology: DDR3L-1600
+  slots: 1
+  soldered: true
+  official_max_gb: 12
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+  notes:
+    - 4GB is soldered to the system board and one 204-pin SO-DIMM socket is provided.
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - M.2 SATA
+  bays:
+    - 1x 2.5-inch SATA storage position
+  slots:
+    - single-sided M.2 SSD option
+  notes:
+    - Lenovo documents 2.5-inch HDD, SSD, and SSHD configurations plus an optional single-sided M.2 SSD.
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 300
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: capacitive multi-touch IPS LED
+      touch_optional: true
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I218-V
+    - Intel Ethernet Connection I218-LM
+  wlan:
+    - ThinkPad 11b/g/n 2x2
+    - Intel Wireless-N 7265 2x2
+    - Intel Dual Band Wireless-N 7265 2x2
+    - Intel Dual Band Wireless-AC 7265 2x2
+  wwan:
+    - Ericsson N5321 HSPA+
+    - Sierra Wireless EM7345 LTE
+    - WWAN-upgradable configurations
+  bluetooth:
+    - Bluetooth 4.0
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+ports:
+  - 3x USB 3.0, one Always On
+  - VGA
+  - Mini DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector on supported integrated-graphics configurations
+  - optional smart-card reader
+
+expansion:
+  - optional WWAN
+  - optional fingerprint reader
+  - optional smart-card reader
+
+power:
+  adapters:
+    - 45W AC adapter
+    - 65W slim AC adapter
+    - 65W AC adapter
+  batteries:
+    - optional integrated 3-cell 23Wh battery
+    - removable 3-cell 23Wh battery
+    - removable 6-cell 48Wh battery
+    - removable 6-cell 72Wh battery
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 8.1 Pro or Windows 10 Pro downgrade rights
+    - Windows 8.1 64-bit
+    - Windows 8.1 Pro 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+
+serviceability:
+  replaceable_components:
+    - SO-DIMM memory module
+    - primary 2.5-inch storage device
+    - removable rear battery
+  upgrade_notes:
+    - Memory combines 4GB soldered RAM with one SO-DIMM socket for Lenovo's documented 12GB maximum.
+    - Supported configurations can combine an optional internal 23Wh battery with a removable rear battery.
+  limitations:
+    - Discrete graphics availability is region-specific.
+    - Wireless, storage, display, and battery options vary by region and selected model.
+  source_ids:
+    - lenovo-psref-thinkpad-t450s
+    - lenovo-hmm-thinkpad-t450s
+
+sources:
+  - lenovo-psref-thinkpad-t450s
+  - lenovo-hmm-thinkpad-t450s
+conflicts: []
+notes:
+  - Machine types 20BW and 20BX are directly stated in Lenovo's Hardware Maintenance Manual.
+last_verified: 2026-08-25

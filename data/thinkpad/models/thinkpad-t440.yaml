@@ -1,0 +1,173 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T440
+slug: thinkpad-t440
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20B6
+    - 20B7
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t440
+
+release:
+  release_year: 2013
+  source_ids:
+    - lenovo-psref-withdrawn-thinkpad-t440
+  notes:
+    - Lenovo PSREF TopSeller records show T440 configurations announced beginning in September 2013; exact product-wide announcement and discontinuation dates remain open research items.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 339
+    depth: 232.5
+    height: 21
+  starting_weight_kg: 1.69
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i3-4010U
+    - Intel Core i3-4030U
+    - Intel Core i5-4200U
+    - Intel Core i5-4210U
+    - Intel Core i5-4300U
+    - Intel Core i7-4500U
+    - Intel Core i7-4600U
+  gpu_options:
+    - Intel HD Graphics 4400
+    - NVIDIA GeForce GT 720M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+memory:
+  technology: DDR3L-1600
+  slots: 1
+  soldered: variable
+  official_max_gb: 12
+  notes:
+    - Lenovo documents one 204-pin SO-DIMM socket; selected models also include 4GB soldered memory. Other configurations without soldered memory are documented with an 8GB maximum.
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - M.2 SATA
+  bays:
+    - 1x 2.5-inch SATA storage position
+  slots:
+    - single-sided M.2 SSD option, mutually exclusive with smart-card reader
+    - double-sided M.2 SSD option, mutually exclusive with WWAN
+  notes:
+    - Lenovo documents 2.5-inch HDD, SSD, and SSHD configurations plus optional M.2 SSD configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 200
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+    - size_in: 14.0
+      touch_optional: true
+      panel: capacitive multi-touch
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I218-V
+    - Intel Ethernet Connection I218-LM
+  wlan:
+    - ThinkPad 11b/g/n 2x2
+    - Intel Wireless-N 7260 2x2
+    - Intel Dual Band Wireless-N 7260 2x2
+    - Intel Dual Band Wireless-AC 7260 2x2
+  wwan:
+    - Sierra Wireless EM7355 LTE
+    - Ericsson N5321 HSPA+
+    - Sierra Wireless EM7345 LTE
+    - WWAN-upgradable configurations
+  bluetooth:
+    - Bluetooth 4.0
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+ports:
+  - 2x USB 3.0, one Always On
+  - VGA
+  - Mini DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector on integrated-graphics models
+  - optional smart-card reader
+
+expansion:
+  - optional WWAN
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+
+power:
+  adapters:
+    - 45W AC adapter for integrated-graphics models
+    - 65W AC adapter for Optimus models
+  batteries:
+    - optional integrated 3-cell 23.5Wh battery
+    - removable 3-cell 23.5Wh battery
+    - removable 6-cell 47.5Wh battery
+    - removable 6-cell 72Wh battery
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 8 or Windows 8.1 Pro downgrade rights
+    - Windows 8 64-bit
+    - Windows 8 Pro 64-bit
+    - Windows 8.1 64-bit
+    - Windows 8.1 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+serviceability:
+  replaceable_components:
+    - SO-DIMM memory module
+    - primary 2.5-inch storage device
+    - removable rear battery
+  upgrade_notes:
+    - Selected configurations combine 4GB soldered memory with one SO-DIMM for Lenovo's documented 12GB maximum.
+    - Supported configurations can combine an optional internal 23.5Wh battery with a removable rear battery.
+  limitations:
+    - Soldered-memory presence varies by configuration.
+    - M.2 storage, WWAN, and smart-card options have documented mutual-exclusion constraints.
+    - Wireless, graphics, display, battery, and storage options vary by region and selected model.
+  source_ids:
+    - lenovo-psref-thinkpad-t440
+
+sources:
+  - lenovo-psref-thinkpad-t440
+  - lenovo-hmm-thinkpad-t440
+  - lenovo-psref-withdrawn-thinkpad-t440
+conflicts: []
+notes:
+  - Lenovo service documentation identifies machine types 20B6 and 20B7 as ThinkPad T440.
+last_verified: 2026-08-25

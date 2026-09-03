@@ -1,0 +1,127 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M70q Gen 5
+slug: thinkcentre-m70q-gen-5
+family: m-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 12TD
+    - 12TN
+    - 12TQ
+  mtms: []
+  regions:
+    - Multiple regional MTM configurations documented by Lenovo PSREF
+
+form_factor:
+  class: desktop
+  chassis: Tiny 1L
+  dimensions_mm:
+    width: 179
+    depth: 183
+    height: 36.5
+  starting_weight_kg: null
+  notes:
+    - Exact weight varies by configuration and is not recorded from the cited PSREF excerpt.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+platform:
+  chipset: Intel Q670 Chipset
+  cpu_options:
+    - Intel Core i3-14100T
+    - Intel Core i5-14400T
+    - Intel Core i7-14700T
+  gpu_options:
+    - Integrated Intel UHD Graphics 730
+    - Integrated Intel UHD Graphics 770
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+memory:
+  technology: DDR5-4800
+  slots: 2
+  soldered: false
+  official_max_gb: 64
+  notes:
+    - Two DDR5 SODIMM slots, dual-channel capable; supported speed depends on processor and configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+storage:
+  interfaces:
+    - PCIe 4.0 NVMe
+    - SATA 6Gb/s
+  bays:
+    - 1x 2.5-inch drive bay, configuration dependent
+  slots:
+    - 1x M.2 2280 PCIe 4.0 x4 SSD slot
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - One M.2 SSD, with optional 2.5-inch SATA drive in supported configurations
+  device_options: []
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan: []
+  bluetooth: []
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+ports:
+  - front USB-A
+  - front USB-C
+  - front 3.5mm audio combo jack
+  - rear USB ports
+  - rear HDMI and DisplayPort video outputs
+  - rear RJ-45 Ethernet
+  - optional configurable rear I/O module depending on MTM
+
+expansion:
+  - optional VESA mounting support
+  - optional vertical stand
+  - no conventional PCIe add-in slot in the Tiny chassis
+
+power:
+  adapters:
+    - 65W adapter
+    - 135W adapter, configuration dependent
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Ubuntu Linux
+    - No operating system
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+serviceability:
+  replaceable_components:
+    - SODIMM memory modules
+    - M.2 SSD
+    - optional 2.5-inch storage drive
+    - WLAN card
+  upgrade_notes:
+    - Lenovo documents tool-less/service access for memory and storage assemblies.
+  limitations:
+    - CPU and integrated graphics are soldered to the system board.
+    - Port modules, power adapter, WLAN, and storage options vary by MTM and region.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-5
+
+sources:
+  - lenovo-psref-thinkcentre-m70q-gen-5
+conflicts: []
+notes:
+  - Lenovo PSREF product and model pages expose a broad regional MTM matrix; this record captures the verified family-level machine-type identifiers and leaves the full MTM list for a later dedicated mapping pass.
+last_verified: 2026-09-02

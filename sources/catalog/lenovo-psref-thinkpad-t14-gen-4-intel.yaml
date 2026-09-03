@@ -1,0 +1,12 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t14-gen-4-intel
+title: Lenovo PSREF ThinkPad T14 Gen 4 (Intel)
+publisher: Lenovo
+source_type: psref
+url: https://psref.lenovo.com/Product/ThinkPad/ThinkPad_T14_Gen_4_Intel
+document_date: 2023
+accessed: 2026-09-01
+notes:
+  - Official Lenovo PSREF product page covering model configurations, processors, graphics, memory, storage, display, connectivity, ports, battery, dimensions, weight, and operating-system options.
+  - Region and configuration availability varies by machine type/model.

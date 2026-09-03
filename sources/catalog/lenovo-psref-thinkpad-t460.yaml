@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t460
+title: ThinkPad T460 Platform Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T460/ThinkPad_T460_Spec.PDF
+archive_url: null
+document_id: null
+publication_date: 2016-11
+revision_date: 2016-11
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T460
+notes:
+  - Lenovo Product Specifications Reference platform specification sheet.

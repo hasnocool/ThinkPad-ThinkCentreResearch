@@ -1,0 +1,132 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M75s Gen 2
+slug: thinkcentre-m75s-gen-2
+family: m-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkCentre M75s Gen 2 Small Form Factor
+  machine_types:
+    - 11JA
+  mtms: []
+  regions:
+    - Regional MTM coverage is configuration-dependent; complete matrix not asserted
+
+form_factor:
+  class: desktop
+  chassis: Small Form Factor (SFF)
+  dimensions_mm:
+    width: 92.5
+    depth: 297.7
+    height: 339.5
+  starting_weight_kg: null
+  notes:
+    - Exact weight varies by configuration and is not asserted here.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+platform:
+  chipset: AMD B550 chipset
+  cpu_options:
+    - AMD Ryzen 3 4300G
+    - AMD Ryzen 3 PRO 4350G
+    - AMD Ryzen 5 4600G
+    - AMD Ryzen 5 PRO 4650G
+    - AMD Ryzen 7 4700G
+    - AMD Ryzen 7 PRO 4750G
+  gpu_options:
+    - Integrated AMD Radeon Graphics
+    - Optional discrete AMD Radeon graphics, configuration-dependent
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+memory:
+  technology: DDR4-3200 UDIMM
+  slots: 4
+  soldered: false
+  official_max_gb: 128
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+storage:
+  interfaces:
+    - PCIe 3.0 NVMe
+    - SATA 6Gb/s
+  bays:
+    - 1x 3.5-inch internal bay, configuration-dependent
+    - 1x 2.5-inch internal bay, configuration-dependent
+    - Optional slim ODD bay
+  slots:
+    - M.2 PCIe NVMe SSD slot
+    - M.2 WLAN slot
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+networking:
+  ethernet:
+    - Integrated Gigabit Ethernet
+  wlan:
+    - Optional 802.11ac/ax WLAN modules, configuration-dependent
+  bluetooth:
+    - Optional Bluetooth, module-dependent
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+ports:
+  - front USB-A ports
+  - front USB-C port, configuration-dependent
+  - front 3.5mm audio
+  - rear USB-A ports
+  - rear DisplayPort and HDMI/video outputs, configuration-dependent
+  - rear RJ-45 Ethernet
+  - serial and optional legacy I/O on selected configurations
+
+expansion:
+  - one PCIe x16 slot
+  - one PCIe x1 slot
+  - optional discrete graphics card
+  - optional serial/VGA/parallel or additional I/O modules by MTM
+
+power:
+  adapters:
+    - Internal 180W power supply, configuration-dependent
+    - Higher-wattage internal PSU options for selected discrete-graphics configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+software:
+  operating_systems:
+    - Windows 10 Pro
+    - Windows 10 Home
+    - Windows 11 Pro, configuration-dependent
+    - Ubuntu Linux, configuration-dependent
+    - No operating system
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+serviceability:
+  replaceable_components:
+    - UDIMM memory modules
+    - M.2 SSD
+    - 2.5-inch or 3.5-inch storage drives
+    - WLAN card
+    - PCIe expansion cards
+    - power supply and optical drive on supported configurations
+  upgrade_notes:
+    - SFF chassis provides materially greater storage and PCIe expansion than Tiny platforms.
+  limitations:
+    - Storage bays, optical drive, front USB-C, video outputs, PSU wattage, and discrete graphics vary by MTM.
+    - Exact regional MTM mapping is not asserted without a complete Lenovo configuration matrix.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75s-gen-2
+
+sources:
+  - lenovo-psref-thinkcentre-m75s-gen-2
+conflicts: []
+notes:
+  - Lenovo PSREF identifies the M75s Gen 2 as an AMD Ryzen PRO SFF desktop platform with four DDR4 UDIMM slots and PCIe expansion; exact option combinations remain MTM-dependent.
+last_verified: 2026-09-03

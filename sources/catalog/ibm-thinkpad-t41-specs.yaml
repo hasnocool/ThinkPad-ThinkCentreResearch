@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: ibm-thinkpad-t41-specs
+title: IBM ThinkPad T41 (Education) Personal Systems Reference
+author: IBM PC Institute
+publisher: IBM
+document_type: product_specification
+url: https://web.mit.edu/tibbetts/Public/tmp/tabook.pdf
+archive_url: null
+document_id: null
+publication_date: 2003-01-01
+revision_date: null
+accessed: 2026-08-30
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T41
+notes:
+  - Archived IBM PSREF-style specification sheet listing T41 machine type 2373 configurations.
+  - Documents Pentium M 1.5/1.6/1.7 GHz, ATI Mobility Radeon 7500, DDR memory, 14.1-inch XGA, 30-40 GB storage, Gigabit Ethernet, and 72W AC adapter.
+  - The available sheet is an education subset, not a complete global MTM catalog.

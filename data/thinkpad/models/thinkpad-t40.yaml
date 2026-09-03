@@ -1,0 +1,140 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T40
+slug: thinkpad-t40
+family: t-series
+generation: Pentium M / Centrino first-generation T Series
+status: researched
+identity:
+  manufacturer: IBM
+  predecessor: ThinkPad T30
+  successor: ThinkPad T41
+  aliases:
+    - ThinkPad T40i
+  machine_types: []
+  mtms: []
+  regions:
+    - North America
+    - International configurations documented by IBM/Lenovo support
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+release:
+  release_year: 2003
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+  notes:
+    - Exact first announcement date and complete global chronology are not established by the consulted sources.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch clamshell
+  dimensions_mm: 311 x 255 x 26.6 (approximate family-level support-page value)
+  starting_weight_kg: 2.22 (approximate configured weight with optical drive)
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+platform:
+  chipset: Intel 855PM / ICH4-M family platform
+  cpu_options:
+    - Intel Mobile Pentium M 1.3 GHz
+    - Intel Mobile Pentium M 1.5 GHz
+    - Intel Mobile Pentium M 1.6 GHz
+  gpu_options:
+    - ATI Mobility Radeon 7500 (configuration-dependent)
+    - ATI Mobility Radeon 9000 (configuration-dependent)
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+memory:
+  technology: PC2100 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+storage:
+  interfaces:
+    - 2.5-inch PATA / Ultra ATA-100
+  bays:
+    - 1x primary internal 2.5-inch bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+networking:
+  ethernet:
+    - 10/100 Ethernet on selected systems
+    - Gigabit Ethernet on selected systems
+  wlan:
+    - Mini PCI 802.11b options
+    - Mini PCI 802.11a/b/g options on selected configurations
+  bluetooth:
+    - Bluetooth on selected configurations
+  modem:
+    - V.92 modem on selected configurations
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+ports:
+  - 2x USB 2.0
+  - VGA
+  - S-Video out
+  - RJ-45 Ethernet
+  - RJ-11 modem
+  - headphone/speaker
+  - microphone
+  - infrared
+  - docking/port-replicator connector
+  - parallel via system connector; serial/PS2 via optional dock or port replicator
+expansion:
+  - Ultrabay Slim
+  - Type III PC Card slot supporting Type I/II cards
+  - Mini PCI slot
+  - CDC/modem slot
+power:
+  adapters:
+    - IBM/Lenovo AC adapter, family-level support page documents approximately 72 W class
+  batteries:
+    - removable lithium-ion main battery; exact capacity varies by pack and configuration
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - 2 GB DDR maximum and PATA storage materially limit modern upgrade paths.
+    - Ultrabay supports optical and battery/accessory modules.
+  limitations:
+    - Complete global machine-type/MTM mapping was not established from the consulted sources.
+    - Some networking and graphics options are configuration-dependent.
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+sources:
+  - lenovo-support-thinkpad-t40-t40p-specs
+  - ibm-thinkpad-t40-t42-hmm
+conflicts: []
+notes:
+  - T40i is retained as an alias/configuration tier pending stronger evidence for a distinct physical product identity.
+  - T40p is represented separately because IBM positioned it as a workstation-oriented sibling with distinct graphics and display configurations.
+last_verified: 2026-08-30

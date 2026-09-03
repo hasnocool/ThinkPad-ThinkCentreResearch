@@ -1,0 +1,24 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t61-t61p-15-2011
+title: ThinkPad T61 and T61p (15.4-inch widescreen) Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/42x3546_04.pdf
+archive_url: null
+document_id: 42X3546
+publication_date: 2011-09
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T61
+    - ThinkPad T61p
+notes:
+  - Fifth Edition, September 2011; copyright Lenovo 2007-2011.
+  - The manual explicitly covers 15.4-inch widescreen T61/T61p machine types 6463, 6464, 6465, 6466, 6467, 6468, 6471, 6457, 6458, 6459, 6460, 6461, 6462, and 6470 as a combined service family.
+  - The specification table documents Core 2 Duo T7100/T7250/T7300/T7500/T7700/T7800/T8100/T8300/T9300/T9500 processors, DDR2-667, Intel PM965/GM965-class graphics/chipset variants, NVIDIA discrete graphics variants, and 15.4-inch WXGA/WSXGA+/WUXGA displays.
+  - Because the HMM groups T61 and T61p together, canonical machine-type assignment remains unresolved where the primary source does not explicitly separate them.
