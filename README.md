@@ -9,9 +9,9 @@ The long-term goal is to catalog as many verified ThinkPad and ThinkCentre model
 | Product line | Canonical models | Researched | Partial/stub |
 | --- | ---: | ---: | ---: |
 | ThinkPad | 41 | 40 | 1 |
-| ThinkCentre | 3 | 3 | 0 |
+| ThinkCentre | 4 | 4 | 0 |
 
-Current canonical records include the T-Series lineage from ThinkPad T20 through T490, the forward ThinkPad T14 Gen 4 (Intel) anchor, ThinkCentre M75q Gen 2, and the M75q Gen 5 and M70q Gen 5 Tiny platforms.
+Current canonical records include the T-Series lineage from ThinkPad T20 through T490, the forward ThinkPad T14 Gen 4 (Intel) anchor, and ThinkCentre M75q Gen 2, M70q Gen 4, M75q Gen 5, and M70q Gen 5 Tiny platforms.
 
 See `docs/coverage/thinkpad.md` and `docs/coverage/thinkcentre.md` for the live coverage indexes and research gaps.
 
