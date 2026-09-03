@@ -1,0 +1,167 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T420
+slug: thinkpad-t420
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T420i
+  machine_types:
+    - 4177
+    - 4178
+    - 4179
+    - 4180
+    - 4236
+    - 4237
+    - 4238
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t420-t420s-machine-types
+
+release:
+  release_year: 2011
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+  notes:
+    - Lenovo Western Europe PSREF pages show T420 configurations announced beginning February 22, 2011, with additional model announcements through 2012; represented WE models were withdrawn effective December 2012.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 340.5
+    depth: 233.0
+    height_min: 30.1
+    height_max: 30.5
+  starting_weight_kg: 2.11
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+platform:
+  chipset: Mobile Intel QM67 Express Chipset
+  cpu_options:
+    - Intel Core i3-2310M
+    - Intel Core i5-2410M
+    - Intel Core i5-2450M
+    - Intel Core i5-2520M
+    - Intel Core i5-2540M
+    - Intel Core i7-2640M
+  gpu_options:
+    - Intel HD Graphics 3000
+    - NVIDIA NVS 4200M 1GB with Optimus
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+memory:
+  technology: DDR3-1333
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+storage:
+  interfaces:
+    - SATA 3Gb/s SSD
+    - SATA 3Gb/s HDD
+  bays:
+    - 1x 2.5-inch primary storage bay
+    - 1x 12.7mm Ultrabay Enhanced supporting removable optical or second-storage devices
+  notes:
+    - The represented PSREF sheets list removable 7mm SSD and 9.5mm HDD options; specific configurations vary.
+    - The consulted Western Europe T420 sheets list no mSATA SSD for the represented configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 200
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+networking:
+  ethernet:
+    - Intel 82579LM Gigabit Ethernet
+  wlan:
+    - Intel Centrino Wireless-N 1000 on selected configurations
+    - Intel Centrino Advanced-N 6205 on selected configurations
+  wwan:
+    - WWAN-upgradable configurations
+    - Ericsson F5521gw on selected configurations
+  bluetooth:
+    - Bluetooth 3.0 on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+ports:
+  - 3x USB 2.0, one powered
+  - 1x USB 2.0/eSATA combo
+  - VGA
+  - DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - ExpressCard/34
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - IEEE 1394 on selected configurations
+
+expansion:
+  - two PCI Express Mini Card slots
+  - optional WWAN
+  - optional fingerprint reader
+  - optional Smart Card reader on selected configurations
+  - 12.7mm Ultrabay Enhanced
+
+power:
+  adapters:
+    - 65W AC adapter on selected integrated-graphics configurations
+    - 90W AC adapter on Optimus configurations
+  batteries:
+    - removable 4-cell lithium-ion battery on selected configurations
+    - removable 6-cell 57Wh lithium-ion battery
+    - removable 9-cell 94Wh lithium-ion battery
+    - optional slice battery
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - Ultrabay device
+    - removable battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 8GB maximum for the represented PSREF configurations.
+    - Ultrabay Enhanced supports compatible removable optical and second-storage devices.
+  limitations:
+    - CPU, GPU, display, wireless, storage, battery, and adapter choices vary by machine type and regional configuration.
+    - T420i branding is represented inside the same Lenovo machine-type family and is treated here as an alias/configuration tier pending evidence of a separate physical product identity.
+  source_ids:
+    - lenovo-psref-thinkpad-t420
+    - lenovo-support-thinkpad-t420-t420s-machine-types
+
+sources:
+  - lenovo-psref-thinkpad-t420
+  - lenovo-support-thinkpad-t420-t420s-machine-types
+conflicts: []
+notes:
+  - Lenovo support explicitly maps machine types 4177, 4178, 4179, 4180, 4236, 4237, and 4238 to ThinkPad T420/T420i.
+last_verified: 2026-08-26

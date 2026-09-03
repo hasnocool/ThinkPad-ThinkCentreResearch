@@ -1,0 +1,23 @@
+schema_version: 1
+record_type: source
+id: ibm-thinkpad-t43-hmm
+title: ThinkPad T43 Hardware Maintenance Manual
+author: IBM
+publisher: IBM
+document_type: hardware_maintenance_manual
+url: https://thinkwiki.de/images/0/0b/ThinkPad_T43_HMM.pdf
+archive_url: null
+document_id: 39T6190
+publication_date: 2005-07-01
+revision_date: null
+accessed: 2026-08-29
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T43
+    - ThinkPad T43p
+notes:
+  - IBM HMM service-family document for T43/T43p-era systems.
+  - Machine-type pools are shared in the service manual; per-model assignment is preserved as unresolved when not explicit.

@@ -1,0 +1,25 @@
+schema_version: 1
+record_type: source
+id: lenovo-service-guide-t410s-t410-t510-w510
+title: ThinkPad T410s, T410, T510, and W510 Service and Troubleshooting Guide
+publisher: Lenovo
+document_type: service_guide
+url: https://images10.newegg.com/uploadfilesfornewegg/itemintelligence/lenovo/63y0470_a51400130537078.pdf
+archive_url: null
+document_id: 63Y0470
+publication_date: 2009-10
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T410
+    - ThinkPad T410s
+    - ThinkPad T510
+    - ThinkPad W510
+notes:
+  - Lenovo-authored first edition dated October 2009; the currently reachable URL is a third-party mirror of the original Lenovo document.
+  - Warranty tables identify T410 machine types 2516, 2518, 2519, 2522, 2537, 2538, and 2539.
+  - Warranty tables identify T410s machine types 2901, 2904, 2907, 2912, 2924, 2926, and 2928.

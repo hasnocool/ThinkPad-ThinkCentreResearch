@@ -1,0 +1,117 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M75q Gen 5
+slug: thinkcentre-m75q-gen-5
+family: m-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+
+form_factor:
+  class: desktop
+  chassis: Tiny 1L
+  dimensions_mm:
+    width: 179
+    depth: 183
+    height: 36.5
+  starting_weight_kg: null
+  notes:
+    - PSREF identifies a 1L Tiny chassis; exact weight is configuration-dependent and not recorded here.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+platform:
+  chipset: AMD PRO 600 Chipset
+  cpu_options:
+    - AMD Ryzen 5 PRO 8500GE
+    - AMD Ryzen 7 PRO 8700GE
+  gpu_options:
+    - Integrated AMD Radeon 740M Graphics
+    - Integrated AMD Radeon 780M Graphics
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+memory:
+  technology: DDR5-5200
+  slots: 2
+  soldered: false
+  official_max_gb: 32
+  notes:
+    - Lenovo documents two DDR5 SODIMM slots, dual-channel capable; 64GB is noted as special-bid-only in the cited PSREF configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+storage:
+  interfaces:
+    - PCIe 4.0 NVMe
+  bays: []
+  slots:
+    - 2x M.2 2280 PCIe 4.0 x4 SSD slots
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - Up to two M.2 2280 SSDs, model/configuration dependent
+  device_options: []
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+networking:
+  ethernet: []
+  wlan: []
+  bluetooth: []
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+ports:
+  - front USB-A port
+  - front USB-C port
+  - front 3.5mm audio combo jack
+  - rear USB ports
+  - rear DisplayPort and HDMI video outputs
+  - rear RJ-45 Ethernet
+  - optional configurable rear I/O module depending on model
+
+expansion:
+  - optional VESA mounting support
+  - optional vertical stand
+  - no conventional PCIe add-in slot in the 1L Tiny chassis
+
+power:
+  adapters:
+    - 65W adapter, 89% efficiency
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Ubuntu Linux
+    - No operating system
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+serviceability:
+  replaceable_components:
+    - SODIMM memory modules
+    - M.2 SSDs
+    - WLAN card
+  upgrade_notes:
+    - Memory and M.2 storage are field-replaceable within Lenovo service guidance.
+  limitations:
+    - CPU and graphics are soldered to the system board.
+    - Optional port modules and exact storage population vary by MTM and region.
+  source_ids:
+    - lenovo-psref-thinkcentre-m75q-gen-5
+
+sources:
+  - lenovo-psref-thinkcentre-m75q-gen-5
+conflicts: []
+notes:
+  - The cited PSREF configuration page is model-specific; the CPU, port, WLAN, OS, and MTM matrix should be expanded when the full product-family model table is catalogued.
+last_verified: 2026-09-02

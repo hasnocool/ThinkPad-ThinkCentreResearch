@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-thinkpad-machine-type-map-2016
+title: Lenovo EEPROM machine type mapping
+publisher: Lenovo
+document_type: support_reference
+url: https://seservice.lenovo.com/static_file/download2/eeprom/eeprom.html
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T460
+    - ThinkPad T460s
+    - ThinkPad T460p
+notes:
+  - Lenovo service reference maps 20FM/20FN to T460, 20F9/20FA to T460s, and 20FW/20FX to T460p.

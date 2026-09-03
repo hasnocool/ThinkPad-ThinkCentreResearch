@@ -1,0 +1,163 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T480
+slug: thinkpad-t480
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20L5
+    - 20L6
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t480
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 336.6
+    depth: 232.5
+    height: 19.95
+  starting_weight_kg: 1.58
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-7200U
+    - Intel Core i5-7300U
+    - Intel Core i3-8130U
+    - Intel Core i5-8250U
+    - Intel Core i5-8350U
+    - Intel Core i7-8550U
+    - Intel Core i7-8650U
+  gpu_options:
+    - Intel HD Graphics 620
+    - Intel UHD Graphics 620
+    - NVIDIA GeForce MX150 2GB GDDR5
+  notes:
+    - NVIDIA GeForce MX150 availability was restricted by processor and region; the PSREF notes discrete graphics on i7 models in EMEA.
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+memory:
+  technology: DDR4-2400
+  slots: 2
+  soldered: false
+  official_max_gb: 32
+  notes:
+    - Memory clocks down when required by the processor memory controller.
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - 2.5-inch 7mm storage bay
+  slots:
+    - M.2 2280 storage position, mutually exclusive with the 2.5-inch storage configuration
+    - M.2 WWAN slot can host a supported 128GB PCIe NVMe SSD as second storage, mutually exclusive with WWAN
+  notes:
+    - The primary M.2 SSD is PCIe 3.0 x4 capable but the Lenovo adapter limits operation to PCIe 3.0 x2.
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 220
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare WVA LED
+      brightness_nits: 250
+      touch_optional: true
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare WVA LED
+      brightness_nits: 300
+      gamut: 72%
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Intel Dual Band Wireless-AC 8265, 2x2 802.11ac
+  wwan:
+    - Fibocom L830-EB 4G LTE, EMEA only
+    - Fibocom L850-GL 4G LTE-A
+  bluetooth:
+    - Bluetooth 4.1 with Intel 8265 under the documented Windows configuration
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+ports:
+  - 2x USB 3.1 Gen 1, one Always On
+  - USB-C 3.1 Gen 1 with Power Delivery and DisplayPort
+  - USB-C 3.1 Gen 2 / Thunderbolt 3 with Power Delivery and DisplayPort
+  - HDMI 1.4b
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC reader
+  - side docking connector
+  - nano-SIM slot on WWAN models
+  - optional smart-card reader
+
+expansion:
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 45W USB-C AC adapter
+    - 65W USB-C AC adapter
+  batteries:
+    - integrated Li-ion 24Wh battery, optional
+    - external Li-ion 24Wh battery
+    - external Li-ion 48Wh battery
+    - external Li-ion 72Wh battery
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+software:
+  operating_systems:
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - external battery
+  upgrade_notes:
+    - Two SO-DIMM sockets provide dual-channel memory capability.
+    - A supported SSD in the WWAN slot prevents simultaneous WWAN use.
+  limitations:
+    - Primary 2.5-inch and M.2 2280 storage configurations are mutually exclusive in Lenovo's documented platform configuration.
+  source_ids:
+    - lenovo-psref-thinkpad-t480
+
+sources:
+  - lenovo-psref-thinkpad-t480
+  - lenovo-hmm-thinkpad-t480
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-23
