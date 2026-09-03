@@ -7,12 +7,13 @@ Last updated: 2026-09-02
 | Family | Model | Form factor | Status | Primary sources | Key gaps |
 | --- | --- | --- | --- | ---: | --- |
 | M Series | ThinkCentre M75q Gen 2 | Tiny 1L | researched | 1 | Machine-type/MTM mapping; exact launch/discontinuation dates |
+| M Series | ThinkCentre M70q Gen 4 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact weight; complete optional I/O matrix |
 | M Series | ThinkCentre M75q Gen 5 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact weight; complete WLAN/port option matrix |
 | M Series | ThinkCentre M70q Gen 5 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact weight; complete WLAN/port option matrix |
 
 ## Priority research backlog
 
-1. Expand the M-series Tiny lineage around the researched Gen 2/Gen 5 AMD and Gen 5 Intel anchors, including intermediate generations.
+1. Expand the M-series Tiny lineage around the researched Gen 2/Gen 4/Gen 5 AMD and Intel anchors, including intermediate generations.
 2. Add M-series SFF and Tower variants while preserving separate canonical identities for materially different chassis.
 3. Add ThinkCentre Neo, Edge, AIO, Nano, and historical IBM/Lenovo desktop families.
 4. Build explicit machine-type and MTM mappings from Lenovo maintenance manuals and model catalogs.
