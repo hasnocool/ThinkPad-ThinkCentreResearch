@@ -1,0 +1,15 @@
+schema_version: 1
+source_id: lenovo-psref-thinkcentre-m70q-gen-4
+title: ThinkCentre M70q Gen 4 Product Specifications Reference
+publisher: Lenovo
+source_type: psref
+publication_date: 2025-02-11
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M70q_Gen_4/ThinkCentre_M70q_Gen_4_Spec.pdf
+accessed: 2026-09-02
+notes:
+  - Official Lenovo PSREF PDF for the ThinkCentre M70q Gen 4 Tiny platform.
+  - Lenovo Support separately lists machine types 12E3, 12E4, 12E5, 12E6 and a system release date of 2023-06-30 for Type 12E4.
+  - PSREF platform documents are configuration-oriented; exact MTM populations vary by region.
+related_urls:
+  - https://support.lenovo.com/my/en/solutions/pd500694
+  - https://support.lenovo.com/fr/fr/solutions/ht515220-thinkcentre-m70q-gen-4-12e312e412e512e612e6-thinkcentre-m80q-gen-4-12e912ea12eb12ec12ed12ee12ef12eg-thinkcentre-m90q-gen-4-12eh12ej12ek12el

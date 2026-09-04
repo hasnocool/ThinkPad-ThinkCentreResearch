@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: ibm-thinkpad-t42-specs
+title: IBM ThinkPad T42 notebook specifications
+author: IBM
+publisher: IBM
+document_type: product_specification
+url: https://bibdigital.epn.edu.ec/bitstream/15000/11019/1/T2488.pdf
+archive_url: null
+document_id: null
+publication_date: 2004-01-01
+revision_date: null
+accessed: 2026-08-30
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T42
+notes:
+  - Archived IBM specification sheet reproducing machine type 2373 configurations.
+  - Documents Pentium M, Intel 855PM, PC2700 DDR SDRAM, 2 GB maximum, XGA/SXGA+ displays, and storage/optical options.

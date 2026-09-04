@@ -1,0 +1,13 @@
+schema_version: 1
+record_type: source
+source_id: lenovo-psref-thinkcentre-m70q-gen-5
+title: ThinkCentre M70q Gen 5 Product Specifications Reference
+publisher: Lenovo
+source_type: official PSREF
+publication_date: 2026-02-04
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M70q_Gen_5/ThinkCentre_M70q_Gen_5_Spec.PDF
+accessed: 2026-09-02
+supports:
+  - ThinkCentre M70q Gen 5 platform and model configurations
+notes:
+  - PSREF states that model availability and options vary by region and MTM.

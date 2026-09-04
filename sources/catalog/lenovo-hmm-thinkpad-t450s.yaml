@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t450s
+title: ThinkPad T450s Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t450s_hmm_en_sp40g54937.pdf
+archive_url: null
+document_id: SP40G54937
+publication_date: 2015
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T450s
+notes:
+  - Lenovo HMM explicitly identifies machine types 20BW and 20BX.

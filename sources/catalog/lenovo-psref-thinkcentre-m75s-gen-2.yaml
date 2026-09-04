@@ -1,0 +1,14 @@
+schema_version: 1
+source_id: lenovo-psref-thinkcentre-m75s-gen-2
+title: ThinkCentre M75s Gen 2 Product Specifications Reference
+publisher: Lenovo
+source_type: psref
+publication_date: null
+url: https://psref.lenovo.com/Product/ThinkCentre/ThinkCentre_M75s_Gen_2
+accessed: 2026-09-03
+notes:
+  - Official Lenovo PSREF product page for the AMD ThinkCentre M75s Gen 2 SFF platform.
+  - Lenovo's page identifies the 11JA machine-type family and configuration-dependent CPU, graphics, storage, power, and I/O options.
+  - Exact publication date and complete regional MTM matrix are not asserted here.
+related_urls:
+  - https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M75s_Gen_2/ThinkCentre_M75s_Gen_2_Spec.pdf

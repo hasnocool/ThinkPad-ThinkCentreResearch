@@ -1,0 +1,154 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M70a Gen 3
+slug: thinkcentre-m70a-gen-3
+family: m-series
+generation: Gen 3
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  predecessor: ThinkCentre M70a Gen 2
+  successor: null
+  aliases:
+    - ThinkCentre M70a Gen 3 All-in-One
+  machine_types: []
+  mtms: []
+  regions:
+    - Regional MTM and CTO availability varies; complete mapping not established in the cited PSREF.
+
+release:
+  announcement_date: 2022-04-26
+  release_date: null
+  release_year: 2022
+  discontinued_date: null
+
+form_factor:
+  class: desktop
+  chassis: AIO 21.5-inch
+  dimensions_mm:
+    width: 489
+    depth: 216.32
+    height: 358.82
+  starting_weight_kg: 7.678
+  notes:
+    - Lenovo lists multiple dimensions and weights depending on stand, camera, and ODD configuration.
+    - With UltraFlex V stand, ODD, and camera, Lenovo lists approximately 489 x 216.32 x 358.82-443.31 mm and 7.985 kg.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+platform:
+  chipset: Intel platform; exact chipset not explicitly surfaced in the cited product-page extract
+  cpu_options:
+    - Intel Celeron and Pentium Gold options
+    - 12th Gen Intel Core i3/i5/i7/i9 processors up to Core i9-12900
+  gpu_options:
+    - Integrated Intel UHD Graphics 710
+    - Integrated Intel UHD Graphics 730
+    - Integrated Intel UHD Graphics 770
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+memory:
+  technology: DDR4-3200
+  slots: 2
+  soldered: false
+  official_max_gb: 64
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - Up to 2x 2.5-inch drive bays; second 2.5-inch drive occupies the slim ODD bay
+    - 1x slim optical-drive bay
+  slots:
+    - 1x M.2 SSD slot
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - Up to three drives in supported configurations: 2x 2.5-inch HDD plus 1x M.2 SSD.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+networking:
+  ethernet:
+    - Integrated 10/100/1000Mbps Ethernet
+  wlan:
+    - Intel Wi-Fi 6 AX201, 802.11ax 2x2
+  bluetooth:
+    - Bluetooth 5.2 with supported wireless module
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+display:
+  size_inches: 21.5
+  resolutions:
+    - 1920x1080 FHD
+  panel_options:
+    - IPS, 250 nits, anti-glare, 72% NTSC
+    - Optional 10-point touch configuration
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+ports:
+  - 3x USB 3.2 Gen 1
+  - 1x USB-C 3.2 Gen 2 with data transfer and 15W charging
+  - 2x USB 3.2 Gen 2
+  - 1x HDMI combination input/output port
+  - 1x DisplayPort 1.4
+  - 1x RJ-45 Ethernet
+  - 1x 3.5mm headphone/microphone combo jack
+  - Optional card reader and optional rear-port configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+expansion:
+  - Two M.2 slots: one SSD and one WLAN
+  - VESA mount support
+  - UltraFlex V or full-function monitor stand options
+  - Optional conference-call base and camera/microphone configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+power:
+  adapters:
+    - External 180W 90% power supply in documented configuration
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Windows 10 Pro downgrade-rights configurations where offered
+    - Ubuntu Linux configurations
+    - No operating system configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+serviceability:
+  replaceable_components:
+    - SO-DIMM memory modules
+    - M.2 SSD
+    - 2.5-inch drives in supported configurations
+    - WLAN module
+    - Stand and optional conference-call accessories
+  upgrade_notes:
+    - Memory and storage are serviceable; exact drive brackets/cables depend on configuration.
+    - A second 2.5-inch drive uses the optical-drive bay.
+  limitations:
+    - CPU and integrated graphics are soldered to the system board.
+    - Exact MTM-to-option mapping, stand, camera, touch, ODD, and port populations vary by region/configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70a-gen-3
+
+sources:
+  - lenovo-psref-thinkcentre-m70a-gen-3
+conflicts: []
+notes:
+  - Lenovo PSREF product page is marked Withdrawn; exact regional end-of-sale dates are not normalized here.
+  - The cited PSREF product page identifies a 21.5-inch AIO family; dimensions and weights vary with stand/camera/ODD configuration.
+last_verified: 2026-09-04

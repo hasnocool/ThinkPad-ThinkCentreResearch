@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkcentre-m75q-gen-2
+title: ThinkCentre M75q Gen 2 Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M75q_Gen_2/ThinkCentre_M75q_Gen_2_Spec.html
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: 2023-04-17
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkcentre
+  models:
+    - ThinkCentre M75q Gen 2
+notes:
+  - Lenovo Product Specifications Reference HTML specification, last modified 2023-04-17.

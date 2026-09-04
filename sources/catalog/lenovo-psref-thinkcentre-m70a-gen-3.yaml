@@ -1,0 +1,18 @@
+schema_version: 1
+record_type: source
+source_id: lenovo-psref-thinkcentre-m70a-gen-3
+title: ThinkCentre M70a Gen 3 PSREF
+publisher: Lenovo
+document_type: product specifications reference
+url: https://psref.lenovo.com/product/ThinkCentre/ThinkCentre_M70a_Gen_3
+access_date: 2026-09-04
+publication_date: 2024-03-29
+official_document_number: null
+archive_url: null
+reliability: primary
+scope:
+  - ThinkCentre M70a Gen 3 all-in-one desktop platform
+notes:
+  - Lenovo PSREF product page and linked specification PDF.
+  - Configuration and region availability vary by model/MTM.
+  - The page is marked Withdrawn; this is retained as lifecycle metadata, not as a claim that every regional SKU ended on the same date.

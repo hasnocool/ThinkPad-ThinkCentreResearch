@@ -1,0 +1,147 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M70q Gen 3
+slug: thinkcentre-m70q-gen-3
+family: m-series
+generation: Gen 3
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  predecessor: ThinkCentre M70q Gen 2
+  successor: ThinkCentre M70q Gen 4
+  aliases:
+    - ThinkCentre M70q Gen 3 Tiny
+  machine_types: []
+  mtms: []
+  regions:
+    - Regional MTM and CTO configurations vary; complete mapping not established in the cited PSREF.
+
+release:
+  announcement_date: null
+  release_date: null
+  release_year: 2022
+  discontinued_date: null
+
+form_factor:
+  class: desktop
+  chassis: Tiny 1L
+  dimensions_mm:
+    width: 179
+    depth: 182.9
+    height: 36.5
+  starting_weight_kg: 1.25
+  notes:
+    - Tiny-only dimensions and approximate weight are from Lenovo PSREF; an optional ODD configuration changes the external footprint.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+platform:
+  chipset: Intel Q670 chipset
+  cpu_options:
+    - Intel Celeron G6900T
+    - Intel Pentium Gold G7400T
+    - Intel Core i3-12100T
+    - Intel Core i3-12300T
+    - Intel Core i5-12400T
+    - Intel Core i5-12500T
+    - Intel Core i5-12600T
+    - Intel Core i7-12700T
+    - Intel Core i9-12900T
+  gpu_options:
+    - Integrated Intel UHD Graphics 710
+    - Integrated Intel UHD Graphics 730
+    - Integrated Intel UHD Graphics 770
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+memory:
+  technology: DDR4-3200
+  slots: 2
+  soldered: false
+  official_max_gb: 64
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - 1x 2.5-inch drive bay, configuration-dependent
+  slots:
+    - 1x M.2 2242 PCIe 3.0 x2 SSD slot
+    - 1x M.2 2280 PCIe 4.0 x4 SSD slot
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - Up to two internal drives: one 2.5-inch SATA drive and one M.2 SSD, depending on configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+networking:
+  ethernet:
+    - Integrated 10/100/1000Mbps Ethernet
+  wlan:
+    - Optional WLAN module; exact Intel/Realtek population is configuration-dependent in the cited PSREF.
+  bluetooth:
+    - Configuration-dependent Bluetooth module
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+ports:
+  - 1x HDMI 2.1 TMDS
+  - 1x DisplayPort 1.4a
+  - Front USB and audio ports; exact port population varies by configuration.
+  - Rear USB-A and optional punch-out I/O modules; options include HDMI, DisplayPort, VGA, and USB-C with DisplayPort function.
+  - Optional rear IO box with serial, additional USB-C/USB-A, Ethernet pass-through, and DC-in for supported accessories.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+expansion:
+  - 2x M.2 internal slots: one storage and one WLAN
+  - Optional VESA mount bracket supporting 75mm and 100mm patterns
+  - Optional vertical stand
+  - Optional external slim ODD box
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+power:
+  adapters:
+    - External adapter; wattage is configuration-dependent and the cited PSREF lists a 65W-class base configuration plus higher-power options for supported accessories.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Windows 10 Pro downgrade rights where offered by Lenovo configuration
+    - Ubuntu Linux configurations
+    - No operating system configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+serviceability:
+  replaceable_components:
+    - SO-DIMM memory modules
+    - M.2 SSD
+    - 2.5-inch drive in supported configurations
+    - WLAN module
+    - Optional I/O modules and mounting accessories
+  upgrade_notes:
+    - Two DDR4 SO-DIMM slots are user-accessible.
+    - Storage expansion depends on the factory-installed drive bracket/cable and selected chassis configuration.
+  limitations:
+    - CPU and integrated graphics are soldered to the system board.
+    - Exact MTM-to-option mapping, PSU/adapter combinations, and optional port population remain configuration-dependent.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70q-gen-3
+
+sources:
+  - lenovo-psref-thinkcentre-m70q-gen-3
+conflicts: []
+notes:
+  - This is a platform-level anchor; the PSREF combines multiple regional and CTO configurations.
+  - Release year is treated as a generation-era anchor based on Lenovo PSREF chronology and should not be read as a universal first-sale date for every MTM.
+last_verified: 2026-09-04

@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t470-identity
+title: Lenovo PSREF EMEA ThinkPad T470 model index and TopSeller entries
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/i_pdf/psref507EMEA.pdf
+archive_url: null
+document_id: null
+publication_date: 2017
+revision_date: null
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T470
+notes:
+  - Lenovo PSREF corpus indexes T470 machine types 20HD, 20HE, 20JM, and 20JN and includes regional TopSeller configuration tables.
+  - TopSeller entries document T470 configurations announced during 2017.

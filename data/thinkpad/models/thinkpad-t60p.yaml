@@ -1,0 +1,150 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T60p
+slug: thinkpad-t60p
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+    - lenovo-storyhub-t60p-linux-workstation-2006
+  notes:
+    - Lenovo's principal HMM groups T60 and T60p machine types together; per-model machine-type assignment remains unresolved pending corroborating primary product/PSREF evidence.
+
+release:
+  release_year: 2006
+  source_ids:
+    - lenovo-storyhub-t60p-linux-workstation-2006
+  notes:
+    - Lenovo's August 15, 2006 announcement explicitly identifies T60p as a ThinkPad mobile workstation; an earlier exact global launch date remains to be established.
+
+form_factor:
+  class: laptop
+  chassis: mobile-workstation clamshell with 14.1-inch and 15.0-inch standard-aspect variants; later 15.4-inch widescreen variants also existed
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - Lenovo described the T60p workstation in 2006 as approximately one inch thin and 4.7 lb for the cited configuration; exact chassis-specific metric dimensions remain to be normalized.
+
+platform:
+  chipset: Intel 945 mobile-platform family, configuration-dependent
+  cpu_options:
+    - Intel Core Duo mobile processors, configuration-dependent
+    - Intel Core 2 Duo mobile processors through T7600 in the shared service family
+  gpu_options:
+    - ATI FireGL V5200 with 256 MB GDDR3 on documented workstation configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+    - lenovo-storyhub-t60p-linux-workstation-2006
+
+memory:
+  technology: DDR2-667 PC2-5300 SO-DIMM; selected DDR2-533 modules supported
+  slots: 2
+  soldered: false
+  official_max_gb: 4
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - Lenovo states 4 GB is physically installable but only about 3 GB is usable under the documented 32-bit PC architecture.
+
+storage:
+  interfaces:
+    - 2.5-inch SATA hard disk drive
+  bays:
+    - 1x primary 2.5-inch SATA storage bay
+    - 1x Ultrabay Slim removable-device bay
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: SXGA+ TFT on documented high-end configurations
+    - size_in: 15.0
+      resolution: 1400x1050
+      panel: SXGA+ IPS TFT
+    - size_in: 15.0
+      resolution: 1600x1200
+      panel: UXGA IPS TFT
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  notes:
+    - The service HMM is shared with T60 and includes additional panels; this record retains workstation-oriented display families pending exact MTM mapping.
+
+networking:
+  ethernet:
+    - wired Ethernet, configuration-dependent controller
+  wlan:
+    - PCI Express Mini Card wireless LAN options
+  wwan:
+    - integrated WWAN on selected regional/configuration variants
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+ports:
+  - USB 2.0
+  - VGA
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - audio jacks
+  - docking connector
+  - PC Card/ExpressCard expansion depending configuration
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - docking/port-replicator support
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - 20 V Lenovo barrel-jack AC adapters, workstation configuration-dependent
+  batteries:
+    - removable lithium-ion battery pack
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+software:
+  operating_systems:
+    - Windows XP editions on original configurations
+    - SUSE Linux Enterprise Desktop 10 support/certification announced for the T60p mobile workstation program
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+    - lenovo-storyhub-t60p-linux-workstation-2006
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - removable CPU
+    - primary SATA storage device
+    - Ultrabay Slim device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - Lenovo service documentation exposes CPU, DIMMs, storage, Ultrabay device, wireless cards, battery, keyboard, palm rest, and display as separately replaceable assemblies.
+  limitations:
+    - Per-model machine-type mapping remains unresolved because the principal Lenovo HMM combines T60 and T60p identities.
+    - Exact FireGL, display, CPU, wireless, battery, and adapter combinations require MTM-level primary-source mapping.
+  source_ids:
+    - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+
+sources:
+  - lenovo-hmm-thinkpad-t60-t60p-14-15-2008
+  - lenovo-storyhub-t60p-linux-workstation-2006
+conflicts: []
+notes:
+  - Lenovo explicitly positions T60p as a mobile workstation, supporting a separate canonical identity from T60 despite the shared HMM machine-type pool.
+last_verified: 2026-08-28

@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-user-guide-thinkpad-t470p
+title: ThinkPad T470p User Guide
+publisher: Lenovo
+document_type: user_guide
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/t470p_ug_en.pdf
+archive_url: null
+document_id: null
+publication_date: 2017
+revision_date: null
+accessed: 2026-08-24
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T470p
+notes:
+  - Lenovo regulatory section explicitly identifies ThinkPad T470p machine types 20J6 and 20J7.

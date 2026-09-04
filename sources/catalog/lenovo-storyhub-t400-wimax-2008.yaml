@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t400-wimax-2008
+title: Lenovo Adds WiMAX Wireless Connectivity to ThinkPad and IdeaPad Notebook PCs
+publisher: Lenovo
+document_type: press_release
+url: https://news.lenovo.com/pressroom/press-releases/lenovo-adds-wimax-wireless-connectivity-to-thinkpad-and-ideapad-notebook-pcs/
+archive_url: null
+document_id: null
+publication_date: 2008-10-08
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T400
+notes:
+  - Lenovo states that WiMAX-enabled ThinkPad T400 models were available immediately on October 8, 2008, establishing product availability during 2008 without inferring an exact first-launch date.

@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-withdrawn-thinkpad-t440p
+title: ThinkPad T440p Withdrawn Model Specifications
+publisher: Lenovo
+document_type: psref-withdrawn-book
+url: https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T440p.pdf
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T440p
+notes:
+  - Lenovo withdrawn-product PSREF records document 20AN and 20AW configurations and configuration-level announcement dates.
