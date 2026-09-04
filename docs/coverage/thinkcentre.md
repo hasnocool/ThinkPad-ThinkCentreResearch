@@ -1,6 +1,6 @@
 # ThinkCentre Coverage
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 ## Coverage summary
 
@@ -11,10 +11,11 @@ Last updated: 2026-09-03
 | M Series | ThinkCentre M75q Gen 5 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact weight; complete WLAN/port option matrix |
 | M Series | ThinkCentre M70q Gen 5 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact weight; complete WLAN/port option matrix |
 | M Series | ThinkCentre M75s Gen 2 | Small Form Factor (SFF) | researched | 1 | Full regional MTM matrix; exact weight; complete storage/PSU/discrete-GPU option matrix |
+| M Series | ThinkCentre M70q Gen 3 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact adapter/IO population; exact launch/discontinuation dates |
 
 ## Priority research backlog
 
-1. Expand the M-series Tiny lineage around the researched Gen 2/Gen 4/Gen 5 AMD and Intel anchors, including intermediate generations.
+1. Expand the M-series Tiny lineage around the researched Gen 2/Gen 3/Gen 4/Gen 5 AMD and Intel anchors, including intermediate generations.
 2. Expand M-series SFF and Tower variants, beginning with the M75s/M70s/M90s families and preserving separate chassis identities.
 3. Add ThinkCentre Neo, Edge, AIO, Nano, and historical IBM/Lenovo desktop families.
 4. Build explicit machine-type and MTM mappings from Lenovo maintenance manuals and model catalogs.
