@@ -1,0 +1,18 @@
+schema_version: 1
+record_type: source
+source_id: lenovo-psref-thinkcentre-m70s-gen-3
+title: ThinkCentre M70s Gen 3 PSREF
+publisher: Lenovo
+document_type: product specifications reference
+url: https://psref.lenovo.com/product/ThinkCentre/ThinkCentre_M70s_Gen_3
+access_date: 2026-09-05
+publication_date: 2022-01-25
+official_document_number: null
+archive_url: null
+reliability: primary
+scope:
+  - ThinkCentre M70s Gen 3 small form factor desktop platform
+notes:
+  - Lenovo PSREF product page and linked specification PDF.
+  - Configuration and region availability vary by model/MTM.
+  - Product-page extract and linked PDF expose platform options but not a complete regional MTM matrix.

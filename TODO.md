@@ -45,6 +45,7 @@ This queue tracks high-value coverage work. Keep it aligned with `docs/coverage/
 - [x] Add M75s Gen 2 SFF anchor using official Lenovo PSREF; preserve unresolved full regional MTM matrix and configuration-dependent storage/PSU/discrete-GPU combinations.
 - [x] Add M70q Gen 3 Tiny anchor using official Lenovo PSREF; preserve unresolved full regional MTM matrix, exact adapter/IO population, and exact launch/discontinuation dates.
 - [x] Add M70a Gen 3 AIO anchor using official Lenovo PSREF; preserve unresolved full regional MTM matrix and stand/camera/touch/ODD option matrix.
+- [x] Add M70s Gen 3 SFF anchor using official Lenovo PSREF; preserve unresolved full regional MTM matrix and PSU/discrete-GPU/storage/rear-I/O combinations.
 - [ ] Expand M75q Tiny lineage across intermediate generations.
 - [ ] Catalog contemporary Intel M-series Tiny systems alongside AMD equivalents.
 - [ ] Catalog additional M-series SFF and Tower variants as separate chassis identities where appropriate.

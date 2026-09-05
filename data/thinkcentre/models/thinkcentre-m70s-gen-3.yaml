@@ -1,0 +1,153 @@
+schema_version: 1
+record_type: model
+product_line: thinkcentre
+canonical_name: ThinkCentre M70s Gen 3
+slug: thinkcentre-m70s-gen-3
+family: m-series
+generation: Gen 3
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  predecessor: ThinkCentre M70s Gen 2
+  successor: null
+  aliases:
+    - ThinkCentre M70s Gen 3 Small Form Factor
+  machine_types: []
+  mtms: []
+  regions:
+    - Regional MTM and CTO availability varies; complete mapping not established in the cited PSREF.
+
+release:
+  announcement_date: 2022-01-25
+  release_date: null
+  release_year: 2022
+  discontinued_date: null
+
+form_factor:
+  class: desktop
+  chassis: Small Form Factor (SFF)
+  dimensions_mm:
+    width: 93
+    depth: 298
+    height: 340
+  starting_weight_kg: 5.3
+  notes:
+    - Lenovo lists starting dimensions of approximately 93 x 298 x 340 mm and starting weight of 5.3 kg.
+    - Weight varies with PSU, storage, optical drive, and expansion configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+platform:
+  chipset: Intel Q670 chipset
+  cpu_options:
+    - Intel Pentium Gold G7400
+    - 12th Gen Intel Core i3/i5/i7/i9 desktop processors up to Core i9-12900
+  gpu_options:
+    - Integrated Intel UHD Graphics 710
+    - Integrated Intel UHD Graphics 730
+    - Integrated Intel UHD Graphics 770
+    - Configuration-dependent low-profile discrete graphics options
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+memory:
+  technology: DDR4-3200 UDIMM
+  slots: 4
+  soldered: false
+  official_max_gb: 128
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe 4.0 NVMe
+  bays:
+    - Configuration-dependent 3.5-inch or 2.5-inch drive bay
+    - Additional 2.5-inch bay in supported configurations
+    - Optional slim optical-drive bay
+  slots:
+    - 1x M.2 SSD slot
+    - 1x M.2 WLAN slot
+  supported_configuration:
+    - Up to three drives in supported configurations: 1x 3.5-inch or 2.5-inch HDD, 1x additional 2.5-inch drive, and 1x M.2 SSD.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+networking:
+  ethernet:
+    - Integrated Gigabit Ethernet
+  wlan:
+    - Configuration-dependent Intel Wi-Fi 6/6E wireless modules
+  bluetooth:
+    - Configuration-dependent Bluetooth with wireless module
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+ports:
+  - Front USB-C 3.2 Gen 1
+  - Front USB 3.2 Gen 1 ports
+  - Front USB 3.2 Gen 2 ports
+  - Headphone and microphone audio jacks
+  - Rear HDMI 2.1 TMDS
+  - 2x rear DisplayPort 1.4
+  - Rear USB 2.0 and USB 3.2 ports
+  - RJ-45 Ethernet
+  - Optional card reader, PS/2, Flex IO, and expansion-card ports
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+expansion:
+  - 1x PCIe 4.0 x16 low-profile slot
+  - 2x PCIe 3.0 x1 low-profile slots
+  - 2x M.2 slots: one SSD and one WLAN
+  - Optional low-profile discrete graphics
+  - Optional Flex IO / rear expansion cards
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+power:
+  adapters:
+    - 180W 85% external or internal configuration evidence
+    - 260W 90% configuration
+    - 310W 92% configuration
+    - 380W 92% configuration
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+software:
+  operating_systems:
+    - Windows 11 Pro
+    - Windows 11 Home
+    - Windows 10 downgrade-rights configurations where offered
+    - Ubuntu Linux configurations
+    - No operating system configurations
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+serviceability:
+  replaceable_components:
+    - UDIMM memory modules
+    - M.2 SSD
+    - 2.5-inch and 3.5-inch drives in supported configurations
+    - WLAN module
+    - Low-profile PCIe expansion cards
+    - Optional optical drive and Flex IO modules
+  upgrade_notes:
+    - Four DIMM slots provide substantially more memory expansion than Tiny systems.
+    - Drive brackets, cables, and bay populations depend on the chassis configuration.
+    - Low-profile PCIe slots permit graphics and I/O expansion within power/thermal limits.
+  limitations:
+    - CPU and integrated graphics are soldered to the system board.
+    - Exact MTM-to-option mapping, PSU, discrete-GPU, storage, and rear-I/O populations vary by region/configuration.
+  source_ids:
+    - lenovo-psref-thinkcentre-m70s-gen-3
+
+sources:
+  - lenovo-psref-thinkcentre-m70s-gen-3
+conflicts: []
+notes:
+  - Lenovo PSREF is the primary source for the platform-level specification matrix.
+  - Exact regional MTM mapping and complete option combinations remain unresolved and are not inferred.
+last_verified: 2026-09-05

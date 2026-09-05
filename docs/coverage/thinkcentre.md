@@ -1,6 +1,6 @@
 # ThinkCentre Coverage
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 ## Coverage summary
 
@@ -13,6 +13,7 @@ Last updated: 2026-09-04
 | M Series | ThinkCentre M75s Gen 2 | Small Form Factor (SFF) | researched | 1 | Full regional MTM matrix; exact weight; complete storage/PSU/discrete-GPU option matrix |
 | M Series | ThinkCentre M70q Gen 3 | Tiny 1L | researched | 1 | Full regional MTM matrix; exact adapter/IO population; exact launch/discontinuation dates |
 | M Series | ThinkCentre M70a Gen 3 | AIO 21.5-inch | researched | 1 | Full regional MTM matrix; exact end-of-sale dates; complete stand/camera/touch/ODD option matrix |
+| M Series | ThinkCentre M70s Gen 3 | Small Form Factor (SFF) | researched | 1 | Full regional MTM matrix; exact PSU/discrete-GPU/storage/rear-I/O combinations |
 
 ## Priority research backlog
 
