@@ -1,0 +1,166 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T400s
+slug: thinkpad-t400s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 2801
+    - 2808
+    - 2809
+    - 2815
+    - 2823
+    - 2824
+    - 2825
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+
+release:
+  announcement_date: 2009-06-23
+  release_year: 2009
+  source_ids:
+    - lenovo-storyhub-t400s-launch-2009
+
+form_factor:
+  class: laptop
+  chassis: slim 14.1-inch widescreen clamshell
+  dimensions_mm:
+    width: 337
+    depth: 241
+    height: 21.1
+  starting_weight_kg: 1.77
+  source_ids:
+    - lenovo-storyhub-t400s-launch-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+  notes:
+    - Lenovo announced the system as under four pounds and 0.83 inches thin; exact shipping weight varies with storage and Ultrabay configuration.
+
+platform:
+  chipset: Mobile Intel GS45 Express
+  cpu_options:
+    - Intel Core 2 Duo SP9400
+    - Intel Core 2 Duo SP9600
+    - Intel Core 2 Solo SU3500 on selected configurations
+    - Intel Celeron 723 on selected configurations
+  gpu_options:
+    - Intel GMA 4500MHD integrated graphics
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+memory:
+  technology: DDR3-1066 PC3-8500
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+storage:
+  interfaces:
+    - SATA HDD
+    - MicroSATA/SATA SSD
+  bays:
+    - 1x primary internal storage bay
+    - 1x Serial Ultrabay Slim removable-device bay
+  notes:
+    - Lenovo's HMM lists 64GB through 256GB MicroSATA SSD FRUs and Serial Ultrabay Slim optical/device options across the machine-type family.
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1440x900
+      panel: WXGA+ LED anti-glare
+    - size_in: 14.1
+      resolution: 1440x900
+      panel: WXGA+ LED multitouch on selected later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-storyhub-t400s-launch-2009
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - Intel 802.11a/b/g/n WLAN options
+    - WiMAX-capable WLAN options on selected configurations
+  wwan:
+    - WWAN-ready and WWAN-equipped configurations
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-hmm-thinkpad-t400s-2009
+
+ports:
+  - USB 2.0
+  - powered USB 2.0
+  - USB 2.0/eSATA combo
+  - VGA
+  - DisplayPort
+  - RJ-45 Ethernet
+  - combined headphone/microphone audio jack
+  - ExpressCard/34
+  - optional 5-in-1 media-card reader module
+  - docking connector
+
+expansion:
+  - Serial Ultrabay Slim
+  - ExpressCard/34
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - 65W Lenovo AC adapter on documented configurations
+  batteries:
+    - removable 6-cell lithium-ion battery, approximately 44Wh class
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+software:
+  operating_systems:
+    - Windows Vista editions
+    - Windows XP Professional downgrade/configurations
+    - Windows 7 editions on later configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - Serial Ultrabay Slim device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - The HMM lists 1GB, 2GB, and 4GB DDR3-1066 SO-DIMM FRUs across two sockets.
+    - The slim chassis retains a serviceable Serial Ultrabay Slim and modular storage/wireless components.
+  limitations:
+    - Processor is part of the system-board assembly rather than a separately serviced CPU in Lenovo's HMM.
+    - CPU tier, storage type, touch display, wireless modules, and security features vary materially by MTM.
+  source_ids:
+    - lenovo-hmm-thinkpad-t400s-2009
+
+sources:
+  - lenovo-psref-thinkpad-notebooks-2005-2013
+  - lenovo-hmm-thinkpad-t400s-2009
+  - lenovo-storyhub-t400s-launch-2009
+conflicts: []
+notes:
+  - Lenovo's October 2009 HMM explicitly maps machine types 2801, 2808, 2809, 2815, 2823, 2824, and 2825 to ThinkPad T400s.
+  - T400s is maintained as a separate canonical model from T400 because Lenovo documents a distinct chassis, service architecture, announcement, and non-overlapping machine-type family.
+last_verified: 2026-08-27

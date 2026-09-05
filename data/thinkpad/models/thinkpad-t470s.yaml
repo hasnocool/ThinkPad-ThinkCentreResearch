@@ -1,0 +1,165 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T470s
+slug: thinkpad-t470s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20HF
+    - 20HG
+    - 20JS
+    - 20JT
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-psref-thinkpad-t470s-identity
+    - lenovo-psref-thinkpad-t470s-20hf
+
+release:
+  release_year: 2017
+  source_ids:
+    - lenovo-psref-thinkpad-t470s-20hf
+  notes:
+    - Lenovo TopSeller PSREF entries include T470s configurations announced in February 2017.
+
+form_factor:
+  class: laptop
+  chassis: slim 14-inch clamshell
+  dimensions_mm:
+    width: 331
+    depth: 226.8
+    height_min: 16.9
+    height_max: 18.8
+  starting_weight_kg: 1.32
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-6200U
+    - Intel Core i5-6300U
+    - Intel Core i7-6600U
+    - Intel Core i5-7200U
+    - Intel Core i5-7300U
+    - Intel Core i7-7500U
+    - Intel Core i7-7600U
+  gpu_options:
+    - Intel HD Graphics 520
+    - Intel HD Graphics 620
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+memory:
+  technology: DDR4-2400
+  slots: 1
+  soldered: true
+  official_max_gb: 24
+  notes:
+    - Lenovo documents 4GB or 8GB soldered memory plus one SO-DIMM socket, yielding a 20GB or 24GB platform maximum depending on soldered configuration.
+    - Memory clocks down for processors with lower memory-controller speeds.
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays: []
+  slots:
+    - 1x M.2 storage slot supporting SATA or PCIe 3.0 x4 NVMe SSDs
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 250
+      touch_optional: true
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare IPS LED
+      brightness_nits: 300
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Intel Dual Band Wireless-AC 8260 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8265 2x2 802.11ac
+    - Intel Tri-Band Wireless-AC 18265 with WiGig 802.11ad
+  wwan:
+    - Sierra Wireless EM7455 4G LTE-A
+  bluetooth:
+    - Bluetooth 4.1 in documented Windows configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+ports:
+  - 3x USB 3.1 Gen 1, one Always On
+  - USB-C 3.1 Gen 2 / Thunderbolt 3 with Power Delivery and DisplayPort
+  - HDMI 1.4b
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector
+  - micro-SIM slot on supported WWAN configurations
+  - optional smart-card reader
+
+expansion:
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+  - optional WiGig
+
+power:
+  adapters:
+    - 45W slim-tip AC adapter
+    - 45W USB-C AC adapter
+    - 65W USB-C AC adapter
+  batteries:
+    - integrated front 3-cell 23Wh Li-Polymer battery
+    - integrated rear 3-cell 26Wh Li-ion battery
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 10 Pro downgrade rights
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+serviceability:
+  replaceable_components:
+    - one SO-DIMM memory module
+    - M.2 storage device
+  upgrade_notes:
+    - Memory expansion is limited to the single SO-DIMM because 4GB or 8GB is soldered to the system board.
+    - The platform supports PCIe 3.0 x4 NVMe storage.
+  limitations:
+    - Soldered base memory cannot be replaced through normal memory-slot upgrades.
+    - WiGig and WWAN are mutually exclusive in Lenovo's documented configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t470s
+
+sources:
+  - lenovo-psref-thinkpad-t470s
+  - lenovo-psref-thinkpad-t470s-identity
+  - lenovo-psref-thinkpad-t470s-20hf
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-24

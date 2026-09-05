@@ -1,0 +1,24 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t61-t61p-14-2011
+title: ThinkPad T61 and T61p (14.1-inch) Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/42x3545_04.pdf
+archive_url: null
+document_id: 42X3545
+publication_date: 2011-09
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T61
+    - ThinkPad T61p
+notes:
+  - Fifth Edition, September 2011; copyright Lenovo 2007-2011.
+  - The manual explicitly covers 14.1-inch T61/T61p machine types 8889, 8890, 8891, 8892, 8893, 8894, 8895, 8896, 8897, 8898, 8899, 8900, 8938, and 8939 as a combined service family.
+  - Because the HMM does not itself provide a clean canonical T61-versus-T61p split for every listed machine type, those machine types are not assigned to one canonical record without corroborating primary evidence.
+  - Service sections document removable battery, Ultrabay Slim, SATA storage, DIMMs, WLAN/WWAN cards, CPU, display, and system-board assemblies.

@@ -1,0 +1,156 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T410s
+slug: thinkpad-t410s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T410si
+  machine_types:
+    - 2901
+    - 2904
+    - 2907
+    - 2912
+    - 2924
+    - 2926
+    - 2928
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-service-guide-t410s-t410-t510-w510
+
+release:
+  release_year: 2010
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+  notes:
+    - US PSREF configurations are documented from February 2010 onward; exact worldwide product-wide announcement and withdrawal dates remain to be mapped.
+
+form_factor:
+  class: laptop
+  chassis: slim 14.1-inch clamshell
+  source_ids:
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+platform:
+  chipset: Mobile Intel QS57 Express Chipset
+  cpu_options:
+    - Intel Core i5-520M
+    - Intel Core i5-560M
+    - Intel Core i7-620M on selected configurations
+  gpu_options:
+    - Intel HD Graphics
+    - NVIDIA NVS 3100M on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+memory:
+  technology: DDR3-1066/1333 depending configuration
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+storage:
+  interfaces:
+    - SATA HDD
+    - SATA SSD
+  bays:
+    - 1x primary slim storage bay
+    - 1x removable Ultrabay Slim optical/second-device bay
+  notes:
+    - US PSREF configurations include conventional HDD and SSD options; exact device dimensions/capacities vary by configuration.
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1440x900
+      panel: WXGA+ LED
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - ThinkPad 802.11b/g/n on selected configurations
+    - Intel Centrino Advanced-N 6200 on selected configurations
+    - Intel Centrino Ultimate-N 6300 on selected configurations
+  wwan:
+    - WWAN-upgradable configurations
+    - carrier WWAN modules on selected configurations
+  bluetooth:
+    - Bluetooth 2.1 + EDR on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+ports:
+  - USB 2.0 ports including powered USB on documented configurations
+  - USB 2.0/eSATA combo
+  - VGA
+  - DisplayPort
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - ExpressCard/34 on documented configurations
+  - media card reader
+  - docking connector
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card wireless/WWAN expansion
+  - optional fingerprint reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 65W AC adapter on compatible configurations
+    - 90W AC adapter supported
+  batteries:
+    - removable 6-cell lithium-ion main battery
+    - optional Ultrabay battery
+  source_ids:
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+software:
+  operating_systems:
+    - Windows 7 Professional 32-bit
+    - Windows 7 Professional 64-bit
+    - Windows XP Professional on selected/downgrade configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - Ultrabay device
+    - removable main battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 8GB maximum.
+    - Ultrabay Slim can accept compatible removable devices including the documented auxiliary battery option.
+  limitations:
+    - CPU, GPU, wireless, storage, security, and WWAN options vary by machine type and regional configuration.
+    - T410si branding is retained as an alias/configuration tier pending authoritative evidence of a distinct physical product identity.
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-service-guide-t410s-t410-t510-w510
+
+sources:
+  - lenovo-psref-thinkpad-notebooks-2005-2013
+  - lenovo-service-guide-t410s-t410-t510-w510
+  - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+conflicts: []
+notes:
+  - Lenovo's October 2009 service guide maps machine types 2901, 2904, 2907, 2912, 2924, 2926, and 2928 to ThinkPad T410s.
+  - The slim T410s is kept separate from T410 because Lenovo documents a distinct model identity and non-overlapping machine-type set.
+last_verified: 2026-08-27

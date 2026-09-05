@@ -1,0 +1,173 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T61p
+slug: thinkpad-t61p
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - Lenovo service manuals group T61 and T61p machine types together by chassis size; per-model machine-type assignment remains intentionally unresolved pending corroborating primary evidence.
+
+release:
+  release_year: 2007
+  announcement_date: 2007-07-10
+  source_ids:
+    - lenovo-storyhub-t61p-launch-2007
+  notes:
+    - Lenovo unveiled the 15.4-inch widescreen T61p mobile workstation on July 10, 2007 and stated July 2007 availability.
+
+form_factor:
+  class: laptop
+  chassis: mobile-workstation clamshell; 14.1-inch and 15.4-inch service variants documented
+  dimensions_mm: null
+  starting_weight_kg: null
+  notes:
+    - Exact dimensions and weight vary by chassis/display/battery and remain to be normalized from primary product sheets.
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+platform:
+  chipset: Intel PM965/GM965 mobile-platform family, configuration-dependent
+  cpu_options:
+    - Intel Core 2 Duo T7100
+    - Intel Core 2 Duo T7250
+    - Intel Core 2 Duo T7300
+    - Intel Core 2 Duo T7500
+    - Intel Core 2 Duo T7700
+    - Intel Core 2 Duo T7800
+    - Intel Core 2 Duo T8100
+    - Intel Core 2 Duo T8300
+    - Intel Core 2 Duo T9300
+    - Intel Core 2 Duo T9500
+  gpu_options:
+    - NVIDIA Quadro FX 570M workstation graphics on documented T61p configurations
+  source_ids:
+    - lenovo-storyhub-t61p-launch-2007
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - The combined HMM lists processor and graphics FRUs across T61/T61p; the Quadro FX 570M identity is explicitly associated with T61p by Lenovo's launch announcement.
+
+memory:
+  technology: DDR2-667 PC2-5300 SO-DIMM
+  slots: 2
+  soldered: false
+  official_max_gb: 4
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - Lenovo's service specification tables document a 4 GB supported maximum; community-reported higher capacities are not substituted for the official value.
+
+storage:
+  interfaces:
+    - 2.5-inch SATA hard disk drive
+    - SATA solid-state drive on supported configurations/revisions
+  bays:
+    - 1x primary 2.5-inch SATA storage bay
+    - 1x Ultrabay Slim removable-device bay
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: standard-aspect TFT on documented performance configurations
+    - size_in: 15.4
+      resolution: 1680x1050
+      panel: WSXGA+ widescreen TFT
+    - size_in: 15.4
+      resolution: 1920x1200
+      panel: WUXGA widescreen TFT
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+  notes:
+    - The combined service manuals include additional shared panel FRUs; this record keeps only display families associated with the T61p workstation scope pending complete MTM mapping.
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - 802.11a/b/g and draft-802.11n options, configuration-dependent
+  wwan:
+    - WWAN-ready and WWAN-equipped configurations
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-storyhub-t61p-launch-2007
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+ports:
+  - USB 2.0
+  - VGA
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - audio jacks
+  - docking connector
+  - PC Card and/or ExpressCard expansion depending chassis/configuration
+  - IEEE 1394 on selected widescreen configurations
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - docking/port-replicator support
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - Lenovo barrel-jack AC adapters; wattage varies by workstation configuration
+  batteries:
+    - removable lithium-ion battery options
+    - optional Ultrabay battery support on compatible configurations
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+software:
+  operating_systems:
+    - Windows Vista editions on original configurations
+    - Windows XP Professional on supported/original configurations
+    - Linux certification documented for the T61p workstation line
+  source_ids:
+    - lenovo-storyhub-t61p-launch-2007
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - removable CPU
+    - primary SATA storage device
+    - Ultrabay Slim device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - Lenovo service documentation treats CPU, DIMMs, primary storage, Ultrabay device, radios, and battery as separately serviceable assemblies.
+  limitations:
+    - Machine-type-to-T61p mapping remains incomplete because Lenovo's principal HMMs group T61 and T61p together.
+    - Workstation GPU, display, CPU, wireless, battery, and adapter combinations vary by MTM/region.
+  source_ids:
+    - lenovo-hmm-thinkpad-t61-t61p-14-2011
+    - lenovo-hmm-thinkpad-t61-t61p-15-2011
+
+sources:
+  - lenovo-storyhub-t61p-launch-2007
+  - lenovo-hmm-thinkpad-t61-t61p-14-2011
+  - lenovo-hmm-thinkpad-t61-t61p-15-2011
+conflicts: []
+notes:
+  - Lenovo's July 10, 2007 announcement explicitly establishes T61p as a separately named mobile-workstation product with Quadro FX 570M graphics.
+last_verified: 2026-08-28

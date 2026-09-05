@@ -1,0 +1,19 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkcentre-m70q-gen-3
+title: ThinkCentre M70q Gen 3 Platform Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/Product/ThinkCentre/ThinkCentre_M70q_Gen_3
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: 2025-05-20
+accessed: 2026-09-04
+official: true
+scope:
+  product_lines: [thinkcentre]
+  models: [ThinkCentre M70q Gen 3]
+notes:
+  - Official Lenovo PSREF page covering the Tiny 1L platform, processor options, chipset, memory, storage, dimensions, weight, expansion, optional I/O, and operating-system configuration details.
+  - The page indicates both Tiny-only and Tiny-with-ODD dimensions and configuration-dependent storage/IO options.

@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-topseller-thinkpad-t480s-20l7
+title: ThinkPad T480s TopSeller - 20L7
+publisher: Lenovo
+document_type: psref-topseller
+url: https://psref.lenovo.com/syspool/Sys/i_pdf/psref526.pdf
+archive_url: null
+document_id: psref526
+publication_date: null
+revision_date: null
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T480s
+notes:
+  - Official Lenovo TopSeller table exposes model-level configurations and an announcement month of 2018-01 for documented 20L7 configurations.

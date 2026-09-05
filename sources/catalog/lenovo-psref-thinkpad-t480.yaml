@@ -1,0 +1,20 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t480
+title: ThinkPad T480 Platform Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T480/ThinkPad_T480_Spec.PDF
+archive_url: null
+document_id: null
+publication_date: 2020-07
+revision_date: 2020-07
+accessed: 2026-08-23
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T480
+notes:
+  - Lenovo Product Specifications Reference platform specification sheet.
