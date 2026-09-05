@@ -33,7 +33,8 @@ form_factor:
     height: 36.5
   starting_weight_kg: 1.25
   notes:
-    - Tiny-only dimensions and approximate weight are from Lenovo PSREF; an optional ODD configuration changes the external footprint.
+    - Tiny-only dimensions and approximate weight are from Lenovo PSREF.
+    - Optional Tiny-with-ODD configuration is approximately 204.2 x 186.6 x 64 mm and 1.74 kg with VESA mount and ODD box.
   source_ids:
     - lenovo-psref-thinkcentre-m70q-gen-3
 
@@ -53,6 +54,11 @@ platform:
     - Integrated Intel UHD Graphics 710
     - Integrated Intel UHD Graphics 730
     - Integrated Intel UHD Graphics 770
+  display_support:
+    - Up to 4 independent displays via onboard HDMI, onboard DisplayPort, and up to two optional punch-out display ports.
+    - HDMI 2.1 TMDS supports up to 4096x2160@60Hz.
+    - DisplayPort 1.4a supports up to 4096x2304@60Hz.
+    - USB-C with DisplayPort function supports up to 4096x2304@60Hz where configured.
   source_ids:
     - lenovo-psref-thinkcentre-m70q-gen-3
 
@@ -92,8 +98,13 @@ networking:
 ports:
   - 1x HDMI 2.1 TMDS
   - 1x DisplayPort 1.4a
-  - Front USB and audio ports; exact port population varies by configuration.
-  - Rear USB-A and optional punch-out I/O modules; options include HDMI, DisplayPort, VGA, and USB-C with DisplayPort function.
+  - Front USB-C 3.2 Gen 1
+  - Front USB 3.2 Gen 2 with always-on/fast-charge support
+  - Front USB 3.2 Gen 2
+  - Front 3.5 mm headphone/microphone combo jack
+  - Rear 2x USB 3.2 Gen 2
+  - Rear 1x USB 2.0 with Smart Power On
+  - Rear optional punch-out ports; options include 2x HDMI, VGA, DP, or USB-C with DisplayPort function plus HDMI/VGA/DP combinations.
   - Optional rear IO box with serial, additional USB-C/USB-A, Ethernet pass-through, and DC-in for supported accessories.
   source_ids:
     - lenovo-psref-thinkcentre-m70q-gen-3
@@ -108,7 +119,8 @@ expansion:
 
 power:
   adapters:
-    - External adapter; wattage is configuration-dependent and the cited PSREF lists a 65W-class base configuration plus higher-power options for supported accessories.
+    - External adapter; base configurations use a 65W-class adapter, while higher-power options are configuration-dependent.
+    - Optional IO box supports a 300W DC-in path for supported accessories.
   source_ids:
     - lenovo-psref-thinkcentre-m70q-gen-3
 
@@ -117,6 +129,7 @@ software:
     - Windows 11 Pro
     - Windows 11 Home
     - Windows 10 Pro downgrade rights where offered by Lenovo configuration
+    - Windows 10 IoT Enterprise LTSC 2021 where offered
     - Ubuntu Linux configurations
     - No operating system configurations
   source_ids:
@@ -144,4 +157,5 @@ conflicts: []
 notes:
   - This is a platform-level anchor; the PSREF combines multiple regional and CTO configurations.
   - Release year is treated as a generation-era anchor based on Lenovo PSREF chronology and should not be read as a universal first-sale date for every MTM.
-last_verified: 2026-09-04
+  - Exact WLAN vendor, adapter bundle, punch-out I/O, and storage bracket population vary by MTM/CTO configuration.
+last_verified: 2026-09-05
