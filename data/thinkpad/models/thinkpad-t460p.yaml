@@ -1,0 +1,152 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T460p
+slug: thinkpad-t460p
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20FW
+    - 20FX
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-thinkpad-machine-type-map-2016
+
+release:
+  release_year: 2016
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+  notes:
+    - Lenovo TopSeller material in the PSREF corpus documents T460p configurations during 2016 and early 2017; exact announcement and discontinuation dates remain open research items.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch performance clamshell
+  dimensions_mm:
+    width: 344
+    depth: 239
+    height: 24.4
+  starting_weight_kg: 1.81
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+platform:
+  chipset: Mobile Intel QM170
+  cpu_options:
+    - Intel Core i5-6300HQ
+    - Intel Core i5-6440HQ
+    - Intel Core i7-6700HQ
+    - Intel Core i7-6820HQ
+  gpu_options:
+    - Intel HD Graphics 530
+    - NVIDIA GeForce 940MX 2GB
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+memory:
+  technology: DDR4-2133
+  slots: 2
+  soldered: false
+  official_max_gb: 32
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe
+  bays:
+    - 1x 2.5-inch SATA storage position
+  slots:
+    - primary SATA or PCIe NVMe storage configuration, model dependent
+  notes:
+    - Lenovo documents PCIe NVMe at PCIe 3.0 x2 on supported configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare IPS LED
+      brightness_nits: 250
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare IPS LED
+      brightness_nits: 300
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Broadcom BCM4356 2x2 802.11ac
+    - Intel Dual Band Wireless-AC 8260 2x2 802.11ac
+  wwan:
+    - Sierra Wireless EM7455 4G LTE-A
+    - Huawei ME906S 4G LTE
+  bluetooth:
+    - Bluetooth 4.1
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+ports:
+  - 3x USB 3.0, one Always On
+  - Mini DisplayPort
+  - HDMI
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC card reader
+  - mechanical dock connector
+  - micro-SIM slot on supported WWAN configurations
+  - optional smart-card reader
+
+expansion:
+  - optional WWAN
+  - optional fingerprint reader
+  - optional smart-card reader
+
+power:
+  adapters:
+    - 90W AC adapter
+    - 135W AC adapter
+  batteries:
+    - removable 3-cell 23Wh Li-ion battery
+    - removable 6-cell 48Wh Li-ion battery
+    - removable 6-cell 72Wh Li-ion battery
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit via Windows 10 Pro downgrade rights
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - removable battery
+  upgrade_notes:
+    - Two DDR4 SO-DIMM sockets support dual-channel memory up to Lenovo's documented 32GB maximum.
+    - The performance chassis supports quad-core HQ processors and higher-power AC adapters than the standard T460/T460s.
+  limitations:
+    - Lenovo documents no touch display option for the T460p platform.
+  source_ids:
+    - lenovo-psref-thinkpad-t460p
+
+sources:
+  - lenovo-psref-thinkpad-t460p
+  - lenovo-thinkpad-machine-type-map-2016
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-24

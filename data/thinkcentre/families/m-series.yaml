@@ -1,0 +1,15 @@
+schema_version: 1
+record_type: family
+product_line: thinkcentre
+name: M Series
+slug: m-series
+status: partial
+models:
+  - ThinkCentre M75q Gen 2
+predecessor: null
+successor: null
+sources:
+  - lenovo-psref-thinkcentre-m75q-gen-2
+notes:
+  - Family coverage is intentionally partial; this bootstrap record currently indexes only verified model records present in the repository.
+last_verified: 2026-08-23

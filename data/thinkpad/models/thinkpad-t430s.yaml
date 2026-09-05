@@ -1,0 +1,160 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T430s
+slug: thinkpad-t430s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T430si
+  machine_types:
+    - 2352
+    - 2353
+    - 2354
+    - 2355
+    - 2356
+    - 2357
+    - 2358
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t430s-machine-types
+
+release:
+  release_year: 2012
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+  notes:
+    - Lenovo PSREF TopSeller records show T430s configurations announced beginning in June 2012; exact product-wide announcement and discontinuation dates remain open.
+
+form_factor:
+  class: laptop
+  chassis: 14-inch slim clamshell
+  dimensions_mm:
+    width: 343
+    depth: 230
+    height_min: 21.2
+    height_max: 26.0
+  starting_weight_kg: 1.79
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+platform:
+  chipset: Mobile Intel QM77 Express Chipset
+  cpu_options:
+    - Intel Core i5-3210M
+    - Intel Core i5-3320M
+    - Intel Core i7-3520M
+  gpu_options:
+    - Intel HD Graphics 4000
+    - NVIDIA NVS 5200M 1GB
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+memory:
+  technology: DDR3-1600
+  slots: 2
+  soldered: false
+  official_max_gb: 16
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+storage:
+  interfaces:
+    - SATA 6Gb/s SSD
+    - SATA 3Gb/s HDD
+  bays:
+    - 1x 2.5-inch 7mm primary storage bay
+    - 1x 9.5mm Ultrabay Slim
+  notes:
+    - Lenovo documents the Ultrabay Slim for optical drive, blank bezel, compatible second storage, or optional bay battery depending on configuration.
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1366x768
+      panel: anti-glare LED
+      brightness_nits: 200
+    - size_in: 14.0
+      resolution: 1600x900
+      panel: anti-glare LED
+      brightness_nits: 250
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+networking:
+  ethernet:
+    - Intel 82579LM Gigabit Ethernet
+  wlan:
+    - ThinkPad 11b/g/n
+    - Intel Centrino Advanced-N 6205 2x2
+  wwan:
+    - WWAN-upgradable configurations
+  bluetooth:
+    - Bluetooth 4.0 on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+ports:
+  - 2x USB 3.0
+  - 1x powered USB 2.0
+  - VGA
+  - Mini DisplayPort
+  - Thunderbolt on selected i7 integrated-graphics configurations
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - ExpressCard/34
+  - 4-in-1 memory-card support via ExpressCard adapter
+
+expansion:
+  - two PCI Express Mini Card slots
+  - optional WWAN
+  - optional fingerprint reader
+  - 9.5mm Ultrabay Slim
+
+power:
+  adapters:
+    - 65W AC adapter on selected integrated-graphics configurations
+    - 90W AC adapter on selected configurations
+  batteries:
+    - removable 6-cell 43.2Wh lithium-ion battery
+    - optional 3-cell 31.3Wh Ultrabay battery
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+software:
+  operating_systems:
+    - Windows 7 Professional 64-bit
+    - Windows 8 Pro 64-bit on later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary 2.5-inch storage device
+    - Ultrabay device or bay battery
+    - removable main battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 16GB maximum.
+    - The 9.5mm Ultrabay can accept compatible storage, optical, blank-bezel, or battery modules depending on configuration.
+  limitations:
+    - Discrete NVS 5200M, Thunderbolt, display, wireless, storage, and adapter availability varies by configuration.
+    - T430si appears in Lenovo support applicability data within the same machine-type range and is treated as an alias/configuration tier pending evidence of a distinct product identity.
+  source_ids:
+    - lenovo-psref-thinkpad-t430s
+    - lenovo-support-thinkpad-t430s-machine-types
+
+sources:
+  - lenovo-psref-thinkpad-t430s
+  - lenovo-support-thinkpad-t430s-machine-types
+conflicts: []
+notes:
+  - Lenovo support maps machine types 2352 through 2358 to the T430s/T430si product family.
+last_verified: 2026-08-26

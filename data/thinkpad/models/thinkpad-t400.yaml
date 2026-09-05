@@ -1,0 +1,170 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T400
+slug: thinkpad-t400
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 2764
+    - 2765
+    - 2766
+    - 2767
+    - 2768
+    - 2769
+    - 2773
+    - 6473
+    - 6474
+    - 6475
+    - 7417
+    - 7420
+    - 7425
+    - 7434
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-hmm-thinkpad-t400-r400-2009
+
+release:
+  release_year: 2008
+  source_ids:
+    - lenovo-storyhub-t400-wimax-2008
+  notes:
+    - Lenovo documented immediately available T400 configurations in October 2008; the exact worldwide first-announcement date remains to be mapped.
+
+form_factor:
+  class: laptop
+  chassis: 14.1-inch widescreen clamshell
+  dimensions_mm:
+    width: 335.5
+    depth: 238
+    height_min: 28
+    height_max: 32
+  starting_weight_kg: 2.2
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+  notes:
+    - Dimensions and weight vary with display, battery, optical-drive, and graphics configuration.
+
+platform:
+  chipset: Mobile Intel GM45 Express
+  cpu_options:
+    - Intel Core 2 Duo mobile processors, configuration-dependent
+  gpu_options:
+    - Intel GMA 4500MHD integrated graphics
+    - ATI Mobility Radeon HD 3470 discrete/switchable graphics on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-hmm-thinkpad-t400-r400-2009
+
+memory:
+  technology: DDR3-1066 PC3-8500
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+storage:
+  interfaces:
+    - SATA HDD
+    - SATA SSD
+  bays:
+    - 1x primary SATA storage bay
+    - 1x Serial Ultrabay Slim or Serial Ultrabay Enhanced removable-device bay, configuration-dependent
+  notes:
+    - Lenovo service documentation lists SATA HDD and SSD FRUs and removable Serial Ultrabay devices.
+  source_ids:
+    - lenovo-hmm-thinkpad-t400-r400-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1280x800
+      panel: WXGA; CCFL or LED variants depending configuration
+    - size_in: 14.1
+      resolution: 1440x900
+      panel: WXGA+; CCFL or LED variants depending configuration
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - Intel WiFi Link 5100/5300 and other 802.11a/b/g/n options, configuration-dependent
+    - WiMAX-capable configurations
+  wwan:
+    - WWAN-ready and WWAN-equipped configurations
+  bluetooth:
+    - Bluetooth on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-storyhub-t400-wimax-2008
+
+ports:
+  - USB 2.0
+  - VGA
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - IEEE 1394 on selected configurations
+  - headphone and microphone jacks
+  - ExpressCard/PC Card configuration-dependent expansion
+  - media-card reader on selected configurations
+  - docking connector
+
+expansion:
+  - Serial Ultrabay Slim or Serial Ultrabay Enhanced
+  - PCI Express Mini Card WLAN/WWAN expansion
+  - ExpressCard and/or PC Card depending configuration
+  - optional fingerprint reader
+
+power:
+  adapters:
+    - Lenovo barrel-jack AC adapters; wattage varies by graphics/configuration
+  batteries:
+    - removable lithium-ion battery options
+  source_ids:
+    - lenovo-hmm-thinkpad-t400-r400-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+software:
+  operating_systems:
+    - Windows Vista editions on original configurations
+    - Windows XP Professional downgrade/configurations
+    - Windows 7 on later configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - removable CPU
+    - primary storage device
+    - Serial Ultrabay device
+    - removable battery
+    - WLAN/WWAN cards
+    - display assembly
+  upgrade_notes:
+    - Two DDR3 SO-DIMM sockets support Lenovo's documented 8GB maximum.
+    - Lenovo's HMM documents a separately removable CPU and modular Serial Ultrabay devices.
+  limitations:
+    - CPU, display backlight/resolution, switchable graphics, storage, wireless, expansion-slot, battery, and adapter combinations vary by machine type and MTM.
+  source_ids:
+    - lenovo-hmm-thinkpad-t400-r400-2009
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+sources:
+  - lenovo-psref-thinkpad-notebooks-2005-2013
+  - lenovo-hmm-thinkpad-t400-r400-2009
+  - lenovo-storyhub-t400-wimax-2008
+conflicts: []
+notes:
+  - Lenovo's September 2009 HMM explicitly separates T400 from R400 and maps the fourteen machine types listed above to T400.
+  - Configuration-specific values are kept generalized unless the withdrawn PSREF/HMM establishes model-wide scope.
+last_verified: 2026-08-27

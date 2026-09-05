@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-hmm-thinkpad-t400-r400-2009
+title: ThinkPad T400 and R400 Hardware Maintenance Manual
+publisher: Lenovo
+document_type: hardware_maintenance_manual
+url: https://download.lenovo.com/pccbbs/mobiles_pdf/43y6629_04.pdf
+archive_url: null
+document_id: 43Y6629
+publication_date: 2009-09
+revision_date: null
+accessed: 2026-08-27
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T400
+notes:
+  - Fifth Edition, September 2009; copyright Lenovo 2008-2009.
+  - The manual explicitly maps ThinkPad T400 to machine types 2764, 2765, 2766, 2767, 2768, 2769, 2773, 6473, 6474, 6475, 7417, 7420, 7425, and 7434.
+  - Service sections document removable CPU, DIMM, battery, Ultrabay, storage, WLAN/WWAN, display, and system-board assemblies.

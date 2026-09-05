@@ -1,0 +1,162 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T480s
+slug: thinkpad-t480s
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases: []
+  machine_types:
+    - 20L7
+    - 20L8
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-user-guide-thinkpad-t480s
+
+release:
+  announcement_date: 2018-01
+  release_year: 2018
+  source_ids:
+    - lenovo-psref-topseller-thinkpad-t480s-20l7
+
+form_factor:
+  class: laptop
+  chassis: 14-inch clamshell
+  dimensions_mm:
+    width: 331
+    depth: 226.8
+    height: 18.45
+  starting_weight_kg: 1.32
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+platform:
+  chipset: Intel SoC platform
+  cpu_options:
+    - Intel Core i5-7200U
+    - Intel Core i5-7300U
+    - Intel Core i5-8250U
+    - Intel Core i5-8350U
+    - Intel Core i7-8550U
+    - Intel Core i7-8650U
+  gpu_options:
+    - Intel HD Graphics 620
+    - Intel UHD Graphics 620
+    - NVIDIA GeForce MX150 2GB GDDR5
+  notes:
+    - NVIDIA GeForce MX150 discrete configurations were documented as unavailable in EMEA.
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+memory:
+  technology: DDR4-2400
+  slots: 1
+  soldered: true
+  official_max_gb: 24
+  notes:
+    - Platform uses 4GB or 8GB soldered memory plus one DDR4 SO-DIMM socket; Lenovo documents 20GB or 24GB maximum depending on soldered configuration.
+    - Systems with processors supporting lower memory speeds clock memory down accordingly.
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+storage:
+  interfaces:
+    - SATA 6Gb/s
+    - PCIe NVMe 3.0 x4
+  bays: []
+  slots:
+    - M.2 SSD storage slot
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+display:
+  options:
+    - size_in: 14.0
+      resolution: 1920x1080
+      panel: anti-glare WVA
+      brightness_nits: 250
+      touch_optional: true
+    - size_in: 14.0
+      resolution: 2560x1440
+      panel: anti-glare WVA
+      brightness_nits: 300
+      gamut: 72%
+  notes:
+    - Lenovo documents ThinkPad Privacy Guard support on some FHD configurations.
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+networking:
+  ethernet:
+    - Intel Ethernet Connection I219-V
+    - Intel Ethernet Connection I219-LM
+  wlan:
+    - Intel Dual Band Wireless-AC 8265, 2x2 802.11ac
+  wwan:
+    - WWAN upgradable configuration
+    - Fibocom L830-EB 4G LTE, EMEA only
+    - Fibocom L850-GL 4G LTE-A
+  bluetooth:
+    - Bluetooth 4.1 under the documented Windows configuration
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+ports:
+  - 2x USB 3.1 Gen 1, one Always On
+  - USB-C 3.1 Gen 1 with Power Delivery and DisplayPort
+  - USB-C 3.1 Gen 2 / Thunderbolt 3 with Power Delivery and DisplayPort
+  - HDMI 1.4b
+  - RJ-45 Ethernet
+  - headphone/microphone combo jack
+  - 4-in-1 MMC/SD/SDHC/SDXC reader
+  - side docking connector
+  - nano-SIM slot on WWAN models
+  - optional smart-card reader
+
+expansion:
+  - optional NFC
+  - optional fingerprint reader
+  - optional smart-card reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 45W USB-C AC adapter
+    - 65W USB-C AC adapter
+  batteries:
+    - integrated Li-ion 57Wh battery
+  notes:
+    - Lenovo documents Rapid Charge from 0-80% in 60 minutes with a 65W USB-C adapter.
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+software:
+  operating_systems:
+    - Windows 10 Home 64-bit
+    - Windows 10 Pro 64-bit
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+serviceability:
+  replaceable_components:
+    - one SO-DIMM memory module
+    - M.2 storage device
+  upgrade_notes:
+    - One memory channel includes soldered RAM while the second expansion position is a SO-DIMM socket.
+  limitations:
+    - Maximum memory depends on whether the systemboard carries 4GB or 8GB soldered memory.
+  source_ids:
+    - lenovo-psref-thinkpad-t480s
+
+sources:
+  - lenovo-psref-thinkpad-t480s
+  - lenovo-user-guide-thinkpad-t480s
+  - lenovo-psref-topseller-thinkpad-t480s-20l7
+conflicts: []
+notes:
+  - PSREF configurations vary by region and selected model.
+last_verified: 2026-08-23

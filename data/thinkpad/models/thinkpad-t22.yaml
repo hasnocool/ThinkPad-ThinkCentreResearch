@@ -1,0 +1,64 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T22
+slug: thinkpad-t22
+family: t-series
+generation: Pentium III / Intel 440BX T Series
+status: researched
+identity:
+  manufacturer: IBM
+  predecessor: ThinkPad T21
+  successor: ThinkPad T23
+  aliases: [T22, T22 Small Business]
+  machine_types: [2647]
+  mtms: []
+  regions: [North America, International configurations documented in IBM PSREF material]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+release:
+  release_year: 2001
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref]
+form_factor:
+  class: laptop
+  chassis: 13.3-inch or 14.1-inch standard-aspect clamshell
+platform:
+  chipset: Intel 440BX / mobile platform controller set
+  cpu_options: [Intel Mobile Pentium III 800 MHz, 900 MHz, 1 GHz]
+  gpu_options: [S3 Savage IX8+ AGP graphics, 8 MB SGRAM]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+memory:
+  technology: PC100 SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 0.5
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref]
+storage:
+  interfaces: [2.5-inch PATA / IDE]
+  bays: [1x primary internal 2.5-inch bay, 1x Ultrabay 2000 removable bay]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+display:
+  options: [13.3-inch XGA TFT, 14.1-inch XGA TFT, 14.1-inch SXGA+ TFT]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref]
+networking:
+  ethernet: [10/100 Ethernet on selected configurations]
+  wlan: [Mini PCI 802.11b options on selected configurations]
+  modem: [56K modem options]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref]
+ports: [serial, parallel, VGA, USB 1.1, PS/2, RJ-45 Ethernet, RJ-11 modem, S-Video out, audio line-in/line-out/microphone, infrared, docking connector]
+expansion: [Ultrabay 2000, Type II PC Card/CardBus, Mini PCI, docking station support]
+power:
+  adapters: [IBM 72 W-class AC adapter]
+  batteries: [removable lithium-ion main battery; exact capacity varies by pack, optional Ultrabay battery]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+software:
+  operating_systems: [Windows 98 Second Edition, Windows 2000, Windows XP on later configurations]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref]
+serviceability:
+  replaceable_components: [two SO-DIMM modules, PATA storage drive, Ultrabay device, removable battery, Mini PCI card, keyboard, display assembly]
+  upgrade_notes: [512 MB PC100 maximum materially limits modern use; PATA and Ultrabay 2000 constrain storage and peripherals]
+  limitations: [Exact regional MTM coverage and complete configuration matrix require dedicated IBM PSREF pages; dimensions and weight not normalized from the consulted source]
+  source_ids: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+sources: [ibm-thinkpad-t20-t21-t22-psref, ibm-thinkpad-t23-hmm]
+conflicts: []
+notes: [Historical T-Series anchor between T21 and T23; T22 Small Business is retained as an alias/configuration tier rather than a separate canonical model.]
+last_verified: 2026-09-02

@@ -1,0 +1,177 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T410
+slug: thinkpad-t410
+family: t-series
+status: researched
+
+identity:
+  manufacturer: Lenovo
+  aliases:
+    - ThinkPad T410i
+  machine_types:
+    - 2516
+    - 2518
+    - 2519
+    - 2522
+    - 2537
+    - 2538
+    - 2539
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-service-guide-t410s-t410-t510-w510
+
+release:
+  release_year: 2010
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+  notes:
+    - US PSREF sheets include configurations available from January 2010 and later refreshes during 2010-2011; exact worldwide product-wide announcement and withdrawal dates remain to be mapped.
+
+form_factor:
+  class: laptop
+  chassis: 14.1-inch clamshell
+  dimensions_mm:
+    width: 333.5
+    depth: 239.0
+    height_min: 27.6
+    height_max: 31.9
+  starting_weight_kg: 2.27
+  source_ids:
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+platform:
+  chipset: Mobile Intel QM57 Express Chipset
+  cpu_options:
+    - Intel Core i5-480M
+    - Intel Core i5-520M
+    - Intel Core i5-540M
+    - Intel Core i5-560M
+    - Intel Core i5-580M
+    - Intel Core i7-620M
+    - Intel Core i7-640M
+  gpu_options:
+    - Intel HD Graphics
+    - NVIDIA NVS 3100M discrete graphics on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+memory:
+  technology: DDR3-1066/1333 depending configuration
+  slots: 2
+  soldered: false
+  official_max_gb: 8
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+storage:
+  interfaces:
+    - SATA HDD
+    - SATA SSD
+  bays:
+    - 1x primary 2.5-inch storage bay
+    - 1x removable Ultrabay Slim optical/second-device bay
+  notes:
+    - US and Japan documentation shows HDD and SSD configurations; capacities and rotational speeds vary by MTM.
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1280x800
+      panel: WXGA, configuration-dependent backlight
+    - size_in: 14.1
+      resolution: 1440x900
+      panel: WXGA+, anti-glare LED on documented Japan configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+networking:
+  ethernet:
+    - Gigabit Ethernet
+  wlan:
+    - Intel/ThinkPad 802.11b/g/n options
+    - Intel Centrino Advanced-N 6200 on selected configurations
+    - Intel Centrino Advanced-N + WiMAX 6250 on selected configurations
+  wwan:
+    - WWAN-upgradable configurations
+    - carrier WWAN modules on selected configurations
+  bluetooth:
+    - Bluetooth 2.1 + EDR on selected configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+
+ports:
+  - USB 2.0 ports including powered USB on documented configurations
+  - USB 2.0/eSATA combo
+  - VGA
+  - DisplayPort
+  - RJ-45 Ethernet
+  - modem/RJ-11 on selected configurations
+  - IEEE 1394 on selected configurations
+  - headphone/microphone combo jack
+  - ExpressCard/34
+  - 5-in-1 media card reader
+  - docking connector
+
+expansion:
+  - Ultrabay Slim
+  - PCI Express Mini Card wireless/WWAN expansion
+  - optional fingerprint reader
+  - optional WWAN
+
+power:
+  adapters:
+    - 65W AC adapter on selected configurations
+    - 90W AC adapter on selected/discrete-graphics configurations
+  batteries:
+    - removable 4-cell lithium-ion battery option
+    - removable 6-cell lithium-ion battery option
+    - removable 9-cell lithium-ion battery option
+    - optional 9-cell slice battery
+  source_ids:
+    - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+software:
+  operating_systems:
+    - Windows 7 Professional 32-bit
+    - Windows 7 Professional 64-bit
+    - Windows XP Professional on selected/downgrade configurations
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+
+serviceability:
+  replaceable_components:
+    - two SO-DIMM memory modules
+    - primary storage device
+    - Ultrabay device
+    - removable battery
+    - WLAN/WWAN cards
+  upgrade_notes:
+    - Two SO-DIMM sockets support Lenovo's documented 8GB maximum.
+    - Ultrabay Slim supports compatible removable optical and second-device options.
+  limitations:
+    - CPU, GPU, display, wireless, storage, battery, and adapter choices vary substantially by machine type and region.
+    - T410i configurations share the same documented machine-type families and are retained as an alias/configuration tier pending finer-grained identity evidence.
+  source_ids:
+    - lenovo-psref-thinkpad-notebooks-2005-2013
+    - lenovo-service-guide-t410s-t410-t510-w510
+
+sources:
+  - lenovo-psref-thinkpad-notebooks-2005-2013
+  - lenovo-service-guide-t410s-t410-t510-w510
+  - lenovo-jp-brochure-thinkpad-t410s-t410-t510-2010
+conflicts: []
+notes:
+  - Lenovo's October 2009 service guide maps machine types 2516, 2518, 2519, 2522, 2537, 2538, and 2539 to ThinkPad T410.
+  - Regional PSREF and brochure configurations are normalized conservatively; configuration-specific values are not generalized where evidence is incomplete.
+last_verified: 2026-08-27

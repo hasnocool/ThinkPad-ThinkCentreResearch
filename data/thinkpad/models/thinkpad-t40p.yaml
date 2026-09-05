@@ -1,0 +1,131 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T40p
+slug: thinkpad-t40p
+family: t-series
+generation: Pentium M / Centrino mobile workstation
+status: researched
+identity:
+  manufacturer: IBM
+  predecessor: ThinkPad T30p
+  successor: ThinkPad T41p
+  aliases: []
+  machine_types: []
+  mtms: []
+  regions:
+    - North America
+    - Japan and other international markets
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+    - ibm-thinkpad-t40p-japan-2003
+release:
+  release_year: 2003
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+  notes:
+    - IBM Japan announced a T40p configuration on 2003-07-25; product-wide launch chronology is not fully established.
+form_factor:
+  class: mobile workstation laptop
+  chassis: 14.1-inch clamshell
+  dimensions_mm: 311 x 255 x 31.4 maximum / 26.6 minimum (documented Japanese configuration)
+  starting_weight_kg: 2.42 (documented Japanese configuration)
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+platform:
+  chipset: Intel 855PM / ICH4-M
+  cpu_options:
+    - Intel Pentium M 1.6 GHz
+  gpu_options:
+    - ATI Mobility FireGL 9000, 64 MB DDR (documented workstation configuration)
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+    - ibm-thinkpad-t40-t42-hmm
+memory:
+  technology: PC2100 DDR SDRAM
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40p-japan-2003
+storage:
+  interfaces:
+    - 2.5-inch PATA / Ultra ATA-100
+  bays:
+    - 1x primary internal 2.5-inch bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - lenovo-support-thinkpad-t40-t40p-specs
+    - ibm-thinkpad-t40-t42-hmm
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+networking:
+  ethernet:
+    - 10/100/1000BASE-T
+  wlan:
+    - dual-band IEEE 802.11a/b wireless LAN on documented configuration
+  bluetooth:
+    - Bluetooth 1.1 on documented configuration
+  modem:
+    - V.90 56 kbps modem on documented configuration
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+ports:
+  - 2x USB 2.0
+  - VGA
+  - S-Video out
+  - RJ-45 Ethernet
+  - RJ-11 modem
+  - headphone/speaker
+  - microphone
+  - infrared
+  - docking/port-replicator connector
+expansion:
+  - Ultrabay Slim
+  - Type II PC Card slot / CardBus
+  - Mini PCI wireless slot
+power:
+  adapters:
+    - AC 100-240 V input adapter; exact wattage varies by configuration
+  batteries:
+    - removable lithium-ion battery; documented configuration quoted up to 7 hours JEITA 1.0
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+    - ibm-thinkpad-t40-t42-hmm
+software:
+  operating_systems:
+    - Windows XP Professional
+    - Linux distributions with hardware support
+  source_ids:
+    - ibm-thinkpad-t40p-japan-2003
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - Workstation graphics are discrete and configuration-specific; not every T40p unit should be assumed to match the cited Japanese configuration.
+    - 2 GB DDR maximum and PATA storage are platform limits.
+  limitations:
+    - Complete global MTM mapping and all regional CPU/GPU combinations remain unresolved.
+    - Lenovo support page mixes T40 and T40p family-level facts; workstation-specific claims are sourced separately.
+  source_ids:
+    - ibm-thinkpad-t40-t42-hmm
+sources:
+  - lenovo-support-thinkpad-t40-t40p-specs
+  - ibm-thinkpad-t40-t42-hmm
+  - ibm-thinkpad-t40p-japan-2003
+conflicts: []
+notes:
+  - Separate canonical record retained because IBM marketed T40p as a mobile workstation and primary evidence documents a distinct FireGL 9000 / SXGA+ configuration.
+last_verified: 2026-08-30

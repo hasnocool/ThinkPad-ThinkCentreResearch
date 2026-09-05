@@ -1,0 +1,22 @@
+schema_version: 1
+record_type: source
+id: lenovo-storyhub-t61p-launch-2007
+title: Lenovo Packs More Muscle and Green Into ThinkPad Mobile Workstation
+publisher: Lenovo
+publisher_unit: Lenovo StoryHub
+document_type: announcement
+url: https://news.lenovo.com/pressroom/press-releases/lenovo-packs-more-muscle-and-green-into-thinkpad-mobile-workstation/
+archive_url: null
+document_id: null
+publication_date: 2007-07-10
+revision_date: null
+accessed: 2026-08-28
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T61p
+notes:
+  - Lenovo unveiled the ThinkPad T61p 15.4-inch widescreen mobile workstation on July 10, 2007 and stated availability in July 2007.
+  - The announcement explicitly distinguishes the T61p mobile-workstation identity and documents NVIDIA Quadro FX 570M graphics, Intel Centrino Pro technology, Linux certification, WWAN/WLAN capabilities, and the Top Cover Roll Cage.

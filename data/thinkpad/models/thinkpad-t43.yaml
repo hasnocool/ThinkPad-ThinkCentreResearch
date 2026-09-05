@@ -1,0 +1,135 @@
+schema_version: 1
+record_type: model
+product_line: thinkpad
+canonical_name: ThinkPad T43
+slug: thinkpad-t43
+family: t-series
+status: researched
+identity:
+  manufacturer: IBM
+  aliases: []
+  machine_types:
+    - 1871
+    - 1872
+    - 1873
+    - 1874
+    - 1875
+    - 1876
+    - 2668
+    - 2669
+    - 2678
+    - 2679
+    - 2686
+    - 2687
+  mtms: []
+  regions: []
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+    - ibm-thinkpad-t43-hmm
+release:
+  release_year: 2005
+  source_ids:
+    - ibm-thinkpad-t43-hmm
+  notes:
+    - IBM-era T43 generation; exact product-wide announcement and discontinuation dates remain unresolved.
+form_factor:
+  class: laptop
+  chassis: 14.1-inch or 15.0-inch clamshell
+  dimensions_mm: null
+  starting_weight_kg: null
+  source_ids:
+    - ibm-thinkpad-t43-hmm
+platform:
+  chipset: Intel 915GM or 915PM northbridge with ICH6-M southbridge
+  cpu_options:
+    - Intel Pentium M (Dothan), configuration-dependent speeds from 1.60 GHz through 2.26 GHz
+  gpu_options:
+    - Intel Graphics Media Accelerator 900
+    - ATI Mobility Radeon X300 with dedicated memory
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+    - ibm-thinkpad-t43-hmm
+memory:
+  technology: DDR2-533 PC2-4200
+  slots: 2
+  soldered: false
+  official_max_gb: 2
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+storage:
+  interfaces:
+    - PATA/Ultra ATA-100 2.5-inch storage
+  bays:
+    - 1x primary 2.5-inch PATA bay
+    - 1x Ultrabay Slim removable bay
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+
+display:
+  options:
+    - size_in: 14.1
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 14.1
+      resolution: 1400x1050
+      panel: TFT
+    - size_in: 15.0
+      resolution: 1024x768
+      panel: TFT
+    - size_in: 15.0
+      resolution: 1400x1050
+      panel: TFT
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+networking:
+  ethernet:
+    - Broadcom Gigabit Ethernet
+  wlan:
+    - IEEE 802.11b/g options
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+ports:
+  - VGA
+  - RJ-45 Ethernet
+  - modem
+  - audio
+  - USB 2.0
+  - PC Card
+expansion:
+  - Ultrabay Slim
+  - PC Card slot
+  - Mini PCI wireless slot
+power:
+  adapters:
+    - 65W-class IBM AC adapters, configuration-dependent
+  batteries:
+    - removable main battery, configuration-dependent capacity
+  source_ids:
+    - ibm-thinkpad-t43-hmm
+software:
+  operating_systems:
+    - Windows 2000
+    - Windows XP
+    - Linux distributions with hardware support
+  source_ids:
+    - lenovo-support-thinkpad-t43-t43p-specs
+serviceability:
+  replaceable_components:
+    - two SO-DIMM modules
+    - PATA storage drive
+    - Ultrabay device
+    - removable battery
+    - Mini PCI wireless card
+  upgrade_notes:
+    - Platform is limited to 2 GB DDR2 memory and PATA storage.
+  limitations:
+    - T43/T43p support pages and HMMs combine multiple machine-type pools; the repository does not infer a complete per-MTM split.
+  source_ids:
+    - ibm-thinkpad-t43-hmm
+sources:
+  - lenovo-support-thinkpad-t43-t43p-specs
+  - ibm-thinkpad-t43-hmm
+conflicts: []
+notes:
+  - Machine-type pools are preserved from IBM/Lenovo documentation and may include T43p-associated identifiers where the source combines the service family.
+last_verified: 2026-08-29

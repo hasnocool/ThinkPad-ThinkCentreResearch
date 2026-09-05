@@ -1,0 +1,21 @@
+schema_version: 1
+record_type: source
+id: lenovo-psref-thinkpad-t450s
+title: ThinkPad T450s Platform Specifications
+publisher: Lenovo
+document_type: psref
+url: https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T450s/ThinkPad_T450s_Spec.PDF
+archive_url: null
+document_id: null
+publication_date: null
+revision_date: null
+accessed: 2026-08-25
+official: true
+scope:
+  product_lines:
+    - thinkpad
+  models:
+    - ThinkPad T450s
+notes:
+  - Lenovo Product Specifications Reference platform specification sheet.
+  - Publication/revision date is intentionally unset rather than inferred from current PSREF hosting metadata.
